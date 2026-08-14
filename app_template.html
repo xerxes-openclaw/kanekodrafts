@@ -433,6 +433,7 @@ function score(slug, allies, enemies) {
   if (!needs.needTank && role === "Tank") pts -= 1.4;
   if (!needs.needHeal && role === "Healer") pts -= 1.4;
   if (needs.ranged >= 2 && role === "Ranged Assassin") { pts -= 2.2; chips.push({ c: "warn", t: "3rd ranged, comp gets soft" }); }
+  if (needs.count >= 3 && needs.ranged === 0 && role === "Ranged Assassin") { pts += 1.5; chips.push({ c: "good", t: "you need ranged damage" }); }
   if (needs.count >= 2 && needs.wc === 0 && (m.tags.wc || 0) > 0) { pts += 1.0; chips.push({ c: "good", t: "adds waveclear" }); }
   if (needs.count >= 3 && needs.cc === 0 && (m.tags.cc || 0) > 1) { pts += 0.8; chips.push({ c: "good", t: "adds lockdown" }); }
   for (const a of allies) {
@@ -503,32 +504,67 @@ function assign(idx, hero) {
   state.slots[idx].hero = hero;
   if (state.slots[idx].kind === "pick" && state.slots[idx].team === state.mine) showBuild(hero);
   state.activeIdx = nextEmpty();
+  if (state.activeIdx === null && state.lastShown) showBuild(state.lastShown);
   closeModal(); draw();
 }
 
+const MAP_OBJ = {
+  "Alterac Pass": "the cavalry captains", "Battlefield of Eternity": "your immortal",
+  "Braxis Holdout": "the beacons", "Cursed Hollow": "each tribute", "Dragon Shire": "both shrines then the dragon",
+  "Garden of Terror": "the seeds", "Hanamura Temple": "the payload", "Haunted Mines": "the mines and the golem",
+  "Infernal Shrines": "the punisher shrine", "Sky Temple": "the firing temples", "Tomb of the Spider Queen": "gem turn-ins",
+  "Towers of Doom": "the altars", "Volskaya Foundry": "the capture point", "Warhead Junction": "the warheads",
+};
+function tierRank(h) { return { S: 3, A: 2, B: 1, C: 0 }[DATA.meta[h].tier] ?? 1; }
 function goalsFor(hero, allies, enemies) {
-  const m = DATA.meta[hero], role = roleOf(hero);
+  const m = DATA.meta[hero], role = roleOf(hero), kit = m.kit || {};
   const g = [];
-  if (role === "Bruiser") g.push(["early", "Hold the solo lane, soak every wave, don't die for a trade"]);
-  else if (role === "Tank") g.push(["early", "Rotate with your ranged, punish anyone who steps too far up"]);
-  else if (role === "Healer") g.push(["early", "Save your big cooldown for their engage, don't burn it on poke"]);
-  else if (m.scale === "early") g.push(["early", "You are strongest NOW, force trades and camps before they scale"]);
-  else if (m.scale === "late") g.push(["early", "Play safe and soak, you outscale everyone in this lobby"]);
-  else g.push(["early", "Trade evenly, arrive at level 10 healthy and even in XP"]);
-  if (m.tags.global) g.push(["mid", "Use your global to double-soak and show up to objectives late but free"]);
-  else if (m.tags.camps) g.push(["mid", "Start camps right before objectives spawn so they push while you contest"]);
-  else if ((m.tags.cc || 0) > 1) g.push(["mid", "Objectives are won by your setup, land it on their key hero"]);
-  else g.push(["mid", "Group at 10, take the objective fight with ult advantage"]);
-  if (m.scale === "late") g.push(["late", "You win late 5v5s, force them to fight around boss or objective"]);
-  else g.push(["late", "Don't get caught alone, one death past 20 loses the game"]);
+  const obj = MAP_OBJ[state.map] || "the objective";
+  // who on the enemy team matters
+  const carry = enemies.filter(e => roleOf(e) === "Ranged Assassin").sort((a, b) => tierRank(b) - tierRank(a))[0]
+    || enemies.filter(e => ["Melee Assassin", "Bruiser"].includes(roleOf(e))).sort((a, b) => tierRank(b) - tierRank(a))[0];
+  const diver = enemies.find(e => (DATA.meta[e].tags.dive || 0) > 0 || roleOf(e) === "Melee Assassin");
+  const enemyHealer = enemies.find(e => roleOf(e) === "Healer");
+  // EARLY: lane assignment aware of the rest of the comp
+  const otherSolo = allies.some(a => roleOf(a) === "Bruiser");
+  if (role === "Bruiser" && !otherSolo) g.push(["early", "You are the solo laner: hold your lane, soak every wave, don't die for a trade"]);
+  else if (role === "Bruiser") g.push(["early", "Two bruisers: take the tougher solo matchup, the other flexes with the team"]);
+  else if (role === "Tank") g.push(["early", "Rotate the 4-man lanes with your ranged, punish anyone who steps up" + (diver ? ", and body-block " + nameOf(diver) + " off your backline" : "")]);
+  else if (role === "Healer") g.push(["early", "Stay with the 4-man" + (diver ? ", hug your team, " + nameOf(diver) + " will look for you first" : ", don't burn big cooldowns on poke")]);
+  else if (m.scale === "early") g.push(["early", "You are strongest NOW: force trades and camps before they come online"]);
+  else if (m.scale === "late") g.push(["early", "Give ground, soak, don't feed: you outscale this lobby hard"]);
+  else g.push(["early", "Trade evenly in the 4-man, arrive at 10 healthy and even in XP"]);
+  // MID: map objective + the hero's actual heroic
+  if (kit.h10) {
+    const use = kit.h10type === "lockdown" ? "when they clump on " + obj + (carry ? ", catching " + nameOf(carry) : "")
+      : kit.h10type === "burst" ? "to open the fight at " + obj + (carry ? " onto " + nameOf(carry) : "")
+      : kit.h10type === "save" ? "to answer their engage at " + obj + ", not before it"
+      : "at " + obj + ", it decides the fight";
+    g.push(["mid", "Group at 10 and fight over " + obj + ". Your job: " + kit.h10 + " " + use]);
+  } else {
+    g.push(["mid", "Group at 10 and fight over " + obj + " with ult advantage"]);
+  }
+  if (m.tags.global) g.push(["mid", "Between objectives, use your global to double-soak and arrive free"]);
+  else if (m.tags.camps) g.push(["mid", "Start camps just before " + obj + " spawns so they push while you contest"]);
+  // FIGHTS: the hero's actual cc tool aimed at the right enemy
+  if (kit.cc && (diver || carry)) {
+    const target = diver && roleOf(hero) !== "Tank" ? nameOf(diver) : (carry ? nameOf(carry) : nameOf(diver));
+    g.push(["fight", "Save " + kit.cc + " for " + target + (diver && target === nameOf(diver) ? " the moment they jump in" : ", don't waste it on the frontline")]);
+  } else if (enemyHealer && ["Ranged Assassin", "Melee Assassin"].includes(role)) {
+    g.push(["fight", "Their healing runs through " + nameOf(enemyHealer) + ": swap to them once the frontline burns cooldowns"]);
+  }
   const threats = enemies.filter(e => (DATA.meta[e].beats || []).includes(hero) || (m.loses || []).includes(e));
   const prey = enemies.filter(e => (m.beats || []).includes(e));
   if (threats.length) g.push(["fight", "Respect " + threats.map(nameOf).join(" and ") + ", they counter you"]);
   else if (prey.length) g.push(["fight", "Punish " + prey.map(nameOf).join(" and ") + " every time they show"]);
+  // LATE
+  if (m.scale === "late") g.push(["late", "You win late 5v5s: force them to answer you around boss and " + obj]);
+  else g.push(["late", "Don't get caught alone, one death past 20 loses the game"]);
   return g;
 }
 
 function showBuild(hero) {
+  state.lastShown = hero;
   const m = DATA.meta[hero], t = DATA.talents[hero];
   const bb = document.getElementById("buildBox");
   bb.style.display = "block";
@@ -552,6 +588,10 @@ function showBuild(hero) {
   const enemies = teamHeroes(team === "blue" ? "red" : "blue", "pick");
   const gl = document.getElementById("goalList");
   gl.innerHTML = "";
+  if (state.activeIdx !== null) {
+    gl.innerHTML = '<div class="goal"><span>Game plan unlocks when the draft is complete</span></div>';
+    return;
+  }
   goalsFor(hero, allies, enemies).forEach(([ph, txt]) => {
     const d = document.createElement("div");
     d.className = "goal";
@@ -627,9 +667,10 @@ document.getElementById("modal").onclick = e => { if (e.target.id === "modal") c
 
 initSlots(); draw();
 
-// ponytail: #demo auto-plays 9 actions then stops, for screenshots of a mid-draft state
-if (location.hash === "#demo") {
-  for (let i = 0; i < 9 && state.activeIdx !== null; i++) {
+// ponytail: #demo auto-plays 9 actions then stops (mid-draft shot); #demofull plays the whole draft (game-plan shot)
+if (location.hash === "#demo" || location.hash === "#demofull") {
+  const steps = location.hash === "#demofull" ? 16 : 9;
+  for (let i = 0; i < steps && state.activeIdx !== null; i++) {
     const top = document.querySelector("#suggList .scard .hname");
     const slug = Object.keys(DATA.talents).find(h => nameOf(h) === top.childNodes[0].textContent);
     assign(state.activeIdx, slug);
