@@ -331,6 +331,14 @@ document.getElementById("modal").onclick = e => { if (e.target.id === "modal") c
 
 initSlots(); draw();
 
+// ponytail: #demo auto-plays 9 actions then stops, for screenshots of a mid-draft state
+if (location.hash === "#demo") {
+  for (let i = 0; i < 9 && state.activeIdx !== null; i++) {
+    const top = document.querySelector("#suggList .scard .hname");
+    const slug = Object.keys(DATA.talents).find(h => DATA.talents[h].name === top.childNodes[0].textContent);
+    assign(state.activeIdx, slug);
+  }
+}
 // ponytail: headless smoke test — #selftest auto-drafts by always taking suggestion #1
 if (location.hash === "#selftest") {
   try {
