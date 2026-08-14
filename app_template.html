@@ -22,27 +22,31 @@ select, button, input {
 }
 button { cursor: pointer; }
 button:hover { border-color: var(--accent); }
-.layout { display: grid; grid-template-columns: 250px 1fr 250px; gap: 12px; }
+.layout { display: grid; grid-template-columns: 270px 1fr 270px; gap: 12px; }
 @media (max-width: 900px) { .layout { grid-template-columns: 1fr 1fr; } .mid { grid-column: 1 / -1; order: -1; } }
 .teamcol { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
 .teamcol h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
 .blue h2 { color: var(--blue); } .red h2 { color: var(--red); }
 .mine { font-size: 10px; background: var(--accent); color: #fff; border: 0; border-radius: 6px; padding: 3px 7px; }
 .mine.off { background: var(--panel2); color: var(--dim); border: 1px solid var(--line); }
-.slot { display: flex; align-items: center; gap: 8px; background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; margin-bottom: 6px; min-height: 38px; cursor: pointer; }
+.slot { display: flex; align-items: center; gap: 8px; background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; margin-bottom: 6px; min-height: 46px; cursor: pointer; }
 .slot:hover { border-color: var(--accent); }
-.slot.ban { opacity: 0.75; border-style: dashed; }
+.slot.ban { opacity: 0.7; border-style: dashed; }
+.slot.ban img { filter: grayscale(1); }
 .slot.active { border-color: var(--amber); box-shadow: 0 0 0 1px var(--amber); }
-.slot .lbl { font-size: 10px; color: var(--dim); width: 34px; flex: none; text-transform: uppercase; }
-.slot .who { font-weight: 600; }
+.slot .lbl { font-size: 9px; color: var(--dim); width: 28px; flex: none; text-transform: uppercase; }
+.pf { width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--line); flex: none; object-fit: cover; }
+.slot .who { font-weight: 600; font-size: 13px; }
+.slot .who .r { display: block; font-size: 10px; color: var(--dim); font-weight: 400; }
 .slot .who.empty { color: var(--dim); font-weight: 400; }
 .slot .x { margin-left: auto; color: var(--dim); font-size: 12px; padding: 0 4px; }
 .mid { display: flex; flex-direction: column; gap: 12px; }
 .sugg { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
 .sugg h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent2); margin-bottom: 10px; }
-.scard { background: var(--panel2); border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.scard .rank { font-size: 18px; font-weight: 800; color: var(--accent2); width: 22px; flex: none; }
-.scard .hname { font-weight: 700; font-size: 15px; width: 120px; flex: none; }
+.scard { background: var(--panel2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 11px; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.scard .rank { font-size: 18px; font-weight: 800; color: var(--accent2); width: 20px; flex: none; }
+.scard .pf { width: 44px; height: 44px; border-color: var(--accent); }
+.scard .hname { font-weight: 700; font-size: 15px; width: 110px; flex: none; }
 .scard .hrole { font-size: 10px; color: var(--dim); display: block; font-weight: 400; }
 .chips { display: flex; flex-wrap: wrap; gap: 5px; flex: 1; }
 .chip { font-size: 11px; padding: 2px 8px; border-radius: 20px; background: #232842; border: 1px solid var(--line); }
@@ -52,24 +56,34 @@ button:hover { border-color: var(--accent); }
 .chip.neutral { color: var(--dim); }
 .scard .pickbtn { background: var(--accent); border: 0; color: #fff; font-weight: 600; border-radius: 8px; padding: 6px 12px; }
 .buildbox { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
-.buildbox h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--green); margin-bottom: 8px; }
+.bhead { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.bhead .pf { width: 44px; height: 44px; border-color: var(--green); }
+.bhead h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); }
+.bhead .note { font-size: 12px; color: var(--amber); }
 .btier { display: flex; gap: 8px; align-items: baseline; padding: 4px 0; border-bottom: 1px dashed var(--line); }
-.btier:last-of-type { border-bottom: 0; }
 .btier .t { font-size: 10px; color: var(--dim); width: 26px; flex: none; }
 .btier .n { font-weight: 600; }
 .btier .d { font-size: 11px; color: var(--dim); }
-.bnote { margin-top: 8px; font-size: 12px; color: var(--amber); }
-.modal { position: fixed; inset: 0; background: rgba(5,6,10,0.8); display: none; align-items: flex-start; justify-content: center; padding: 60px 16px; z-index: 10; }
+.goals { margin-top: 10px; }
+.goals h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent2); margin-bottom: 6px; }
+.goal { display: flex; gap: 8px; align-items: baseline; padding: 3px 0; }
+.goal .ph { font-size: 10px; font-weight: 700; width: 52px; flex: none; text-transform: uppercase; }
+.goal .ph.early { color: var(--green); } .goal .ph.mid { color: var(--amber); } .goal .ph.late { color: var(--accent2); } .goal .ph.fight { color: var(--red); }
+.modal { position: fixed; inset: 0; background: rgba(5,6,10,0.85); display: none; align-items: flex-start; justify-content: center; padding: 40px 16px; z-index: 10; }
 .modal.open { display: flex; }
-.mbox { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; width: min(680px, 100%); max-height: 75vh; overflow: auto; }
+.mbox { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; width: min(860px, 100%); max-height: 82vh; overflow: auto; }
 .mbox input { width: 100%; margin-bottom: 10px; font-size: 15px; }
-.hgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; }
-.hopt { background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; cursor: pointer; font-size: 13px; }
+.hgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(86px, 1fr)); gap: 8px; }
+.hopt { background: var(--panel2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 4px; cursor: pointer; font-size: 11px; text-align: center; }
 .hopt:hover { border-color: var(--accent); }
-.hopt .r { display: block; font-size: 10px; color: var(--dim); }
-.hopt.taken { opacity: 0.3; pointer-events: none; }
+.hopt .pf { width: 52px; height: 52px; margin: 0 auto 4px; display: block; }
+.hopt .r { display: block; font-size: 9px; color: var(--dim); }
+.hopt.taken { opacity: 0.25; pointer-events: none; }
 .note { color: var(--dim); font-size: 12px; }
 .phase { font-size: 12px; color: var(--amber); font-weight: 600; }
+.roleTank .pf { border-color: #6d8dc7; } .roleHealer .pf { border-color: #4d9e6a; }
+.roleBruiser .pf { border-color: #c78f4a; } .roleRA .pf { border-color: #b05c8f; }
+.roleMA .pf { border-color: #a34d4d; } .roleSupport .pf { border-color: #7a6dc7; }
 </style>
 </head>
 <body>
@@ -95,9 +109,9 @@ button:hover { border-color: var(--accent); }
       <div id="suggList"><p class="note">Set the map, mark your team, then click any slot to start assigning. Suggestions update every pick.</p></div>
     </div>
     <div class="buildbox" id="buildBox" style="display:none">
-      <h2 id="buildTitle">Build</h2>
+      <div class="bhead"><img class="pf" id="buildPf" alt=""><div><h2 id="buildTitle">Build</h2><span class="note" id="buildNote"></span></div></div>
       <div id="buildList"></div>
-      <div class="bnote" id="buildNote"></div>
+      <div class="goals"><h3>Game plan</h3><div id="goalList"></div></div>
     </div>
   </div>
   <div class="teamcol red">
@@ -115,10 +129,10 @@ button:hover { border-color: var(--accent); }
 
 <script>
 const DATA = /*__DATA__*/;
-const MAPS = ["Alterac Pass","Battlefield of Eternity","Braxis Holdout","Cursed Hollow","Dragon Shire","Garden of Terror","Hanamura Temple","Infernal Shrines","Sky Temple","Tomb of the Spider Queen","Towers of Doom","Volskaya Foundry","Warhead Junction"];
+const MAPS = ["Alterac Pass","Battlefield of Eternity","Braxis Holdout","Cursed Hollow","Dragon Shire","Garden of Terror","Hanamura Temple","Haunted Mines","Infernal Shrines","Sky Temple","Tomb of the Spider Queen","Towers of Doom","Volskaya Foundry","Warhead Junction"];
 const TIER_SCORE = { S: 3, A: 2, B: 1, C: 0 };
 const TIERS = ["1","4","7","10","13","16","20"];
-// Storm League draft order relative to first-pick team F and second team S
+// Storm League: 2 alternating bans, 1-2-2 picks, 1 ban each, 2-2-1 picks
 const ORDER = [
   {t:"F", k:"ban"}, {t:"S", k:"ban"}, {t:"F", k:"ban"}, {t:"S", k:"ban"},
   {t:"F", k:"pick"}, {t:"S", k:"pick"}, {t:"S", k:"pick"},
@@ -128,8 +142,13 @@ const ORDER = [
   {t:"F", k:"pick"}, {t:"F", k:"pick"},
   {t:"S", k:"pick"},
 ];
+const ROLE_CLS = { "Tank":"roleTank", "Healer":"roleHealer", "Bruiser":"roleBruiser", "Ranged Assassin":"roleRA", "Melee Assassin":"roleMA", "Support":"roleSupport" };
 
-let state = { map: MAPS[3], first: "blue", mine: "blue", slots: [], activeIdx: null, locked: null };
+let state = { map: MAPS[3], first: "blue", mine: "blue", slots: [], activeIdx: null };
+
+function roleOf(h) { return DATA.talents[h].expandedRole || DATA.talents[h].role; }
+function nameOf(h) { return DATA.talents[h].name; }
+function pfImg(h, cls) { return '<img class="pf" src="img/' + h + '.png" alt="" loading="lazy">'; }
 
 function teams() {
   const F = state.first, S = F === "blue" ? "red" : "blue";
@@ -137,8 +156,7 @@ function teams() {
 }
 function initSlots() {
   state.slots = teams().map(t => ({ ...t, hero: null }));
-  state.activeIdx = nextEmpty();
-  state.locked = null;
+  state.activeIdx = 0;
 }
 function nextEmpty() {
   const i = state.slots.findIndex(s => !s.hero);
@@ -148,39 +166,45 @@ function taken() { return new Set(state.slots.filter(s => s.hero).map(s => s.her
 function teamHeroes(team, kind) { return state.slots.filter(s => s.team === team && s.kind === kind && s.hero).map(s => s.hero); }
 
 function compNeeds(allies) {
-  const roles = allies.map(h => DATA.talents[h].expandedRole || DATA.talents[h].role);
+  const roles = allies.map(roleOf);
   const tags = k => allies.reduce((a, h) => a + (DATA.meta[h].tags[k] || 0), 0);
   return {
     needTank: !roles.includes("Tank"),
     needHeal: !roles.includes("Healer"),
-    wc: tags("wc"), cc: tags("cc"), peel: tags("peel"),
+    needSolo: !roles.includes("Bruiser"),
+    ranged: roles.filter(r => r === "Ranged Assassin").length,
+    wc: tags("wc"), cc: tags("cc"),
     count: allies.length,
   };
 }
 
 function score(slug, allies, enemies) {
   const m = DATA.meta[slug];
-  const role = DATA.talents[slug].expandedRole || DATA.talents[slug].role;
+  const role = roleOf(slug);
   let pts = TIER_SCORE[m.tier] ?? 1;
   const chips = [];
   if (m.tier === "S" || m.tier === "A") chips.push({ c: "neutral", t: m.tier + "-tier" });
   if (m.maps.includes(state.map)) { pts += 1.6; chips.push({ c: "map", t: "strong on this map" }); }
   const needs = compNeeds(allies);
-  if (needs.needTank && role === "Tank") { pts += 2.6; chips.push({ c: "good", t: "you need a tank" }); }
-  if (needs.needHeal && role === "Healer") { pts += 2.6; chips.push({ c: "good", t: "you need a healer" }); }
-  if (!needs.needTank && role === "Tank") pts -= 1.2;
-  if (!needs.needHeal && role === "Healer") pts -= 1.2;
+  // core roles get more urgent the deeper the draft goes
+  const urgency = 1.6 + 0.7 * needs.count;
+  if (needs.needTank && role === "Tank") { pts += urgency; chips.push({ c: "good", t: "you need a tank" }); }
+  if (needs.needHeal && role === "Healer") { pts += urgency; chips.push({ c: "good", t: "you need a healer" }); }
+  if (needs.needSolo && role === "Bruiser" && needs.count >= 1) { pts += 1.6 + 0.4 * needs.count; chips.push({ c: "good", t: "you need a solo laner" }); }
+  if (!needs.needTank && role === "Tank") pts -= 1.4;
+  if (!needs.needHeal && role === "Healer") pts -= 1.4;
+  if (needs.ranged >= 2 && role === "Ranged Assassin") { pts -= 2.2; chips.push({ c: "warn", t: "3rd ranged, comp gets soft" }); }
   if (needs.count >= 2 && needs.wc === 0 && (m.tags.wc || 0) > 0) { pts += 1.0; chips.push({ c: "good", t: "adds waveclear" }); }
   if (needs.count >= 3 && needs.cc === 0 && (m.tags.cc || 0) > 1) { pts += 0.8; chips.push({ c: "good", t: "adds lockdown" }); }
   for (const a of allies) {
     if ((m.syn || []).includes(a) || (DATA.meta[a].syn || []).includes(slug)) {
-      pts += 1.2; chips.push({ c: "good", t: "synergy: " + DATA.talents[a].name });
+      pts += 1.2; chips.push({ c: "good", t: "synergy: " + nameOf(a) });
     }
   }
   for (const e of enemies) {
-    if ((m.beats || []).includes(e)) { pts += 1.0; chips.push({ c: "good", t: "counters " + DATA.talents[e].name }); }
+    if ((m.beats || []).includes(e)) { pts += 1.0; chips.push({ c: "good", t: "counters " + nameOf(e) }); }
     if ((DATA.meta[e].beats || []).includes(slug) || (m.loses || []).includes(e)) {
-      pts -= 1.5; chips.push({ c: "warn", t: "countered by " + DATA.talents[e].name });
+      pts -= 1.5; chips.push({ c: "warn", t: "countered by " + nameOf(e) });
     }
   }
   return { pts, chips };
@@ -190,22 +214,21 @@ function suggest() {
   const box = document.getElementById("suggList");
   const title = document.getElementById("suggTitle");
   const idx = state.activeIdx;
-  if (idx === null) { title.textContent = "Draft complete"; box.innerHTML = '<p class="note">All slots filled. Tap any locked pick to see its build.</p>'; return; }
+  if (idx === null) { title.textContent = "Draft complete"; box.innerHTML = '<p class="note">All slots filled. Click any hero on either team for their build and game plan.</p>'; return; }
   const slot = state.slots[idx];
   const isMine = slot.team === state.mine;
   const allies = teamHeroes(state.mine, "pick");
   const enemies = teamHeroes(state.mine === "blue" ? "red" : "blue", "pick");
   const tk = taken();
+  const cands = Object.keys(DATA.meta).filter(h => !tk.has(h));
   if (slot.kind === "ban") {
     title.textContent = (isMine ? "Your ban" : "Their ban") + " · best targets vs " + (isMine ? "them" : "you");
-    // ban suggestions: strongest heroes that hurt MY comp / are S tier
-    const cands = Object.keys(DATA.meta).filter(h => !tk.has(h));
     const scored = cands.map(h => {
       const m = DATA.meta[h];
       let pts = TIER_SCORE[m.tier] ?? 1;
       const chips = [];
       if (m.maps.includes(state.map)) { pts += 1.4; chips.push({ c: "map", t: "strong on this map" }); }
-      for (const a of allies) if ((m.beats || []).includes(a)) { pts += 1.3; chips.push({ c: "warn", t: "hurts your " + DATA.talents[a].name }); }
+      for (const a of allies) if ((m.beats || []).includes(a)) { pts += 1.3; chips.push({ c: "warn", t: "hurts your " + nameOf(a) }); }
       if (m.tier === "S") chips.unshift({ c: "neutral", t: "S-tier, deny it" });
       return { h, pts, chips };
     }).sort((a, b) => b.pts - a.pts).slice(0, 5);
@@ -215,7 +238,6 @@ function suggest() {
   title.textContent = isMine ? "Best picks for YOUR team" : "Likely enemy picks (their view)";
   const myAllies = isMine ? allies : enemies;
   const myEnemies = isMine ? enemies : allies;
-  const cands = Object.keys(DATA.meta).filter(h => !tk.has(h));
   const scored = cands.map(h => ({ h, ...score(h, myAllies, myEnemies) }))
     .sort((a, b) => b.pts - a.pts).slice(0, 5);
   render(scored, idx, "PICK");
@@ -226,10 +248,9 @@ function render(scored, idx, verb) {
   box.innerHTML = "";
   scored.forEach((s, i) => {
     const d = document.createElement("div");
-    d.className = "scard";
-    const role = DATA.talents[s.h].expandedRole || DATA.talents[s.h].role;
-    d.innerHTML = '<div class="rank">' + (i + 1) + '</div>' +
-      '<div class="hname">' + DATA.talents[s.h].name + '<span class="hrole">' + role + '</span></div>' +
+    d.className = "scard " + (ROLE_CLS[roleOf(s.h)] || "");
+    d.innerHTML = '<div class="rank">' + (i + 1) + '</div>' + pfImg(s.h) +
+      '<div class="hname">' + nameOf(s.h) + '<span class="hrole">' + roleOf(s.h) + '</span></div>' +
       '<div class="chips">' + s.chips.slice(0, 4).map(c => '<span class="chip ' + c.c + '">' + c.t + '</span>').join("") + '</div>';
     const b = document.createElement("button");
     b.className = "pickbtn"; b.textContent = verb;
@@ -246,11 +267,35 @@ function assign(idx, hero) {
   closeModal(); draw();
 }
 
+function goalsFor(hero, allies, enemies) {
+  const m = DATA.meta[hero], role = roleOf(hero);
+  const g = [];
+  if (role === "Bruiser") g.push(["early", "Hold the solo lane, soak every wave, don't die for a trade"]);
+  else if (role === "Tank") g.push(["early", "Rotate with your ranged, punish anyone who steps too far up"]);
+  else if (role === "Healer") g.push(["early", "Save your big cooldown for their engage, don't burn it on poke"]);
+  else if (m.scale === "early") g.push(["early", "You are strongest NOW, force trades and camps before they scale"]);
+  else if (m.scale === "late") g.push(["early", "Play safe and soak, you outscale everyone in this lobby"]);
+  else g.push(["early", "Trade evenly, arrive at level 10 healthy and even in XP"]);
+  if (m.tags.global) g.push(["mid", "Use your global to double-soak and show up to objectives late but free"]);
+  else if (m.tags.camps) g.push(["mid", "Start camps right before objectives spawn so they push while you contest"]);
+  else if ((m.tags.cc || 0) > 1) g.push(["mid", "Objectives are won by your setup, land it on their key hero"]);
+  else g.push(["mid", "Group at 10, take the objective fight with ult advantage"]);
+  if (m.scale === "late") g.push(["late", "You win late 5v5s, force them to fight around boss or objective"]);
+  else g.push(["late", "Don't get caught alone, one death past 20 loses the game"]);
+  const threats = enemies.filter(e => (DATA.meta[e].beats || []).includes(hero) || (m.loses || []).includes(e));
+  const prey = enemies.filter(e => (m.beats || []).includes(e));
+  if (threats.length) g.push(["fight", "Respect " + threats.map(nameOf).join(" and ") + ", they counter you"]);
+  else if (prey.length) g.push(["fight", "Punish " + prey.map(nameOf).join(" and ") + " every time they show"]);
+  return g;
+}
+
 function showBuild(hero) {
   const m = DATA.meta[hero], t = DATA.talents[hero];
   const bb = document.getElementById("buildBox");
   bb.style.display = "block";
-  document.getElementById("buildTitle").textContent = "Build · " + t.name;
+  document.getElementById("buildPf").src = "img/" + hero + ".png";
+  document.getElementById("buildTitle").textContent = t.name + " · " + roleOf(hero);
+  document.getElementById("buildNote").textContent = m.note || "";
   const list = document.getElementById("buildList");
   list.innerHTML = "";
   m.build.forEach((name, i) => {
@@ -262,8 +307,18 @@ function showBuild(hero) {
       (tal ? '<span class="d">' + tal.description + '</span>' : "");
     list.appendChild(row);
   });
-  document.getElementById("buildNote").textContent = m.note || "";
-  state.locked = hero;
+  const heroTeam = state.slots.find(s => s.hero === hero && s.kind === "pick");
+  const team = heroTeam ? heroTeam.team : state.mine;
+  const allies = teamHeroes(team, "pick").filter(h => h !== hero);
+  const enemies = teamHeroes(team === "blue" ? "red" : "blue", "pick");
+  const gl = document.getElementById("goalList");
+  gl.innerHTML = "";
+  goalsFor(hero, allies, enemies).forEach(([ph, txt]) => {
+    const d = document.createElement("div");
+    d.className = "goal";
+    d.innerHTML = '<span class="ph ' + ph + '">' + (ph === "fight" ? "fights" : ph) + '</span><span>' + txt + '</span>';
+    gl.appendChild(d);
+  });
 }
 
 function draw() {
@@ -273,14 +328,16 @@ function draw() {
     state.slots.forEach((s, i) => {
       if (s.team !== team) return;
       const d = document.createElement("div");
-      d.className = "slot " + s.kind + (i === state.activeIdx ? " active" : "");
+      d.className = "slot " + s.kind + (i === state.activeIdx ? " active" : "") + " " + (s.hero ? (ROLE_CLS[roleOf(s.hero)] || "") : "");
       d.innerHTML = '<span class="lbl">' + (s.kind === "ban" ? "BAN" : "PICK") + '</span>' +
-        '<span class="who ' + (s.hero ? "" : "empty") + '">' + (s.hero ? DATA.talents[s.hero].name : "· · ·") + '</span>' +
+        (s.hero ? pfImg(s.hero) : "") +
+        '<span class="who ' + (s.hero ? "" : "empty") + '">' +
+        (s.hero ? nameOf(s.hero) + '<span class="r">' + roleOf(s.hero) + '</span>' : "· · ·") + '</span>' +
         (s.hero ? '<span class="x" title="clear">✕</span>' : "");
       d.onclick = ev => {
         if (ev.target.classList.contains("x")) { s.hero = null; state.activeIdx = i; draw(); return; }
+        if (s.hero) { if (s.kind === "pick") showBuild(s.hero); return; }
         state.activeIdx = i;
-        if (s.hero && s.kind === "pick") showBuild(s.hero);
         draw(); openModal();
       };
       el.appendChild(d);
@@ -306,12 +363,12 @@ function fillGrid(q) {
   const grid = document.getElementById("hgrid");
   grid.innerHTML = "";
   const tk = taken();
-  Object.keys(DATA.talents).sort((a, b) => DATA.talents[a].name.localeCompare(DATA.talents[b].name)).forEach(h => {
-    const nm = DATA.talents[h].name;
+  Object.keys(DATA.talents).sort((a, b) => nameOf(a).localeCompare(nameOf(b))).forEach(h => {
+    const nm = nameOf(h);
     if (q && !nm.toLowerCase().includes(q.toLowerCase())) return;
     const d = document.createElement("div");
-    d.className = "hopt" + (tk.has(h) ? " taken" : "");
-    d.innerHTML = nm + '<span class="r">' + (DATA.talents[h].expandedRole || DATA.talents[h].role) + " · " + DATA.meta[h].tier + '</span>';
+    d.className = "hopt " + (ROLE_CLS[roleOf(h)] || "") + (tk.has(h) ? " taken" : "");
+    d.innerHTML = pfImg(h) + nm + '<span class="r">' + roleOf(h) + '</span>';
     d.onclick = () => { if (state.activeIdx !== null) assign(state.activeIdx, h); };
     grid.appendChild(d);
   });
@@ -335,7 +392,7 @@ initSlots(); draw();
 if (location.hash === "#demo") {
   for (let i = 0; i < 9 && state.activeIdx !== null; i++) {
     const top = document.querySelector("#suggList .scard .hname");
-    const slug = Object.keys(DATA.talents).find(h => DATA.talents[h].name === top.childNodes[0].textContent);
+    const slug = Object.keys(DATA.talents).find(h => nameOf(h) === top.childNodes[0].textContent);
     assign(state.activeIdx, slug);
   }
 }
@@ -348,13 +405,19 @@ if (location.hash === "#selftest") {
       const top = document.querySelector("#suggList .scard .hname");
       if (!top) throw new Error("no suggestion at slot " + idx);
       const name = top.childNodes[0].textContent;
-      const slug = Object.keys(DATA.talents).find(h => DATA.talents[h].name === name);
-      log.push(slot.team + " " + slot.kind + ": " + name);
+      const slug = Object.keys(DATA.talents).find(h => nameOf(h) === name);
+      log.push(slot.team + " " + slot.kind + ": " + name + " (" + roleOf(slug) + ")");
       assign(idx, slug);
     }
     if (state.slots.some(s => !s.hero)) throw new Error("unfilled slot");
-    const picks = state.slots.filter(s => s.kind === "pick").map(s => s.hero);
-    if (new Set(picks.concat(state.slots.filter(s=>s.kind==="ban").map(s=>s.hero))).size !== 16) throw new Error("duplicate hero");
+    const all = state.slots.map(s => s.hero);
+    if (new Set(all).size !== 16) throw new Error("duplicate hero");
+    for (const team of ["blue", "red"]) {
+      const roles = teamHeroes(team, "pick").map(roleOf);
+      if (!roles.includes("Tank")) throw new Error(team + " has no tank");
+      if (!roles.includes("Healer")) throw new Error(team + " has no healer");
+      if (roles.filter(r => r === "Ranged Assassin").length > 2) throw new Error(team + " has 3+ ranged");
+    }
     document.title = "SELFTEST OK";
     document.body.innerHTML = '<pre style="font-size:15px;color:#22c55e">SELFTEST OK\n' + log.join("\n") + '</pre>';
   } catch (e) { document.body.innerHTML = '<pre style="font-size:18px;color:#ef4444">SELFTEST FAIL: ' + e.message + '</pre>'; }
