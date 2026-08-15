@@ -279,6 +279,7 @@ select:focus, input:focus { outline: 1px solid var(--gold); outline-offset: -1px
   clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);
   padding: 2px 0; margin-top: 1px;
 }
+.btier .ti { width: 30px; height: 30px; border-radius: 5px; border: 1px solid var(--line); flex: none; object-fit: cover; }
 .btier .n { font-weight: 800; text-transform: uppercase; font-size: 12.5px; letter-spacing: 0.03em; width: 150px; flex: none; }
 .btier .d { font-size: 11px; color: var(--dim); flex: 1; }
 .goals { margin-top: 12px; }
@@ -559,12 +560,14 @@ function showBuild(hero) {
   document.getElementById("buildNote").textContent = m.note || "";
   const list = document.getElementById("buildList");
   list.innerHTML = "";
+  const bicons = m.build_icons || [];
   m.build.forEach((name, i) => {
     const tier = TIERS[i];
     const tal = (t.talents[tier] || []).find(x => x.name === name);
     const row = document.createElement("div");
     row.className = "btier";
-    row.innerHTML = '<span class="t">' + tier + '</span><span class="n">' + name + '</span>' +
+    const ic = bicons[i] ? '<img class="ti" src="img/talents/' + bicons[i] + '" alt="" loading="lazy">' : '';
+    row.innerHTML = '<span class="t">' + tier + '</span>' + ic + '<span class="n">' + name + '</span>' +
       (tal ? '<span class="d">' + tal.description + '</span>' : "");
     list.appendChild(row);
   });
