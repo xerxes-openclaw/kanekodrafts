@@ -475,13 +475,27 @@ function suggest() {
   const cands = Object.keys(DATA.meta).filter(h => !tk.has(h));
   if (slot.kind === "ban") {
     title.textContent = (isMine ? "Your ban" : "Their ban") + " · best targets vs " + (isMine ? "them" : "you");
+    // A ban denies a hero to the OTHER team, so aim it at what that team still
+    // needs (deny their next pick) and at counters to the banning team. Do not
+    // recommend banning a role they have already filled.
+    const victim = isMine ? enemies : allies;      // whose future pick we deny
+    const ownAllies = isMine ? allies : enemies;   // who we protect
+    const vRoles = victim.map(roleOf);
+    const vNoTank = !vRoles.includes("Tank");
+    const vNoHeal = !vRoles.includes("Healer");
+    const vNoFront = vNoTank && !vRoles.includes("Bruiser");
     const scored = cands.map(h => {
       const m = DATA.meta[h];
+      const role = roleOf(h);
       let pts = TIER_SCORE[m.tier] ?? 1;
       const chips = [];
       const mf = mapFit(h);
       if (mf) { pts += mf.pts; chips.push(mf.chip); }
-      for (const a of allies) if ((m.beats || []).includes(a)) { pts += 1.3; chips.push({ c: "warn", t: "hurts your " + nameOf(a) }); }
+      if (vNoFront && (role === "Tank" || role === "Bruiser")) { pts += 1.8; chips.push({ c: "good", t: "denies their frontline" }); }
+      if (vNoHeal && role === "Healer") { pts += 1.8; chips.push({ c: "good", t: "denies their healer" }); }
+      if (!vNoHeal && role === "Healer") pts -= 1.6;   // they already have a healer
+      if (!vNoTank && role === "Tank") pts -= 0.8;      // they already have a tank
+      for (const a of ownAllies) if ((m.beats || []).includes(a)) { pts += 1.3; chips.push({ c: "warn", t: "hurts your " + nameOf(a) }); }
       if (m.tier === "S") chips.unshift({ c: "neutral", t: "S-tier, deny it" });
       return { h, pts, chips };
     }).sort((a, b) => b.pts - a.pts).slice(0, 5);
