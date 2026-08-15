@@ -1,0 +1,109 @@
+{
+  "junkrat": {
+    "etc": "ETC Mosh Pit stuns the whole team for your uncontested RIP-Tire detonation",
+    "garrosh": "Garrosh Wrecking Ball tosses enemies together for your Frag Launcher and Concussion Mine spread",
+    "uther": "Uther Hammer of Justice stuns a target long enough for your Steel Trap or Tire hit",
+    "malfurion": "Malfurion Entangling Roots pins a target for your Concussion Mine knockback combo"
+  },
+  "kaelthas": {
+    "etc": "ETC Mosh Pit locks the team in place for your uncontested Pyroblast and Flamestrike",
+    "arthas": "Arthas Frozen Tempest slows them into your guaranteed Flamestrike and Living Bomb",
+    "malfurion": "Malfurion Entangling Roots pins a target for your Pyroblast and Living Bomb chain",
+    "uther": "Uther Hammer of Justice stuns a target dead-on for your Pyroblast"
+  },
+  "kelthuzad": {
+    "arthas": "Arthas Frozen Tempest slows them into your Chains of Kel'Thuzad root combo",
+    "johanna": "Johanna Condemn pulls enemies in for your Chains and Frost Nova detonation",
+    "anduin": "Anduin Chastise roots a target for your Chains hook and Frost Nova burst",
+    "varian": "Varian Taunt or Colossus Smash locks a target for your Chains combo"
+  },
+  "kerrigan": {
+    "tyrael": "Tyrael Sanctification zones them so your Impaling Blades and Ravage land clean",
+    "uther": "Uther Hammer of Justice stuns a target into your Impaling Blades combo",
+    "medivh": "Medivh Force of Will shields your dive so your Ravage and Impaling Blades connect",
+    "tyrande": "Tyrande Lunar Flare stuns a target for your Impaling Blades follow-up"
+  },
+  "kharazim": {
+    "garrosh": "Garrosh Wrecking Ball groups enemies for your Divine Palm saves and Radiant Dash dives",
+    "etc": "ETC Mosh Pit holds the team so your Breath of Heaven keeps the dive alive",
+    "anubarak": "Anub'arak Cocoon isolates a threat while your Divine Palm shields the engage",
+    "genji": "Genji Dragonblade dives in with your Radiant Dash follow and Divine Palm safety net"
+  },
+  "leoric": {
+    "diablo": "Diablo Shadow Charge knocks a target into your Skeletal Swing and Drain Hope",
+    "orphea": "Orphea Dread pulls enemies in for your Skeletal Swing and Entomb wall",
+    "stukov": "Stukov Lurking Arm silences a group inside your Entomb trap",
+    "jaina": "Jaina Ring of Frost locks them for your Entomb and Skeletal Swing combo"
+  },
+  "lili": {
+    "johanna": "Johanna Condemn and blind let your Cloud Serpent and Water Dragon land free",
+    "blaze": "Blaze Combustion stuns grouped enemies for your Water Dragon hit",
+    "uther": "Uther Hammer of Justice roots a target for your Water Dragon knockback",
+    "hanzo": "Hanzo Dragonstrike zones the fight while your Cloud Serpent sustains the dive"
+  },
+  "liming": {
+    "etc": "ETC Mosh Pit holds the team for your uncontested Magic Missiles and Arcane Orb",
+    "johanna": "Johanna Condemn clusters enemies for your Arcane Orb and Disintegrate line",
+    "malfurion": "Malfurion Entangling Roots pins a target for your Magic Missiles and Orb combo",
+    "varian": "Varian Taunt locks a target for your Disintegrate beam and Arcane Orb"
+  },
+  "lostvikings": {
+    "zarya": "Zarya Graviton Surge bunches enemies for your Longboat Raid and Spin to Win",
+    "sylvanas": "Sylvanas Wailing Arrow silences a group for your Longboat Raid barrage",
+    "sgthammer": "Sgt. Hammer sieges from range while your Vikings soak and split-push all lanes",
+    "garrosh": "Garrosh Wrecking Ball groups enemies for your Longboat Raid cannon fire"
+  },
+  "ltmorales": {
+    "etc": "ETC Mosh Pit locks the team while your Healing Beam sustains the follow-up burst",
+    "raynor": "Raynor Penetrating Round knocks a target back as your Safeguard shield keeps him diving",
+    "valla": "Valla Strafe melts the group while your Healing Beam keeps her alive through it",
+    "johanna": "Johanna Condemn holds enemies as your Displacement Grenade and beam back the dive"
+  },
+  "lucio": {
+    "arthas": "Arthas Frozen Tempest slows the group while your Amp It Up speed keeps the team on them",
+    "diablo": "Diablo Shadow Charge pins a target while your Sound Barrier shields the whole dive",
+    "greymane": "Greymane Go for the Throat dives in with your Speed Boost chase and Sound Barrier save",
+    "valla": "Valla Strafe bursts the group while your Sound Barrier absorbs the return fire"
+  },
+  "lunara": {
+    "arthas": "Arthas Frozen Tempest slows them so your Nature's Toxin and Crippling Spores stack up",
+    "muradin": "Muradin Haymaker or Stormbolt stuns a target for your Thornwood Vine poke",
+    "jaina": "Jaina Ring of Frost holds them for your Crippling Spores and Thornwood Vine"
+  },
+  "maiev": {
+    "etc": "ETC Mosh Pit stacks the team inside your Containment Disc and Warden's Cage",
+    "blaze": "Blaze Combustion stuns grouped enemies for your Fan of Knives and Umbral Bind",
+    "jaina": "Jaina Ring of Frost locks them for your Warden's Cage and Fan of Knives",
+    "deckard": "Deckard Horadric Cube stuns and slows a target for your Spirit of Vengeance pull"
+  },
+  "malfurion": {
+    "kaelthas": "Your Entangling Roots pins a target so Kael'thas lands his Pyroblast and Flamestrike",
+    "jaina": "Your Entangling Roots holds them so Jaina's Ring of Frost and Blizzard connect",
+    "guldan": "Your Twilight Dream regen fuels Gul'dan's health-cost combos through the fight",
+    "kelthuzad": "Your Entangling Roots pins a target for Kel'Thuzad's Chains combo"
+  },
+  "malganis": {
+    "kelthuzad": "Kel'Thuzad Chains roots the group for your Fel Claws and Carrion Swarm sweep",
+    "jaina": "Jaina Ring of Frost locks them inside your Night Rush and Fel Claws",
+    "sonya": "Sonya Wrecking Ball or dive pairs with your Sleep to lock a target down",
+    "illidan": "Illidan dives in while your Sleep and Vampiric bulk keep the engage alive"
+  },
+  "malthael": {
+    "etc": "ETC Mosh Pit holds the team while your Reaper's Mark and Death Shroud drain them",
+    "garrosh": "Garrosh Wrecking Ball groups enemies for your Wraith Strike dive and Tormented Souls",
+    "medivh": "Medivh Portal and Force of Will let your Wraith Strike dive deep and escape",
+    "ana": "Ana Nano Boost supercharges your Tormented Souls teamfight drain"
+  },
+  "medivh": {
+    "illidan": "Your Force of Will shields Illidan's dive while your Portal sets up his flanks",
+    "genji": "Your Portal and Force of Will let Genji Dragonblade dive in and out safely",
+    "diablo": "Your Force of Will shields Diablo's Shadow Charge engage into the enemy backline",
+    "stitches": "Your Portal repositions Stitches for a fresh Hook into your Poly setup"
+  },
+  "mei": {
+    "xul": "Xul Bone Prison roots a target for your Blizzard and Ice Wall trap",
+    "lunara": "Lunara Crippling Spores slows them into your Snow Bank and Ice Wall zoning",
+    "jaina": "Jaina Ring of Frost freezes the group inside your Ice Wall and Blizzard",
+    "deckard": "Deckard Horadric Cube stuns a target for your Blizzard and Cryo-Freeze burst"
+  }
+}

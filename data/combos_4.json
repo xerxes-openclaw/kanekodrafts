@@ -1,0 +1,108 @@
+{
+  "mephisto": {
+    "deckard": "Deckard Stay Awhile and Listen sleeps them so your Lightning Nova and Durance of Hate melt the group",
+    "etc": "ETC Mosh Pit pins a clump for your ramping Lightning Nova and Durance of Hate silence",
+    "zarya": "Zarya Graviton Surge vortexes them together for your Lightning Nova to ramp and Durance of Hate to lock",
+    "diablo": "Diablo Apocalypse stuns the whole team so your Lightning Nova ramps and Durance of Hate holds them"
+  },
+  "muradin": {
+    "kaelthas": "Kael'thas Gravity Lapse stuns first so your Dwarf Toss in and Storm Bolt chain the lockdown",
+    "kerrigan": "Kerrigan Impaling Blades roots the group for your Storm Bolt and Thunder Clap to pile on",
+    "hanzo": "Hanzo Dragon's Arrow stuns from range so your Dwarf Toss and Storm Bolt collapse on the target",
+    "malfurion": "Malfurion Entangling Roots pins them for your Storm Bolt stun and Thunder Clap slow to stick"
+  },
+  "murky": {
+    "johanna": "Johanna Blessed Shield stuns so your Pufferfish arms right on top of them for the full detonation",
+    "zarya": "Zarya Graviton Surge clumps them over your Pufferfish for a guaranteed detonation",
+    "brightwing": "Brightwing Polymorph locks a target on your Pufferfish so it blows up in their face"
+  },
+  "nazeebo": {
+    "johanna": "Johanna Blessed Shield engages so your Zombie Wall traps them for Ravenous Spirit",
+    "raynor": "Raynor Penetrating Round knocks them into your Zombie Wall and Ravenous Spirit channel",
+    "stukov": "Stukov Lurking Arm silences a clump so your Zombie Wall and Ravenous Spirit finish them",
+    "diablo": "Diablo Shadow Charge pins a target to a wall for your Zombie Wall and Ravenous Spirit"
+  },
+  "nova": {
+    "johanna": "Johanna Blessed Shield stuns so your Triple Tap and Snipe land clean on the target",
+    "blaze": "Blaze Combustion slows them to a crawl so your Triple Tap and Snipe connect uninterrupted",
+    "sylvanas": "Sylvanas Wailing Arrow silences a clump so your Precision Strike and Triple Tap land free",
+    "stukov": "Stukov Massive Shove pins them to terrain for a guaranteed Triple Tap and Snipe"
+  },
+  "orphea": {
+    "blaze": "Blaze Combustion slows the clump so your Chomp and Eternal Feast hit the whole group",
+    "johanna": "Johanna Condemn pulls them in for your Chomp and Eternal Feast to land on the stack",
+    "varian": "Varian Taunt locks a target in place for your Shadow Waltz and Chomp burst",
+    "malganis": "Mal'Ganis Carrion Swarm zones them together for your Crushing Jaws pull and Eternal Feast"
+  },
+  "probius": {
+    "etc": "ETC Mosh Pit holds a clump on your armed Warp Rift for a full Disruption Pulse detonation",
+    "diablo": "Diablo Apocalypse stuns them over your Warp Rift so Disruption Pulse detonates for big burst",
+    "arthas": "Arthas Frozen Tempest slows them onto your Warp Rift for the Disruption Pulse explosion",
+    "malfurion": "Malfurion Entangling Roots pins them on your armed Warp Rift for a guaranteed detonation"
+  },
+  "qhira": {
+    "uther": "Uther Hammer of Justice stuns so your Unrelenting Strikes channel and Carnage bleed land full",
+    "rehgar": "Rehgar Bloodlust and Lightning Shield amp your dive so Carnage and Unrelenting Strikes shred",
+    "abathur": "Abathur Symbiote shields and spikes your dive so Carnage and Unrelenting Strikes stay committed",
+    "anubarak": "Anub'arak Impale stuns so your Unrelenting Strikes channel and Carnage bleed connect"
+  },
+  "ragnaros": {
+    "etc": "ETC Mosh Pit pins a clump so your Living Meteor rolls through them for the full duration",
+    "hanzo": "Hanzo Dragon's Arrow stuns from range so your Living Meteor and Sulfuras Smash land clean",
+    "kaelthas": "Kael'thas Gravity Lapse stuns so your Living Meteor and Empower Sulfuras hit uncontested",
+    "ana": "Ana Nano Boost amps your damage so Living Meteor and Molten Core swings burn them down"
+  },
+  "raynor": {
+    "etc": "ETC Mosh Pit pins a clump so your autos and Penetrating Round rip through them",
+    "garrosh": "Garrosh Wrecking Balls a target into your Penetrating Round and autos",
+    "thrall": "Thrall Sundering pins them against the wall for your Penetrating Round and sustained autos",
+    "ltmorales": "Lt. Morales Stim Drone jacks your attack speed so your autos and Penetrating Round shred"
+  },
+  "rehgar": {
+    "sonya": "Sonya Leap stuns the group so your Bloodlust and Chain Heal turn her dive into a rampage",
+    "illidan": "Illidan Dive engages so your Ancestral Healing and Bloodlust keep him carving the team",
+    "greymane": "Greymane Go for the Throat leaps in so your Bloodlust and Ancestral Healing safety-net the dive",
+    "thebutcher": "Butcher Ruthless Onslaught stuns a target so your Bloodlust and Lightning Shield melt them"
+  },
+  "rexxar": {
+    "johanna": "Johanna Blessed Shield stuns so your Misha, Charge! and Spirit Swoop chain the lockdown",
+    "jaina": "Jaina Ring of Frost roots the group for your Misha, Charge! and Spirit Swoop to pile on",
+    "malfurion": "Malfurion Entangling Roots pins them for your Misha, Charge! stun and Spirit Swoop slow"
+  },
+  "samuro": {
+    "abathur": "Abathur Symbiote shields your Mirror Image dive so your Critical Strike autos keep swinging",
+    "deckard": "Deckard Stay Awhile and Listen sleeps them so your Mirror Image and Critical Strike autos burst free",
+    "malfurion": "Malfurion Entangling Roots pins a target for your Mirror Image and Critical Strike burst",
+    "sylvanas": "Sylvanas Wailing Arrow silences so your Mirror Image dive and Critical Strike autos go uninterrupted"
+  },
+  "sgthammer": {
+    "etc": "ETC Mosh Pit pins a clump so your Siege Mode autos and Spider Mines shred the group",
+    "johanna": "Johanna Blessed Shield stuns so your Siege Mode autos land free from the backline",
+    "ltmorales": "Lt. Morales Stim Drone boosts your Siege Mode attack speed so autos delete their front line",
+    "ana": "Ana Nano Boost amps your Siege Mode autos so each long-range shot hits far harder"
+  },
+  "sonya": {
+    "muradin": "Muradin Storm Bolt stuns so your Ancient Spear and Seismic Slam pile onto the held target",
+    "jaina": "Jaina Ring of Frost roots them so your Whirlwind and Seismic Slam grind the frozen clump",
+    "medivh": "Medivh Portal drops you onto the backline and Force of Will shields your Whirlwind dive",
+    "rehgar": "Rehgar Bloodlust and Chain Heal fuel your dive so Whirlwind and Seismic Slam stay lethal"
+  },
+  "stitches": {
+    "blaze": "Blaze Combustion slows them so your Hook lands and Slam grinds the clump",
+    "falstad": "Falstad Mighty Gust pushes them together so your Slam and Putrid Bile hit the whole group",
+    "kaelthas": "Kael'thas Gravity Lapse stuns so your Hook and Gorge pull the target out for the team",
+    "malfurion": "Malfurion Entangling Roots pins them for a guaranteed Hook into Slam and Gorge"
+  },
+  "stukov": {
+    "raynor": "Raynor Penetrating Round knocks a clump into your Lurking Arm zone for Weighted Pustule burst",
+    "etc": "ETC Mosh Pit pins a clump inside your Lurking Arm so Weighted Pustule and Bio-Kill Switch detonate",
+    "sgthammer": "Sgt. Hammer Concussive Blast knocks them into your Lurking Arm and Weighted Pustule pop",
+    "diablo": "Diablo Shadow Charge pins a target for your Massive Shove and Weighted Pustule detonation"
+  },
+  "sylvanas": {
+    "etc": "ETC Mosh Pit pins a clump for your Wailing Arrow silence and Withering Fire",
+    "diablo": "Diablo Apocalypse stuns the team so your Shadow Dagger spreads and Withering Fire rakes them",
+    "maiev": "Maiev Containment Disc suspends a target for your Wailing Arrow and Withering Fire to load up",
+    "malfurion": "Malfurion Entangling Roots pins them so your Shadow Dagger spread and Withering Fire stick"
+  }
+}

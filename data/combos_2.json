@@ -1,0 +1,110 @@
+{
+  "dehaka": {
+    "anubarak": "Anub'arak Cocoon pins a hero so your Drag and Isolation land uncontested for the kill",
+    "jaina": "Jaina Ring of Frost freezes them in place for your Drag pull and free melee burst",
+    "hanzo": "Hanzo Dragon's Arrow stuns from range, setting up your Drag and Isolation silence",
+    "maiev": "Maiev Containment Disc traps a hero for your guaranteed Drag and Isolation follow-up"
+  },
+  "diablo": {
+    "thrall": "Thrall Sundering walls and stuns them into your Shadow Charge and Overpower slam",
+    "tassadar": "Tassadar Force Wall traps them in place for your Apocalypse stun and Overpower combo",
+    "medivh": "Medivh Polymorph disables a target so you land Shadow Charge into Overpower cleanly",
+    "tyrande": "Tyrande Lunar Flare stuns them for your Shadow Charge, Overpower, and Apocalypse chain"
+  },
+  "dva": {
+    "garrosh": "Garrosh Wrecking Balls their backline into the center of your Self-Destruct radius",
+    "maiev": "Maiev Containment Disc locks a hero inside your Self-Destruct blast zone",
+    "falstad": "Falstad Mighty Gust pushes them back onto your ticking Self-Destruct mech",
+    "deckard": "Deckard Scroll of Sealing roots them where your Self-Destruct bomb will detonate"
+  },
+  "etc": {
+    "kaelthas": "Kael'thas Gravity Lapse lifts their team, then you channel Mosh Pit uninterrupted",
+    "greymane": "Greymane Worgen dive burst cleans up the heroes your Mosh Pit stun-locks",
+    "uther": "Uther Hammer of Justice stuns anyone trying to interrupt your Mosh Pit channel",
+    "alarak": "Alarak Deadly Charge stuns their group together for your full Mosh Pit"
+  },
+  "falstad": {
+    "etc": "ETC Mosh Pit stun-locks their team while you free-cast Hammerang and Lightning Rod",
+    "arthas": "Arthas Frozen Tempest slows them so your Hammerang and Lightning Rod never miss",
+    "tassadar": "Tassadar Force Wall traps them in place for uncontested Lightning Rod damage",
+    "uther": "Uther Hammer of Justice stuns a target for your point-blank Barrel Roll and Hammerang"
+  },
+  "fenix": {
+    "johanna": "Johanna Condemn pulls them together for your channeled Planetcracker Cannon beam",
+    "maiev": "Maiev Containment Disc holds a hero still while you unload Repeater Cannon and Phase Bomb",
+    "thrall": "Thrall Sundering stuns their line into your Planetcracker beam sweep",
+    "diablo": "Diablo Apocalypse stuns the whole team for your Planetcracker Cannon channel"
+  },
+  "gall": {
+    "chogall": "Cho'gall Surging Fist stuns and knocks enemies into your Dread Orb and Shadowflame",
+    "ana": "Ana Sleep Dart pins a hero so your slow Dread Orbs and Runic Blast land clean",
+    "auriel": "Auriel Detainment Strike stuns them into a wall for your Shadow Bolt Volley",
+    "brightwing": "Brightwing Emerald Wind pushes them into your Dread Orb bounce path"
+  },
+  "garrosh": {
+    "jaina": "Jaina Ring of Frost freezes them so you walk in and Wrecking Ball the frozen backline",
+    "hanzo": "Hanzo Dragon's Arrow stuns a target for your Groundbreaker and Wrecking Ball toss",
+    "zarya": "Zarya Graviton Surge pulls their team together for your Warlord's Challenge taunt",
+    "malfurion": "Malfurion Entangling Roots pins a carry for you to Wrecking Ball into your team"
+  },
+  "gazlowe": {
+    "etc": "ETC Mosh Pit holds them still over your Xplodium Charge and Deth Lazor",
+    "diablo": "Diablo Apocalypse stuns their team into your Grav-O-Bomb and turret crossfire",
+    "jaina": "Jaina Ring of Frost freezes them on top of your Xplodium Charge detonation",
+    "malfurion": "Malfurion Entangling Roots pins a target for your Deth Lazor and Xplodium Charge"
+  },
+  "genji": {
+    "jaina": "Jaina Ring of Frost freezes their team for your Dragonblade dives and X-Strike",
+    "uther": "Uther Hammer of Justice stuns a target so your Swift Strike and Shuriken finish it",
+    "etc": "ETC Mosh Pit stun-locks them while you reset Dragonblade on kills",
+    "kaelthas": "Kael'thas Gravity Lapse lifts them helpless into your Dragonblade and X-Strike"
+  },
+  "greymane": {
+    "etc": "ETC Mosh Pit stun-locks their backline for your Worgen dive and Go for the Throat",
+    "garrosh": "Garrosh Wrecking Balls a carry to you for point-blank Cocktail and Worgen burst",
+    "uther": "Uther Hammer of Justice stuns a target so your Cocktail combo executes it",
+    "malthael": "Malthael Reaper's Mark and slow lock a target for your Go for the Throat leaps"
+  },
+  "guldan": {
+    "etc": "ETC Mosh Pit stun-locks their team while you free-cast Corruption and Drain Life",
+    "malfurion": "Malfurion Entangling Roots pins them in your Corruption pools and Fel Flame",
+    "auriel": "Auriel Detainment Strike stuns them into a wall for stacked Corruption ticks",
+    "johanna": "Johanna Condemn pulls their team into your Corruption and Rain of Destruction"
+  },
+  "hanzo": {
+    "etc": "ETC Mosh Pit clusters their team for your Scatter Arrow ricochets and Dragonstrike",
+    "diablo": "Diablo Apocalypse stuns them together for your Scatter Arrow and Dragonstrike channel",
+    "johanna": "Johanna Condemn pulls their team into a wall for your Scatter Arrow bounce burst",
+    "malganis": "Mal'Ganis Carrion Swarm sleeps their group for your Dragonstrike and Scatter Arrow"
+  },
+  "hogger": {
+    "diablo": "Diablo Shadow Charge knocks a hero into your Loot Hoard for the Ez-Thro Dynamite combo",
+    "hanzo": "Hanzo Dragon's Arrow stuns a target for your Ez-Thro Dynamite and Hogg Wild spin",
+    "liming": "Li-Ming Slow and Magic Missiles pin them so your Dynamite and Staggering Blow land",
+    "stukov": "Stukov Lurking Arm silences and slows them onto your Loot Hoard and Dynamite"
+  },
+  "illidan": {
+    "abathur": "Abathur Symbiote shields and spikes you while you dive and never stop hitting",
+    "medivh": "Medivh Force of Will shields your dive so you free-hit through their focus fire",
+    "rehgar": "Rehgar Earthbind Totem roots a target for your Sweeping Strike and The Hunt",
+    "zarya": "Zarya Graviton Surge pulls their team into your Sweeping Strike sustain and The Hunt"
+  },
+  "imperius": {
+    "jaina": "Jaina Ring of Frost freezes them for your Celestial Charge and Solarion's Flare burst",
+    "etc": "ETC Mosh Pit holds them still for your Solarion's Flare and Valorous Brand burst",
+    "rehgar": "Rehgar Earthbind Totem roots a target for your Celestial Charge stun follow-up",
+    "malganis": "Mal'Ganis Fel Claws stun sets up your Celestial Charge and Wrath of the Angiris"
+  },
+  "jaina": {
+    "etc": "ETC Mosh Pit stun-locks their team for your Ring of Frost and Blizzard combo",
+    "johanna": "Johanna Condemn pulls them together for your Ring of Frost and Blizzard drop",
+    "muradin": "Muradin Stormbolt stuns a target so your Frostbolt and Blizzard shatter it",
+    "malfurion": "Malfurion Entangling Roots pins them for your Ring of Frost and Blizzard"
+  },
+  "johanna": {
+    "jaina": "Jaina Ring of Frost freezes their group for your Condemn pull and Blessed Shield",
+    "blaze": "Blaze Bunker Drop and Flame Stream corral them into your Condemn stun radius",
+    "maiev": "Maiev Containment Disc traps a hero for your Falling Sword and Punish follow-up",
+    "deckard": "Deckard Scroll of Sealing roots them into your Condemn pull and Blessed Shield"
+  }
+}

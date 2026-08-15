@@ -285,7 +285,7 @@ select:focus, input:focus { outline: 1px solid var(--gold); outline-offset: -1px
 .goals h3 { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.24em; color: var(--gold2); margin-bottom: 7px; }
 .goal { display: flex; gap: 9px; align-items: baseline; padding: 3px 0; }
 .goal .ph { font-size: 9px; font-weight: 800; width: 54px; flex: none; text-transform: uppercase; letter-spacing: 0.1em; }
-.goal .ph.early { color: var(--green); } .goal .ph.mid { color: var(--gold); } .goal .ph.late { color: #9db7ff; } .goal .ph.fight { color: #ff7373; }
+.goal .ph.early { color: var(--green); } .goal .ph.mid { color: var(--gold); } .goal .ph.late { color: #9db7ff; } .goal .ph.fight { color: #ff7373; } .goal .ph.setup { color: #4fd1c5; }
 
 /* ============ HERO POOL (inline picker) ============ */
 #poolBox input { width: 100%; margin-bottom: 12px; font-size: 14px; clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
@@ -533,6 +533,9 @@ function goalsFor(hero, allies, enemies) {
   g.push(["mid", (plan.mid || "Group at 10 and take the fight.") + " This map: " + obj + "."]);
   // FIGHTS: hero job, then draft-specific target/threat lines
   g.push(["fight", plan.fight || "Play your role in the fight"]);
+  // YOUR TEAM: specific setups from allies actually drafted (spec combos)
+  const combos = m.combos || {};
+  allies.filter(a => combos[a]).slice(0, 2).forEach(a => g.push(["setup", combos[a]]));
   if (kit.cc && (diver || carry)) {
     const target = diver && role !== "Tank" ? nameOf(diver) : (carry ? nameOf(carry) : nameOf(diver));
     g.push(["fight", "This game: save " + kit.cc + " for " + target + (diver && target === nameOf(diver) ? " the moment they jump in" : "")]);

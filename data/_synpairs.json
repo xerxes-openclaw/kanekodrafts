@@ -1,0 +1,538 @@
+{
+"anubarak": [
+"kaelthas",
+"jaina",
+"kerrigan",
+"greymane"
+],
+"artanis": [
+"garrosh",
+"arthas",
+"kaelthas",
+"malfurion"
+],
+"blaze": [
+"arthas",
+"kerrigan",
+"maiev",
+"malfurion"
+],
+"chen": [
+"tyrael",
+"greymane",
+"rehgar",
+"abathur"
+],
+"dva": [
+"garrosh",
+"maiev",
+"falstad",
+"deckard"
+],
+"diablo": [
+"thrall",
+"tassadar",
+"medivh",
+"tyrande"
+],
+"etc": [
+"kaelthas",
+"greymane",
+"uther",
+"alarak"
+],
+"garrosh": [
+"jaina",
+"hanzo",
+"zarya",
+"malfurion"
+],
+"johanna": [
+"jaina",
+"blaze",
+"maiev",
+"deckard"
+],
+"malganis": [
+"kelthuzad",
+"jaina",
+"sonya",
+"illidan"
+],
+"muradin": [
+"kaelthas",
+"kerrigan",
+"hanzo",
+"malfurion"
+],
+"stitches": [
+"blaze",
+"falstad",
+"kaelthas",
+"malfurion"
+],
+"tyrael": [
+"illidan",
+"alarak",
+"sgthammer",
+"ltmorales"
+],
+"chogall": [
+"ana",
+"auriel",
+"brightwing",
+"yrel"
+],
+"dehaka": [
+"anubarak",
+"jaina",
+"hanzo",
+"maiev"
+],
+"deathwing": [
+"etc",
+"arthas",
+"johanna",
+"muradin"
+],
+"gazlowe": [
+"etc",
+"diablo",
+"jaina",
+"malfurion"
+],
+"imperius": [
+"jaina",
+"etc",
+"rehgar",
+"malganis"
+],
+"leoric": [
+"diablo",
+"orphea",
+"stukov",
+"jaina"
+],
+"malthael": [
+"etc",
+"garrosh",
+"medivh",
+"ana"
+],
+"ragnaros": [
+"etc",
+"hanzo",
+"kaelthas",
+"ana"
+],
+"rexxar": [
+"johanna",
+"jaina",
+"malfurion"
+],
+"sonya": [
+"muradin",
+"jaina",
+"medivh",
+"rehgar"
+],
+"thrall": [
+"diablo",
+"fenix",
+"chromie",
+"rehgar"
+],
+"varian": [
+"etc",
+"blaze",
+"liming",
+"tyrande"
+],
+"xul": [
+"tyrande",
+"medivh",
+"liming",
+"falstad"
+],
+"yrel": [
+"garrosh",
+"zarya",
+"sgthammer",
+"whitemane"
+],
+"thebutcher": [
+"abathur",
+"tyrande",
+"uther",
+"tyrael"
+],
+"alexstrasza": [
+"johanna",
+"blaze",
+"kaelthas",
+"azmodan"
+],
+"anduin": [
+"johanna",
+"blaze",
+"raynor",
+"diablo"
+],
+"auriel": [
+"valla",
+"diablo",
+"chogall",
+"yrel"
+],
+"brightwing": [
+"diablo",
+"stitches",
+"genji",
+"tracer"
+],
+"deckard": [
+"johanna",
+"blaze",
+"sgthammer",
+"jaina"
+],
+"kharazim": [
+"garrosh",
+"etc",
+"anubarak",
+"genji"
+],
+"lili": [
+"johanna",
+"blaze",
+"uther",
+"hanzo"
+],
+"lucio": [
+"arthas",
+"diablo",
+"greymane",
+"valla"
+],
+"malfurion": [
+"kaelthas",
+"jaina",
+"guldan",
+"kelthuzad"
+],
+"rehgar": [
+"sonya",
+"illidan",
+"greymane",
+"thebutcher"
+],
+"stukov": [
+"raynor",
+"etc",
+"sgthammer",
+"diablo"
+],
+"tyrande": [
+"diablo",
+"etc",
+"varian",
+"valla"
+],
+"uther": [
+"etc",
+"kerrigan",
+"illidan",
+"zuljin"
+],
+"whitemane": [
+"johanna",
+"sonya",
+"cassia",
+"hanzo"
+],
+"ana": [
+"liming",
+"mephisto",
+"etc",
+"valla"
+],
+"abathur": [
+"illidan",
+"genji",
+"tracer",
+"sonya"
+],
+"medivh": [
+"illidan",
+"genji",
+"diablo",
+"stitches"
+],
+"tassadar": [
+"maiev",
+"johanna",
+"etc",
+"genji"
+],
+"zarya": [
+"garrosh",
+"illidan",
+"valla",
+"sonya"
+],
+"ltmorales": [
+"etc",
+"raynor",
+"valla",
+"johanna"
+],
+"alarak": [
+"raynor",
+"jaina",
+"etc",
+"garrosh"
+],
+"azmodan": [
+"jaina",
+"johanna",
+"malfurion",
+"maiev"
+],
+"cassia": [
+"lili",
+"johanna",
+"artanis",
+"jaina"
+],
+"chromie": [
+"malfurion",
+"ana",
+"johanna",
+"etc"
+],
+"falstad": [
+"etc",
+"arthas",
+"tassadar",
+"uther"
+],
+"fenix": [
+"johanna",
+"maiev",
+"thrall",
+"diablo"
+],
+"gall": [
+"chogall",
+"ana",
+"auriel",
+"brightwing"
+],
+"genji": [
+"jaina",
+"uther",
+"etc",
+"kaelthas"
+],
+"greymane": [
+"etc",
+"garrosh",
+"uther",
+"malthael"
+],
+"guldan": [
+"etc",
+"malfurion",
+"auriel",
+"johanna"
+],
+"hanzo": [
+"etc",
+"diablo",
+"johanna",
+"malganis"
+],
+"illidan": [
+"abathur",
+"medivh",
+"rehgar",
+"zarya"
+],
+"jaina": [
+"etc",
+"johanna",
+"muradin",
+"malfurion"
+],
+"junkrat": [
+"etc",
+"garrosh",
+"uther",
+"malfurion"
+],
+"kaelthas": [
+"etc",
+"arthas",
+"malfurion",
+"uther"
+],
+"kelthuzad": [
+"arthas",
+"johanna",
+"anduin",
+"varian"
+],
+"kerrigan": [
+"tyrael",
+"uther",
+"medivh",
+"tyrande"
+],
+"liming": [
+"etc",
+"johanna",
+"malfurion",
+"varian"
+],
+"lunara": [
+"arthas",
+"muradin",
+"jaina"
+],
+"mephisto": [
+"deckard",
+"etc",
+"zarya",
+"diablo"
+],
+"nazeebo": [
+"johanna",
+"raynor",
+"stukov",
+"diablo"
+],
+"nova": [
+"johanna",
+"blaze",
+"sylvanas",
+"stukov"
+],
+"orphea": [
+"blaze",
+"johanna",
+"varian",
+"malganis"
+],
+"probius": [
+"etc",
+"diablo",
+"arthas",
+"malfurion"
+],
+"raynor": [
+"etc",
+"garrosh",
+"thrall",
+"ltmorales"
+],
+"samuro": [
+"abathur",
+"deckard",
+"malfurion",
+"sylvanas"
+],
+"sgthammer": [
+"etc",
+"johanna",
+"ltmorales",
+"ana"
+],
+"sylvanas": [
+"etc",
+"diablo",
+"maiev",
+"malfurion"
+],
+"tracer": [
+"tassadar",
+"abathur",
+"malfurion",
+"anduin"
+],
+"tychus": [
+"garrosh",
+"etc",
+"dehaka",
+"uther"
+],
+"valeera": [
+"garrosh",
+"etc",
+"thrall",
+"abathur"
+],
+"valla": [
+"arthas",
+"garrosh",
+"auriel",
+"uther"
+],
+"zagara": [
+"etc",
+"jaina",
+"deckard"
+],
+"zeratul": [
+"abathur",
+"diablo",
+"garrosh",
+"jaina"
+],
+"zuljin": [
+"etc",
+"tassadar",
+"uther",
+"medivh"
+],
+"murky": [
+"johanna",
+"zarya",
+"brightwing"
+],
+"qhira": [
+"uther",
+"rehgar",
+"abathur",
+"anubarak"
+],
+"lostvikings": [
+"zarya",
+"sylvanas",
+"sgthammer",
+"garrosh"
+],
+"arthas": [
+"chromie",
+"maiev",
+"zarya",
+"rehgar"
+],
+"hogger": [
+"diablo",
+"hanzo",
+"liming",
+"stukov"
+],
+"maiev": [
+"etc",
+"blaze",
+"jaina",
+"deckard"
+],
+"mei": [
+"xul",
+"lunara",
+"jaina",
+"deckard"
+]
+}

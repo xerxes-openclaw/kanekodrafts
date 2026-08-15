@@ -1,0 +1,110 @@
+{
+  "abathur": {
+    "illidan": "Illidan dives with Metamorphosis while your Symbiote shields and spikes him deep in their backline",
+    "genji": "Genji's Swift Strike dive carries your Symbiote spikes into their backline while you stay safe",
+    "tracer": "Tracer's Blink harass rides your Symbiote shield and spike, turning her into a survivable menace",
+    "sonya": "Sonya's Ancient Spear engage pairs with your Symbiote spike and shield to make her unkillable"
+  },
+  "alarak": {
+    "raynor": "Raynor's Penetrating Round knocks them back into your Discord Strike and Deadly Charge combo",
+    "jaina": "Jaina's Ring of Frost roots a clump for your uncontested Discord Strike into Lightning Surge",
+    "etc": "ETC Mosh Pit locks a clump still for your Discord Strike and Deadly Charge to shred",
+    "garrosh": "Garrosh Wrecking Balls a target into your Telekinesis and Deadly Charge burst range"
+  },
+  "alexstrasza": {
+    "johanna": "Johanna's Condemn pulls them into a clump for your Dragonqueen Cleansing Flame to nuke and heal",
+    "blaze": "Blaze's Jet Propulsion charge stun holds them for your Flame Buffet detonation and Cleansing Flame",
+    "kaelthas": "Kael'thas Gravity Lapse lifts a clump for your Cleansing Flame dives to land uncontested",
+    "azmodan": "Azmodan's Globe of Annihilation zoning corners them for your Flame Buffet and Cleansing Flame burst"
+  },
+  "ana": {
+    "liming": "Li-Ming's Disintegrate finishes what your Nano Boost amps and your Sleep Dart sets up",
+    "mephisto": "Mephisto's Durance of Hate roots them still for your Sleep Dart and Eye of Horus to land",
+    "etc": "ETC Mosh Pit holds a clump so your Sleep Dart and Biotic Grenade anti-heal land uncontested",
+    "valla": "Valla's relentless Hatred pressure forces dives your Sleep Dart punishes while Nano Boost amps her"
+  },
+  "anduin": {
+    "johanna": "Johanna's Condemn clumps them for your Lightbomb stun and Chastise root to chain hard CC",
+    "blaze": "Blaze's Jet Propulsion stun sets up your Chastise root and Lightbomb on the clump",
+    "raynor": "Raynor's Penetrating Round knocks a target into your Chastise root and Lightbomb range",
+    "diablo": "Diablo's Shadow Charge and Overpower pin them for your Lightbomb stun to detonate"
+  },
+  "anubarak": {
+    "kaelthas": "Kael'thas Gravity Lapse lifts them so your Burrow Charge and Impale land the follow-up stun chain",
+    "jaina": "Jaina's Ring of Frost roots the clump for your Burrow Charge unburrow stun to catch them all",
+    "kerrigan": "Kerrigan's Impaling Blades holds them for your Cocoon and Impale to lock down the pick",
+    "greymane": "Greymane's Go for the Throat finishes the target your Cocoon isolates and Impale stuns"
+  },
+  "artanis": {
+    "garrosh": "Garrosh Wrecking Balls a target to you, chaining into your Phase Prism swap and Blade Dash burst",
+    "arthas": "Arthas Howling Blast root and Frozen Tempest slow hold the clump for your Suppression Pulse and Blade Dash",
+    "kaelthas": "Kael'thas Gravity Lapse lifts them while your Purifier Beam and Blade Dash melt the held clump",
+    "malfurion": "Malfurion's Entangling Roots pins them for your Phase Prism pull and Purifier Beam to land"
+  },
+  "arthas": {
+    "chromie": "Chromie's Slowing Sands and Sand Blast set up your Howling Blast root and Frostmourne Hunger dive",
+    "maiev": "Maiev's Containment Disc suspends a target for your Frostmourne Hunger and Howling Blast follow-up",
+    "zarya": "Zarya's Graviton Surge sucks them into a clump for your Frozen Tempest and Army of the Dead to grind",
+    "rehgar": "Rehgar's Earthbind Totem slow keeps them in your Frozen Tempest while Bloodlust fuels your dive"
+  },
+  "auriel": {
+    "valla": "Valla's sustained Hatred fire builds your Bestow Hope energy for a huge Ray of Heaven burst heal",
+    "diablo": "Diablo's Shadow Charge knocks a target toward you for a Detainment Strike stun into terrain",
+    "chogall": "Cho'gall's Runic Blast and Surging Fist damage flood your Bestow Hope energy for a massive Ray of Heaven",
+    "yrel": "Yrel's Righteous Hammer stun and Sanctification set up your Detainment Strike and a safe Ray of Heaven"
+  },
+  "azmodan": {
+    "jaina": "Jaina's Ring of Frost roots a clump dead-on for your Globe of Annihilation to detonate for huge damage",
+    "johanna": "Johanna's Condemn pulls them into one spot for your Globe of Annihilation and All Shall Burn channel",
+    "malfurion": "Malfurion's Entangling Roots pins a target so you channel All Shall Burn uninterrupted to melt them",
+    "maiev": "Maiev's Containment Disc suspends a hero for a guaranteed Globe of Annihilation to the face"
+  },
+  "blaze": {
+    "arthas": "Arthas Frozen Tempest slows the clump into your Oil Spill ignite and Combustion burn",
+    "kerrigan": "Kerrigan's Impaling Blades holds them for your Bunker Drop peel and Combustion ignite",
+    "maiev": "Maiev's Containment Disc pins a target for your Jet Propulsion charge and Oil Spill burn",
+    "malfurion": "Malfurion's Entangling Roots roots them into your Oil Spill and Jet Propulsion stun for the kill"
+  },
+  "brightwing": {
+    "diablo": "Diablo's Overpower slam holds a target for your Polymorph to lock them out of the fight",
+    "stitches": "Stitches Hooks a target into your team where your Polymorph and Emerald Wind seal the kill",
+    "genji": "Genji's Dragonblade dive scatters them into your Emerald Wind knockback and Polymorph picks",
+    "tracer": "Tracer's Blink harass pins a target for your Polymorph and Emerald Wind to seal the kill"
+  },
+  "cassia": {
+    "lili": "Lili's Water Dragon slow holds them in place for your Fend spin and Lightning Fury to melt",
+    "johanna": "Johanna's Condemn clumps them tight for your Fend channel and Lightning Fury bounces to shred",
+    "artanis": "Artanis Phase Prism pulls a target next to you for a point-blank Fend and Valkyrie pull",
+    "jaina": "Jaina's Ring of Frost roots the clump for your uninterrupted Fend and Ball Lightning barrage"
+  },
+  "chen": {
+    "tyrael": "Tyrael's El'druin's Might and Sanctification dome let your Flying Kick and Breath of Fire dive safely",
+    "greymane": "Greymane's Darkflight dive doubles on the target your Flying Kick and Keg Smash trap",
+    "rehgar": "Rehgar's Earthbind Totem slow and Bloodlust turn your Breath of Fire and Keg Smash dive into a kill",
+    "abathur": "Abathur's Symbiote shields and spikes you while your Wandering Keg rolls their backline apart"
+  },
+  "chogall": {
+    "ana": "Ana's Nano Boost and Healing Dart amp Gall's burst and sustain your massive shared health bar",
+    "auriel": "Auriel's Ray of Heaven burst-heals your huge shared HP while Crystal Aegis covers your Surging Fist dive",
+    "brightwing": "Brightwing's Blink Heal and Pixie Dust keep your two-headed body alive through a deep Surging Fist engage",
+    "yrel": "Yrel's Sanctification dome and Gift of the Naaru heal cover your Ogre Hurl dive and Gall's burst"
+  },
+  "chromie": {
+    "malfurion": "Malfurion's Entangling Roots pins a target dead still for your Sand Blast and Dragon's Breath to land",
+    "ana": "Ana's Sleep Dart freezes a target for a guaranteed Sand Blast and Dragon's Breath combo",
+    "johanna": "Johanna's Condemn clumps them so your Dragon's Breath and Sand Blast hit the whole group",
+    "etc": "ETC Mosh Pit holds a clump still for your Dragon's Breath and Sand Blast to detonate for free"
+  },
+  "deathwing": {
+    "etc": "ETC Mosh Pit locks a clump in place for your Molten Flame breath and Lava Burst to roast them all",
+    "arthas": "Arthas Howling Blast roots a target and Frozen Tempest slows the group under your Molten Flame breath",
+    "johanna": "Johanna's Condemn pulls them into one pile for your Firestorm and Molten Flame to melt",
+    "muradin": "Muradin's Stormbolt stun and Haymaker knockback pin a target under your Molten Flame breath"
+  },
+  "deckard": {
+    "johanna": "Johanna's Condemn clumps them into your Horadric Cube and Scroll of Sealing root for a long lockdown",
+    "blaze": "Blaze's Combustion oil slow and Jet Propulsion stun buy time for your Scroll of Sealing root to land",
+    "sgthammer": "Sgt. Hammer's Concussive Blast knocks a target into your Horadric Cube slow and Scroll of Sealing root",
+    "jaina": "Jaina's Ring of Frost roots the clump so your Horadric Cube and Stay Awhile and Listen lock the fight"
+  }
+}

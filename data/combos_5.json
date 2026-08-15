@@ -1,0 +1,109 @@
+{
+  "tassadar": {
+    "maiev": "Maiev Containment Disc suspends a hero helpless inside your Psionic Storm",
+    "johanna": "Johanna Condemn drags enemies into a clump for your Psionic Storm to burn",
+    "etc": "ETC Mosh Pit pins a whole group for your stacked Psionic Storm",
+    "genji": "Genji Dragonblade collapses their backline together for your Psionic Storm and Force Wall"
+  },
+  "thebutcher": {
+    "abathur": "Abathur Symbiote shields and speeds you so Ruthless Onslaught reaches the kill",
+    "tyrande": "Tyrande Lunar Flare stuns a target for your Ruthless Onslaught charge and cleave",
+    "uther": "Uther Hammer of Justice stuns a target still for your Butcher's Brand cleave",
+    "tyrael": "Tyrael Sanctification bubble lets you sit on the target chained by Lamb to the Slaughter"
+  },
+  "thrall": {
+    "diablo": "Diablo Shadow Charge stuns a target for your Feral Spirit root and Chain Lightning",
+    "fenix": "Fenix Purification Salvo softens the target you burst with Chain Lightning and Windfury",
+    "chromie": "Chromie Slowing Sands glues enemies down so your Chain Lightning and Windfury connect",
+    "rehgar": "Rehgar Earthbind Totem slows a target so your Feral Spirit lands and you stick to it"
+  },
+  "tracer": {
+    "tassadar": "Tassadar Plasma Shield keeps you alive to empty full clips into their backline",
+    "abathur": "Abathur Symbiote hat shields you and adds spikes as you unload your pistols",
+    "malfurion": "Malfurion Entangling Roots pins a target for an uninterrupted clip and Pulse Bomb",
+    "anduin": "Anduin Chastise roots a target so you dump a full clip and stick Pulse Bomb"
+  },
+  "tychus": {
+    "garrosh": "Garrosh Wrecking Ball throws their backline into your Minigun range",
+    "etc": "ETC Mosh Pit holds a clump still for your Minigun to melt",
+    "dehaka": "Dehaka Drag tongues a straggler into your Minigun and Overkill",
+    "uther": "Uther Hammer of Justice stuns a target still for your Minigun to spin up on"
+  },
+  "tyrael": {
+    "illidan": "Illidan dives and pins the backline so your El'druin blink and Judgment land clean",
+    "alarak": "Alarak Deadly Charge stuns a group so your Judgment and Righteousness follow up",
+    "sgthammer": "Sgt. Hammer Concussive Blast knocks back and stuns so your Judgment charge connects",
+    "ltmorales": "Lt. Morales Healing Beam sustains you as you dive in with Judgment and Righteousness"
+  },
+  "tyrande": {
+    "diablo": "Diablo Shadow Charge pins a target for your point-blank Lunar Flare stun",
+    "etc": "ETC Mosh Pit holds a group for your Lunar Flare and Hunter's Mark to land",
+    "varian": "Varian Charge stuns a target you lock down further with Lunar Flare",
+    "valla": "Valla Multishot pressure forces enemies to bunch, giving your Lunar Flare an easy clump"
+  },
+  "uther": {
+    "etc": "ETC Mosh Pit clumps enemies for your Divine Storm stun and Holy Radiance heal",
+    "kerrigan": "Kerrigan Primal Grasp pulls enemies together for your Divine Storm to stun them all",
+    "illidan": "Illidan dives to hold a target where your Hammer of Justice can stun it",
+    "zuljin": "Zul'jin's relentless axes keep a target in place for your Hammer of Justice stun"
+  },
+  "valeera": {
+    "garrosh": "Garrosh Wrecking Ball tosses a target to you for a full Ambush combo from stealth",
+    "etc": "ETC Mosh Pit locks a target so you land your whole Cheap Shot to Eviscerate combo",
+    "thrall": "Thrall Feral Spirit roots a target for your Garrote and Ambush burst",
+    "abathur": "Abathur Symbiote hat shields you so you commit to a longer backstab combo"
+  },
+  "valla": {
+    "arthas": "Arthas Frozen Tempest slows a clump so your Multishot and Hungering Arrow shred them",
+    "garrosh": "Garrosh Wrecking Ball throws a target into your Hungering Arrow and Multishot",
+    "auriel": "Auriel Detainment Strike stuns a target into a wall for your focused Hungering Arrow",
+    "uther": "Uther Hammer of Justice stuns a target for your point-blank Multishot and Hungering Arrow"
+  },
+  "varian": {
+    "etc": "ETC Mosh Pit locks a group so your Charge stun and Colossus Smash pile on",
+    "blaze": "Blaze Combustion ignites and locks a clump you Charge into and Colossus Smash",
+    "liming": "Li-Ming Arcane Orb and Magic Missiles finish the target you pin with Charge and Taunt",
+    "tyrande": "Tyrande Lunar Flare stuns a target for your Charge follow-up and Colossus Smash"
+  },
+  "whitemane": {
+    "johanna": "Johanna Blessed Shield stuns a target so your Searing Lash and Inquisition land clean",
+    "sonya": "Sonya Ancient Spear dives a target you keep topped off while landing Searing Lash",
+    "cassia": "Cassia Valkyrie pulls and stuns a group for your Inquisition channel and Searing Lash",
+    "hanzo": "Hanzo Dragonstrike scatters enemies into your Searing Lash as you keep him topped off"
+  },
+  "xul": {
+    "tyrande": "Tyrande Lunar Flare stuns a target for your Bone Prison root and Poison Nova",
+    "medivh": "Medivh Ley Line Seal freezes a group for your Poison Nova and Skeletal Mages to stack",
+    "liming": "Li-Ming Disintegrate and Arcane Orb melt the clump held by your Bone Prison and Cursed Strikes",
+    "falstad": "Falstad Mighty Gust knocks enemies together for your Bone Prison and Poison Nova"
+  },
+  "yrel": {
+    "garrosh": "Garrosh Wrecking Ball drops a target into your charged Vindication stun",
+    "zarya": "Zarya Graviton Surge holds a group inside your charged Vindication and Aegis of Wrath",
+    "sgthammer": "Sgt. Hammer Concussive Blast stuns a target for your charged Aegis of Wrath",
+    "whitemane": "Whitemane Inquisition roots a target you finish with charged Vindication"
+  },
+  "zagara": {
+    "etc": "ETC Mosh Pit clumps enemies right on your Banelings and Devouring Maw",
+    "jaina": "Jaina Ring of Frost freezes a group for your Banelings and Devouring Maw",
+    "deckard": "Deckard Scroll of Sealing walls enemies in for your Devouring Maw and Baneling volleys"
+  },
+  "zarya": {
+    "garrosh": "Garrosh Wrecking Ball tosses a target into your Graviton Surge vortex",
+    "illidan": "Illidan dives under your ally shield, soaking damage to charge energy for Graviton Surge",
+    "valla": "Valla Strafe pressure keeps enemies grouped for your Graviton Surge to catch them",
+    "sonya": "Sonya Leap slows a group so your Graviton Surge and grenades land clean"
+  },
+  "zeratul": {
+    "abathur": "Abathur Symbiote hat shields and spikes you through a deeper backline burst",
+    "diablo": "Diablo Shadow Charge stuns a target for your Singularity Spike and Cleave burst",
+    "garrosh": "Garrosh Wrecking Ball throws a target to you for a full Singularity Spike combo",
+    "jaina": "Jaina Ring of Frost freezes a target you delete with Singularity Spike and Cleave"
+  },
+  "zuljin": {
+    "etc": "ETC Mosh Pit holds a group for your Berserker auto-attacks and Guillotine",
+    "tassadar": "Tassadar Plasma Shield lets you stand and unload auto-attacks safely",
+    "uther": "Uther Hammer of Justice stuns a target for your Grievous Throw and steady axe fire",
+    "medivh": "Medivh Ley Line Seal freezes enemies for your Guillotine and Grievous Throw"
+  }
+}
