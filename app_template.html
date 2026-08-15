@@ -286,7 +286,7 @@ select:focus, input:focus { outline: 1px solid var(--gold); outline-offset: -1px
 .goals h3 { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.24em; color: var(--gold2); margin-bottom: 7px; }
 .goal { display: flex; gap: 9px; align-items: baseline; padding: 3px 0; }
 .goal .ph { font-size: 9px; font-weight: 800; width: 54px; flex: none; text-transform: uppercase; letter-spacing: 0.1em; }
-.goal .ph.early { color: var(--green); } .goal .ph.mid { color: var(--gold); } .goal .ph.late { color: #9db7ff; } .goal .ph.fight { color: #ff7373; } .goal .ph.setup { color: #4fd1c5; }
+.goal .ph.early { color: var(--green); } .goal .ph.mid { color: var(--gold); } .goal .ph.late { color: #9db7ff; } .goal .ph.fight { color: #ff7373; } .goal .ph.setup { color: #4fd1c5; } .goal .ph.trait { color: #b794f6; }
 
 /* ============ HERO POOL (inline picker) ============ */
 #poolBox input { width: 100%; margin-bottom: 12px; font-size: 14px; clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
@@ -534,6 +534,19 @@ function goalsFor(hero, allies, enemies) {
   g.push(["mid", (plan.mid || "Group at 10 and take the fight.") + " This map: " + obj + "."]);
   // FIGHTS: hero job, then draft-specific target/threat lines
   g.push(["fight", plan.fight || "Play your role in the fight"]);
+  // YOUR TRAIT: skill-expression play; for reactive traits (cleanse/peel/save)
+  // name the actual enemy dive/lockdown threats in THIS draft.
+  const traitTip = m.trait_tip || "";
+  if (traitTip) {
+    let line = traitTip;
+    const reactive = /purge|cleanse|unstoppable|protect|\bsave\b|peel|bubble|shield|block|body|dispel|deny/i.test(traitTip);
+    if (reactive) {
+      const danger = enemies.filter(e => (DATA.meta[e].tags.dive || 0) > 0
+        || roleOf(e) === "Melee Assassin" || (DATA.meta[e].tags.cc || 0) >= 2);
+      if (danger.length) line += " This game the danger is their " + danger.slice(0, 2).map(nameOf).join(" and ") + ".";
+    }
+    g.push(["trait", line]);
+  }
   // YOUR TEAM: specific setups from allies actually drafted (spec combos)
   const combos = m.combos || {};
   allies.filter(a => combos[a]).slice(0, 2).forEach(a => g.push(["setup", combos[a]]));

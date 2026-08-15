@@ -1,0 +1,553 @@
+{
+"abathur": [
+{
+"name": "Locust Strain",
+"desc": "Spawns a Locust to attack down the nearest lane every 15 seconds. Locusts last for 16 seconds, have 350 (+4% per level) health and deal 46 (+4% per level) damage with each Basic Attack, dealing 25% bo"
+}
+],
+"alarak": [
+{
+"name": "Sadism",
+"desc": "Alarak's Ability damage and self-healing are increased by 100% against enemy Heroes.  Repeatable Quest: Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death."
+}
+],
+"alexstrasza": [
+{
+"name": "Dragonqueen",
+"desc": "After 1.25 seconds, transform into a dragon and gain 500 (+4% per level) Health.  While Dragonqueen is active, Alexstrasza's Abilities are empowered, and her Basic Attacks deal 143 (+4% per level) dam"
+},
+{
+"name": "Dragonqueen",
+"desc": "Alexstrasza has transformed into a powerful dragon aspect, gaining 500 (+4% per level) Health, resistance to disabling effects, and empowered Basic Attacks and Abilities."
+}
+],
+"ana": [
+{
+"name": "Shrike",
+"desc": "Basic Attacks apply a Dose to enemies, dealing 40 (+4% per level) damage over 5 seconds, plus additional damage equal to the current number of stacks on the target, stacking up to 5 times. Every 0.5 s"
+}
+],
+"anduin": [
+{
+"name": "Leap of Faith",
+"desc": "Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel.  Pursued By Grace  Basic Attacks against enemy Heroes heal the lowest Health allied Hero near An"
+}
+],
+"anubarak": [
+{
+"name": "Scarab Host",
+"desc": "Using an Ability spawns a Beetle which lasts for 8 seconds, attacking nearby enemies for 20 (+4% per level) damage."
+}
+],
+"artanis": [
+{
+"name": "Shield Overload",
+"desc": "After taking damage while below 75% Health, Artanis gains a 365 (+4% per level) Shield for 5 seconds. Basic Attacks lower the cooldown of Shield Overload by 4 seconds."
+}
+],
+"arthas": [
+{
+"name": "Frostmourne Hungers",
+"desc": "Activate to make Arthas's next Basic Attack strike immediately and deal 99 (+4% per level) increased damage. Dealing damage restores 30 Mana."
+}
+],
+"auriel": [
+{
+"name": "Bestow Hope",
+"desc": "Passive: 60% of the damage Auriel deals to Heroes and 20% dealt to non-Heroes is stored as energy.  Bestow an allied Hero with Hope.  While they remain near Auriel, 30% of their damage to Heroes and 1"
+}
+],
+"azmodan": [
+{
+"name": "Demon Lieutenant",
+"desc": "Summon a Demon Lieutenant at any allied Mercenary, Minion, or Azmodan Demon. The Lieutenant will cast Demonic Smite every 7 seconds, instantly killing an enemy Minion. Lasts 20 seconds.  Usable while "
+}
+],
+"blaze": [
+{
+"name": "Pyromania",
+"desc": "Gain 40 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.  Each Hero hit by Flame Stream reduces Pyromania's cooldown by 4 seconds."
+}
+],
+"brightwing": [
+{
+"name": "Soothing Mist",
+"desc": "Activate to remove all Stun, Root, Slow, and Silence effects from nearby allied Heroes.  Passive: Brightwing heals nearby allied Heroes for 110 (+4% per level) every 4 seconds"
+}
+],
+"cassia": [
+{
+"name": "Avoidance",
+"desc": "While moving, Cassia gradually gains up to 30 Armor over 3 seconds. After being stationary for 0.75 seconds, the Armor is rapidly lost over .5 seconds.  Avoidance remains charged while Fending."
+}
+],
+"chen": [
+{
+"name": "Fortifying Brew",
+"desc": "Chen drinks from his keg, gaining 50 Brew and 180 (+4% per level) temporary Shields per second, up to a maximum of 540 (+4% per level) while drinking. Shields persist for 4 seconds after he stops drin"
+}
+],
+"chogall": [
+{
+"name": "Ogre Hide",
+"desc": "Activate to gain 25 Armor, but reduce Gall's damage by 25%."
+}
+],
+"chromie": [
+{
+"name": "Timewalker",
+"desc": "Chromie has traveled to the future, and as such, will learn her Talents 2 levels earlier than her teammates!  Detonate Time Trap  Detonates active Time Traps."
+}
+],
+"deathwing": [
+{
+"name": "Aspect of Death",
+"desc": "Deathwing is fitted with 4 Armor Plates which grant 10 Armor each. Every 25% Health lost causes Deathwing to lose a plate. Plates are only restored when Dragonflight is used, based on the amount of He"
+}
+],
+"deckard": [
+{
+"name": "Fortitude of the Faithful",
+"desc": "When at least 1 other allied Hero is nearby, Deckard gains 10 Armor and his Basic Abilities recharge 50% faster."
+}
+],
+"dehaka": [
+{
+"name": "Essence Collection",
+"desc": "Heal Dehaka for 29 (+4% per level) Health per stored Essence over 5 seconds. Can be cast during Drag and Burrow.  Passive: Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying. Maxim"
+}
+],
+"diablo": [
+{
+"name": "Black Soulstone",
+"desc": "Repeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.3% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 1"
+}
+],
+"dva": [
+{
+"name": "Mech Mode",
+"desc": "When D.Va's Mech dies, she is ejected out after 0.75 seconds and can continue to fight. D.Va's Mech only awards 50% of a normal Hero's experience upon dying.  Fusion Cannons  D.Va's Mech Basic Attacks"
+},
+{
+"name": "Cancel Defense Matrix",
+"desc": "Stop channeling Defense Matrix"
+},
+{
+"name": "Pilot Mode",
+"desc": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying."
+}
+],
+"etc": [
+{
+"name": "Rockstar",
+"desc": "Using a Basic Ability grants 20 Armor for 2 seconds. Heroic Abilities grant 60 Armor."
+}
+],
+"falstad": [
+{
+"name": "Tailwind",
+"desc": "Gain 15% increased Movement Speed after not taking damage for 5 seconds."
+}
+],
+"fenix": [
+{
+"name": "Shield Capacitor",
+"desc": "Fenix has a permanent 760 (+4% per level) Shield which regenerates at 10% per second after not taking damage for 5 seconds."
+}
+],
+"gall": [
+{
+"name": "Ogre Rage",
+"desc": "Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25.  Passive: Gall is permanently immune to Stun and Silence effects."
+}
+],
+"garrosh": [
+{
+"name": "Armor Up",
+"desc": "Garrosh gains 1 Armor for every 2% of maximum Health missing."
+}
+],
+"gazlowe": [
+{
+"name": "Reduce, Reuse, Recycle",
+"desc": "Regenerate 1 Scrap every 4 seconds. Destroyed Rock-It! Turrets drop 1 Scrap, which can be picked up.  Activate to destroy a target Rock-It! Turret."
+}
+],
+"genji": [
+{
+"name": "Cyber Agility",
+"desc": "Activate to jump to the target area."
+}
+],
+"greymane": [
+{
+"name": "Curse of the Worgen",
+"desc": "Greymane can use certain Abilities to shapeshift between a Human and a Worgen.  While Human, Greymane's Basic Attacks are ranged.  While Worgen, Greymane gains 10 Armor, and his Basic Attacks become m"
+}
+],
+"guldan": [
+{
+"name": "Life Tap",
+"desc": "Gul'dan does not regenerate Mana.  Activate to restore 25% of Gul'dan's Mana."
+}
+],
+"hanzo": [
+{
+"name": "Natural Agility",
+"desc": "Jump over unpathable terrain or Structures, up to a maximum range."
+}
+],
+"hogger": [
+{
+"name": "Loot Hoard",
+"desc": "Toss a pile of junk onto the battlefield, dealing 102 (+4% per level) damage in an area, knocking enemies away, and acting as terrain for up to 5 seconds.  When the Loot Hoard expires or is destroyed,"
+}
+],
+"illidan": [
+{
+"name": "Betrayer's Thirst",
+"desc": "Basic Attacks heal for 30% of damage dealt and reduce Ability cooldowns by 1 second."
+}
+],
+"imperius": [
+{
+"name": "Valorous Brand",
+"desc": "Each Basic Ability marks enemy Heroes hit for 10 seconds. Basic Attacks consume the target's marks, dealing 20% bonus damage per mark and healing for 75 (+4% per level) per mark."
+}
+],
+"jaina": [
+{
+"name": "Frostbite",
+"desc": "Jaina's Abilities Chill targets, Slowing them by 25% and amplifying damage taken from her Abilities by 50%. Lasts 4 seconds.  Quest: Deal 12000 Ability damage to Chilled Heroes.  Reward: Unlock the Im"
+}
+],
+"johanna": [
+{
+"name": "Iron Skin",
+"desc": "Activate to grant Johanna a Shield that absorbs 810 (+4% per level) damage for 4 seconds. While this Shield is active, Johanna is Unstoppable."
+}
+],
+"junkrat": [
+{
+"name": "Total Mayhem",
+"desc": "Upon dying, drop 5 grenades that explode after 0.75 seconds, each dealing 250 (+4% per level) damage to nearby enemies. Deals 75% less damage to Structures.  Detonate Mine  Detonate an active Concussi"
+}
+],
+"kaelthas": [
+{
+"name": "Verdant Spheres",
+"desc": "Activate to make Kael'thas's next Basic Ability more powerful."
+}
+],
+"kelthuzad": [
+{
+"name": "Master of the Cold Dark",
+"desc": "Quest: Gain 1 Blight every time a Hero is Rooted by Frost Nova or hit by Chains of Kel'Thuzad.  Reward: After gaining 15 Blight, gain the Glacial Spike Ability.  Reward: After gaining 30 Blight, gain "
+}
+],
+"kerrigan": [
+{
+"name": "Assimilation",
+"desc": "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)"
+}
+],
+"kharazim": [
+{
+"name": "Pick Your Trait",
+"desc": "Choose between Transcendence, Iron Fists, and Insight from the Talents panel."
+}
+],
+"leoric": [
+{
+"name": "Undying",
+"desc": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.  Wrath Of The Bone King  Leoric's first two Basic Attacks cleave for 100% damage, and "
+}
+],
+"lili": [
+{
+"name": "Fast Feet",
+"desc": "Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second."
+}
+],
+"liming": [
+{
+"name": "Critical Mass",
+"desc": "Getting a Takedown will refresh the cooldown on all of Li-Ming's Abilities."
+}
+],
+"lostvikings": [
+{
+"name": "Viking Hoard",
+"desc": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second"
+}
+],
+"ltmorales": [
+{
+"name": "Caduceus Reactor",
+"desc": "While channeling Healing Beam, Lt. Morales regenerates 2% of her maximum Health per second."
+}
+],
+"lucio": [
+{
+"name": "Push Off",
+"desc": "While moving alongside terrain, activate to slide towards a targeted location. Enemies hit take 100 (+4% per level) damage and are Slowed by 75% for 1 second."
+}
+],
+"lunara": [
+{
+"name": "Nature's Toxin",
+"desc": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing 33 (+4% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a m"
+}
+],
+"maiev": [
+{
+"name": "Vault of the Wardens",
+"desc": "Leap into the air, becoming Immune to all hostile effects for 0.75 seconds.  After reaching Level 20, Vault of the Wardens gains an additional charge."
+}
+],
+"malfurion": [
+{
+"name": "Innervate",
+"desc": "Grant an allied Hero 20% of their maximum Mana over 5 seconds. While affected by Innervate, their Basic Ability cooldowns recharge 50% faster.  Cannot be used on Heroes that do not use Mana."
+}
+],
+"malganis": [
+{
+"name": "Vampiric Touch",
+"desc": "Mal'Ganis heals for 45% of damage dealt to enemy Heroes and 10% of damage dealt to non-Heroes."
+}
+],
+"malthael": [
+{
+"name": "Reaper's Mark",
+"desc": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 2% of their maximum Healt"
+}
+],
+"medivh": [
+{
+"name": "Raven Form",
+"desc": "Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects."
+}
+],
+"mei": [
+{
+"name": "Cryo-Freeze",
+"desc": "Become encased in ice for 3 seconds, gaining a rapidly decaying Shield that absorbs up to 1104 (+4% per level) damage. While active, this Shield grants Unstoppable and restores up to 35% of Mei's maxi"
+}
+],
+"mephisto": [
+{
+"name": "Lord Of Hatred",
+"desc": "Hitting enemy Heroes with Basic Abilities reduces Mephisto's Basic Ability cooldowns.  Skull Missile and Shade of Mephisto grant 1.5 seconds of cooldown reduction per Hero hit, and Lightning Nova gran"
+}
+],
+"muradin": [
+{
+"name": "Second Wind",
+"desc": "Muradin restores 55 (+4% per level) Health per second when he has not taken damage for 4 seconds. When below 40% Health, increased to 111 (+4% per level) Health per second."
+}
+],
+"murky": [
+{
+"name": "Spawn Egg",
+"desc": "Place an Egg at target location, revealing the nearby area. Upon dying, Murky respawns at the Egg after 8 seconds. Murky only grants 25% of a real Hero's experience upon dying.  If Murky's Egg is kill"
+}
+],
+"nazeebo": [
+{
+"name": "Voodoo Ritual",
+"desc": "Nazeebo's Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 67 (+4% per level) additional damage over 6 seconds.  Quest: If a Minion dies while poisoned by Voodoo Ritual, Naz"
+}
+],
+"nova": [
+{
+"name": "Permanent Cloak",
+"desc": "Gain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  P"
+}
+],
+"orphea": [
+{
+"name": "Overflowing Chaos",
+"desc": "Hitting an enemy Hero with a Basic Ability grants 1 Chaos. Chaos can stack up to 3 times.  While Orphea has Chaos, her Basic Attacks against Heroes consume all Chaos, dealing 50% increased damage per "
+}
+],
+"probius": [
+{
+"name": "Warp In Pylon",
+"desc": "Warp in a Pylon that generates a Power Field and grants vision of the surrounding area. Probius only regenerates mana while inside a Power Field. Enemy Heroes and Minions drop Minerals when killed. Ga"
+}
+],
+"qhira": [
+{
+"name": "Grappling Hook",
+"desc": "Qhira fires a grappling hook that pulls her to terrain it contacts. If an enemy Hero is hit, they take 35 (+4% per level) damage and Qhira launches at them, kicking them for an additional 108 (+4% per"
+}
+],
+"ragnaros": [
+{
+"name": "Molten Core",
+"desc": "Channel on an allied or destroyed Fort or Keep to replace it with Ragnaros's ultimate form, temporarily gaining new Abilities, having 3996 (+4% per level) Health that burns away over 18 seconds.  Ragn"
+}
+],
+"raynor": [
+{
+"name": "Give 'Em Some Pepper",
+"desc": "Every 4th Basic Attack splashes in a small area and deals 125% more damage to the main target."
+}
+],
+"rehgar": [
+{
+"name": "Purge",
+"desc": "When used on an allied Hero, make them Unstoppable for 0.5 seconds. When used on an enemy Hero, Slow them by 80%, decaying over 2 seconds.  Cannot be cast on yourself."
+}
+],
+"rexxar": [
+{
+"name": "Misha, Focus!",
+"desc": "Passive: Misha gains 15% move speed.  Command Misha to attack a specific enemy or move to a point and wait.  Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until sh"
+}
+],
+"samuro": [],
+"sgthammer": [
+{
+"name": "Siege Mode",
+"desc": "Activate to enter Siege Mode. While in Siege Mode, Basic Attacks deal 20% more damage, have 100% increased range, and deal 25% of their damage as splash damage around the target."
+}
+],
+"sonya": [
+{
+"name": "Fury",
+"desc": "Use Fury instead of Mana, which is gained by taking damage or dealing Basic Attack damage. Using a Basic or Heroic Ability grants 10% Movement Speed for 4 seconds."
+}
+],
+"stitches": [
+{
+"name": "Shambling Horror",
+"desc": "Activate to spread Vile Gas in a large area every second and prevent your Movement Speed from being reduced below 110% for 4 seconds.  Vile Gas Hitting enemies with Basic Attacks or the inner area of "
+}
+],
+"stukov": [
+{
+"name": "Bio-Kill Switch",
+"desc": "Activate to detonate all of Stukov's Viruses. Each Healing Pathogen heals its target for 435 (+4% per level) Health, and each Weighted Pustule does 100 (+4% per level) damage and Slows its target by 7"
+}
+],
+"sylvanas": [
+{
+"name": "Black Arrows",
+"desc": "Activate to cause all Basic Attacks and Abilities to Stun Minions, non-Elite Mercenaries, and Structures for 3 seconds. Lasts for 10 seconds.   Banshee's Curse  Basic Attacks infect enemies with Bansh"
+}
+],
+"tassadar": [
+{
+"name": "Resonance Beam",
+"desc": "Tassadar's Basic Attack is a Channeled beam that Slows by 15%. While Channeling, your Basic Attack damage and Mana regeneration increases by 25% a second, to a maximum of 100%. While at full charge, g"
+}
+],
+"thebutcher": [
+{
+"name": "Fresh Meat",
+"desc": "Upon dying, nearby enemy Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying.  Que"
+}
+],
+"thrall": [
+{
+"name": "Frostwolf Resilience",
+"desc": "Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 223 (+4% per level) Health."
+}
+],
+"tracer": [
+{
+"name": "Reload",
+"desc": "Tracer can Basic Attack while moving, and after attacking 10 times she needs to reload over 0.75 seconds. Tracer can manually reload early by activating Reload.  Basic Attacks heal Tracer for 10% of t"
+}
+],
+"tychus": [
+{
+"name": "Minigun",
+"desc": "Activate to have Basic Attacks against Heroes deal bonus damage equal to 2.5% of their maximum Health. Lasts 3 seconds."
+}
+],
+"tyrael": [
+{
+"name": "Archangel's Wrath",
+"desc": "Upon dying, become Invulnerable and gain 20% Movement Speed for 4 seconds. Upon expiration, explode, dealing 450 (+4% per level) damage and reducing Tyrael's death timer by 10% per enemy Hero hit. Arc"
+}
+],
+"tyrande": [
+{
+"name": "Hunter's Mark",
+"desc": "Reveal a non-Structure enemy and reduce their Armor by 15 for 4 seconds.  Passive: Tyrande's Basic Attacks heal her for 1% of her maximum Health, doubled against targets with Hunter's Mark."
+}
+],
+"uther": [
+{
+"name": "Devotion",
+"desc": "Uther's Basic Abilities grant 25 Armor to allied Heroes, and 15 to Uther, for 2 seconds.  Eternal Vanguard  Upon dying, Uther becomes an Invulnerable spirit for up to 8 seconds. While in spirit form, "
+}
+],
+"valeera": [
+{
+"name": "Vanish",
+"desc": "Vanish from sight, becoming Stealthed, gaining 20% Movement Speed and access to new Abilities. For the first second, Valeera is Unrevealable and can pass through other units. Remaining stationary for "
+},
+{
+"name": "Cancel Stealth",
+"desc": "Cancels Stealth."
+}
+],
+"valla": [
+{
+"name": "Hatred",
+"desc": "Basic Attacks grant a stack of Hatred, up to 10. Each Hatred stack increases Basic Attack damage by 8% and Movement Speed by 1%. Lasts 6 seconds."
+}
+],
+"varian": [
+{
+"name": "Heroic Strike",
+"desc": "Every 18 seconds, Varian's next Basic Attack deals 125 (+4% per level) bonus Spell Damage. Basic Attacks reduce this cooldown by 3 seconds."
+}
+],
+"whitemane": [
+{
+"name": "Zeal",
+"desc": "Whitemane's healing Abilities apply Zeal for 8 seconds. Allies with Zeal are healed for 100% of the damage Whitemane deals to Heroes.  Activate to gain 25% Spell Power and lose 15 Armor for 5 seconds."
+}
+],
+"xul": [
+{
+"name": "Raise Skeleton",
+"desc": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 240 (+4% per level) Health that attacks for 21 (+4% per level) damage and lasts up to 12 seconds. Upon death, Skeletal Warriors deal"
+}
+],
+"yrel": [
+{
+"name": "Divine Purpose",
+"desc": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reset when Yrel casts a Heroic ability.  Passive: Yrel's Basic Abilities charge up over 1.5 seconds"
+}
+],
+"zagara": [
+{
+"name": "Creep Tumor",
+"desc": "Lay a Creep Tumor that generates Creep. While on Creep, Zagara moves 20% faster and her summons move 30% faster. Tumors last 240 seconds and reveal the surrounding area while active.  Stores up to 3 c"
+}
+],
+"zarya": [
+{
+"name": "Energy",
+"desc": "Each time Zarya's Personal Barrier or Shield Ally absorbs 9 (+4% per level) damage, her Energy is increased by 1. Each point of Energy increases Zarya's damage by 2%. After 0.5 seconds, Energy decays "
+}
+],
+"zeratul": [
+{
+"name": "Permanent Cloak",
+"desc": "Gain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible."
+}
+],
+"zuljin": [
+{
+"name": "Berserker",
+"desc": "Activate to increase Basic Attack damage by 25% but consume 2% maximum Health per attack.  Passive: Zul'jin attacks 1% faster for every 1% of maximum Health missing.  You Want Axe?  Quest: Every 5 Bas"
+}
+]
+}
