@@ -519,48 +519,30 @@ const MAP_OBJ = {
 function tierRank(h) { return { S: 3, A: 2, B: 1, C: 0 }[DATA.meta[h].tier] ?? 1; }
 function goalsFor(hero, allies, enemies) {
   const m = DATA.meta[hero], role = roleOf(hero), kit = m.kit || {};
+  const plan = m.plan || {};
   const g = [];
   const obj = MAP_OBJ[state.map] || "the objective";
-  // who on the enemy team matters
   const carry = enemies.filter(e => roleOf(e) === "Ranged Assassin").sort((a, b) => tierRank(b) - tierRank(a))[0]
     || enemies.filter(e => ["Melee Assassin", "Bruiser"].includes(roleOf(e))).sort((a, b) => tierRank(b) - tierRank(a))[0];
   const diver = enemies.find(e => (DATA.meta[e].tags.dive || 0) > 0 || roleOf(e) === "Melee Assassin");
-  const enemyHealer = enemies.find(e => roleOf(e) === "Healer");
-  // EARLY: lane assignment aware of the rest of the comp
+  // EARLY: the hero's own coaching, plus their solo matchup profile when relevant
   const otherSolo = allies.some(a => roleOf(a) === "Bruiser");
-  if (role === "Bruiser" && !otherSolo) g.push(["early", "You are the solo laner: hold your lane, soak every wave, don't die for a trade"]);
-  else if (role === "Bruiser") g.push(["early", "Two bruisers: take the tougher solo matchup, the other flexes with the team"]);
-  else if (role === "Tank") g.push(["early", "Rotate the 4-man lanes with your ranged, punish anyone who steps up" + (diver ? ", and body-block " + nameOf(diver) + " off your backline" : "")]);
-  else if (role === "Healer") g.push(["early", "Stay with the 4-man" + (diver ? ", hug your team, " + nameOf(diver) + " will look for you first" : ", don't burn big cooldowns on poke")]);
-  else if (m.scale === "early") g.push(["early", "You are strongest NOW: force trades and camps before they come online"]);
-  else if (m.scale === "late") g.push(["early", "Give ground, soak, don't feed: you outscale this lobby hard"]);
-  else g.push(["early", "Trade evenly in the 4-man, arrive at 10 healthy and even in XP"]);
-  // MID: map objective + the hero's actual heroic
-  if (kit.h10) {
-    const use = kit.h10type === "lockdown" ? "when they clump on " + obj + (carry ? ", catching " + nameOf(carry) : "")
-      : kit.h10type === "burst" ? "to open the fight at " + obj + (carry ? " onto " + nameOf(carry) : "")
-      : kit.h10type === "save" ? "to answer their engage at " + obj + ", not before it"
-      : "at " + obj + ", it decides the fight";
-    g.push(["mid", "Group at 10 and fight over " + obj + ". Your job: " + kit.h10 + " " + use]);
-  } else {
-    g.push(["mid", "Group at 10 and fight over " + obj + " with ult advantage"]);
-  }
-  if (m.tags.global) g.push(["mid", "Between objectives, use your global to double-soak and arrive free"]);
-  else if (m.tags.camps) g.push(["mid", "Start camps just before " + obj + " spawns so they push while you contest"]);
-  // FIGHTS: the hero's actual cc tool aimed at the right enemy
+  g.push(["early", plan.early || "Trade evenly, arrive at 10 healthy and even in XP"]);
+  if (role === "Bruiser" && !otherSolo && m.solo) g.push(["early", m.solo]);
+  // MID: hero coaching + this map's objective
+  g.push(["mid", (plan.mid || "Group at 10 and take the fight.") + " This map: " + obj + "."]);
+  // FIGHTS: hero job, then draft-specific target/threat lines
+  g.push(["fight", plan.fight || "Play your role in the fight"]);
   if (kit.cc && (diver || carry)) {
-    const target = diver && roleOf(hero) !== "Tank" ? nameOf(diver) : (carry ? nameOf(carry) : nameOf(diver));
-    g.push(["fight", "Save " + kit.cc + " for " + target + (diver && target === nameOf(diver) ? " the moment they jump in" : ", don't waste it on the frontline")]);
-  } else if (enemyHealer && ["Ranged Assassin", "Melee Assassin"].includes(role)) {
-    g.push(["fight", "Their healing runs through " + nameOf(enemyHealer) + ": swap to them once the frontline burns cooldowns"]);
+    const target = diver && role !== "Tank" ? nameOf(diver) : (carry ? nameOf(carry) : nameOf(diver));
+    g.push(["fight", "This game: save " + kit.cc + " for " + target + (diver && target === nameOf(diver) ? " the moment they jump in" : "")]);
   }
   const threats = enemies.filter(e => (DATA.meta[e].beats || []).includes(hero) || (m.loses || []).includes(e));
   const prey = enemies.filter(e => (m.beats || []).includes(e));
   if (threats.length) g.push(["fight", "Respect " + threats.map(nameOf).join(" and ") + ", they counter you"]);
-  else if (prey.length) g.push(["fight", "Punish " + prey.map(nameOf).join(" and ") + " every time they show"]);
+  if (prey.length) g.push(["fight", "Punish " + prey.map(nameOf).join(" and ") + " every time they show"]);
   // LATE
-  if (m.scale === "late") g.push(["late", "You win late 5v5s: force them to answer you around boss and " + obj]);
-  else g.push(["late", "Don't get caught alone, one death past 20 loses the game"]);
+  g.push(["late", plan.late || "Don't get caught alone, one death past 20 loses the game"]);
   return g;
 }
 

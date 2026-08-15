@@ -1,0 +1,206 @@
+{
+  "raynor": {
+    "syn": ["etc", "garrosh", "thrall", "ltmorales"],
+    "beats": ["tracer", "thebutcher", "zagara"],
+    "loses": ["johanna", "artanis", "cassia", "zeratul"],
+    "plan": {
+      "early": "Stutter-step autos to stack Give 'Em Some Pepper, Inspire on the wave to shove, and hold Penetrating Round purely to peel ganks.",
+      "mid": "Raynor's Raider at 10: drop the banshee on the objective tank and keep autoing from max range while Inspire keeps attack speed up.",
+      "fight": "Backline turret: sit max range, shoot their frontline until a diver commits, then knockback the diver and kite behind your tank.",
+      "late": "Line 'Em Up range at 13 lets you shred tanks from safety; you die instantly if dived, so never walk first and hug your team."
+    },
+    "solo": ""
+  },
+  "sgthammer": {
+    "syn": ["etc", "johanna", "ltmorales", "ana"],
+    "beats": ["tracer", "azmodan", "arthas"],
+    "loses": ["chromie", "kelthuzad", "liming", "stitches", "artanis"],
+    "plan": {
+      "early": "Siege behind your gate at max Artillery range, mine the flank bush, and unsiege the second their frontline steps toward you.",
+      "mid": "Blunt Force Gun at 10: fire it across the objective to finish runners or wipe the wave; stay sieged behind your team, never ahead.",
+      "fight": "Win by sieging where they can't reach: shell their frontline, keep Thrusters banked for the one dive, Spider Mines behind you.",
+      "late": "Advanced Artillery range shells keeps from outside tower range, that ends games; one Stitches hook or lockdown chain deletes you."
+    },
+    "solo": ""
+  },
+  "sylvanas": {
+    "syn": ["etc", "diablo", "maiev", "malfurion"],
+    "beats": ["zagara", "azmodan", "murky"],
+    "loses": ["nova", "valeera", "zeratul", "genji"],
+    "plan": {
+      "early": "Stack Black Arrows fast: shove with Withering Fire, poke structures with the trait stun, and keep Haunting Wave strictly as escape.",
+      "mid": "Mind Control at 10: on objectives drag their tank out of position, and your trait locks towers so your team dives gates for free.",
+      "fight": "Spread Black Arrows with autos from the second row, save Haunting Wave to dodge the engage; you shoot, you never frontline.",
+      "late": "Late you delete keeps in seconds: push a side lane to force a split, then Mind Control the flanker they send into your team."
+    },
+    "solo": ""
+  },
+  "tracer": {
+    "syn": ["tassadar", "abathur", "malfurion", "anduin"],
+    "beats": ["chromie", "kaelthas", "nazeebo"],
+    "loses": ["varian", "diablo", "raynor", "sgthammer"],
+    "plan": {
+      "early": "Roam between lanes finishing low targets, keep one Blink charge banked at all times, and Recall out of any trade gone wrong.",
+      "mid": "Level 10 upgrades your bomb: take Sticky Bomb, stick the healer on engage, and Blink clear before the pop; the slow strands them.",
+      "fight": "Weave onto the backline, dump full clips into the healer, Blink sideways through skillshots, Recall only when Blinks are spent.",
+      "late": "Late you win by never dying: drag chasers away from the fight, reload behind pillars, and let their respawn timers end the game."
+    },
+    "solo": ""
+  },
+  "tychus": {
+    "syn": ["garrosh", "etc", "dehaka", "uther"],
+    "beats": ["chogall", "diablo", "stitches", "azmodan", "deathwing"],
+    "loses": ["anubarak", "johanna", "lucio"],
+    "plan": {
+      "early": "Short range means patience: clear waves with Overkill, Run and Gun to dodge the gank angle, and trade only when Minigun is up.",
+      "mid": "Commandeer Odin at 10: stomp in as the objective starts; its range fixes your short arm and forces them to scatter or melt.",
+      "fight": "Shred the frontline: Minigun their tank for percent damage, Run and Gun out of dives, and hold Frag Grenade to peel for yourself.",
+      "late": "Late you beat every tank comp; the risk is your 4.5 range, so wait for their engage, then Odin second-line and burn the biggest target."
+    },
+    "solo": ""
+  },
+  "valla": {
+    "syn": ["arthas", "garrosh", "auriel", "uther"],
+    "beats": ["azmodan", "arthas", "stitches"],
+    "loses": ["illidan", "nova", "valeera", "zeratul", "thebutcher"],
+    "plan": {
+      "early": "Keep Hatred at 10 stacks by tagging something every 5 seconds, clear with Multishot, and treat Vault as your escape, not a toy.",
+      "mid": "Rain of Vengeance at 10: hold it to peel the diver off you or to chain stuns after your tank engages, never as opening poke.",
+      "fight": "Max-range autos on the closest safe target, Multishot to reveal stealth, and Vault away the instant a melee turns toward you.",
+      "late": "Manticore at 16 shreds tanks; late you win any autos-only fight but die to one gank, so never walk the map alone."
+    },
+    "solo": ""
+  },
+  "zagara": {
+    "syn": ["etc", "jaina", "deckard"],
+    "beats": ["lostvikings", "azmodan", "murky"],
+    "loses": ["illidan", "falstad", "chen", "zeratul"],
+    "plan": {
+      "early": "Plant creep tumors every trip, shove with Banelings plus Infested Drop, and out-rotate: your speed and vision on creep win the map.",
+      "mid": "Devouring Maw at 10: swallow their healer plus a chaser on engage and kill the players left outside before it spits them back.",
+      "fight": "Sit max range on creep, Hunter Killer the squishiest target, Infested Drop on cooldown, and never get caught off creep by a diver.",
+      "late": "Late, shove side lanes before every fight and seed tumors deep; if they group your push wins, if they split Maw punishes the 4v5."
+    },
+    "solo": "Strong solo laner on big maps: trades with Hunter Killer, soaks safely behind creep vision, and is hard to gank on her own turf."
+  },
+  "zuljin": {
+    "syn": ["etc", "tassadar", "uther", "medivh"],
+    "beats": ["chogall", "azmodan", "stitches"],
+    "loses": ["garrosh", "dehaka", "etc", "uther"],
+    "plan": {
+      "early": "Angle Twin Cleave through the wave onto their hero, channel Regeneration only from fog, and stack You Want Axe? without dying.",
+      "mid": "Taz'dingo at 10: flip it the moment their combo starts, then Berserker to max attack speed and stand in their face for 4 free seconds.",
+      "fight": "Ride low health on purpose for trait attack speed, shred the nearest tank, and Taz'dingo turns their all-in into your best fight.",
+      "late": "Amani Resilience at 20 makes Taz'dingo heal you back up; your real risk is being stunned before you press it, watch their CC first."
+    },
+    "solo": ""
+  },
+  "murky": {
+    "syn": ["johanna", "zarya", "brightwing"],
+    "beats": ["sgthammer", "chromie", "kaelthas"],
+    "loses": ["sonya", "falstad", "liming", "dehaka"],
+    "plan": {
+      "early": "Hide the Egg deep in bushes, shove nonstop with Slime and Pufferfish, and trade your cheap deaths for their cooldowns and XP.",
+      "mid": "Octo-Grab at 10: waddle in and lock their healer or Hammer as your team dives, and call the target first so the stun isn't wasted.",
+      "fight": "Be the distraction: soak abilities up front, Safety Bubble through the burst, and Slime everything so your team cleans up the slowed mess.",
+      "late": "Late your death still only costs them time: keep the Egg moved, push the lane your team isn't in, and Grab the carry when they group."
+    },
+    "solo": "Classic nuisance offlaner: rarely wins the 1v1 kill but never leaves, out-soaks through Egg respawns, and starves their bruiser."
+  },
+  "lostvikings": {
+    "syn": ["zarya", "sylvanas", "sgthammer", "garrosh"],
+    "beats": ["chogall", "thebutcher", "arthas"],
+    "loses": ["zagara", "nova", "zeratul", "falstad", "dehaka"],
+    "plan": {
+      "early": "Three lanes, three Vikings: Olaf takes the dangerous lane, Erik roams the edges, Baleog clears; soak every wave, hit talent spikes first.",
+      "mid": "Play Again at 10 on big maps: keep soaking until the objective goes live, then summon all three in fresh; Erik stalls channels.",
+      "fight": "Never clump: Olaf body-blocks and charges to peel, Baleog spins the wave, Erik kites wide; losing one Viking is fine, three is a wipe.",
+      "late": "The XP lead is the win condition: you reach 20 first, so force fights at your spike and never let a Viking die shown on the map."
+    },
+    "solo": "Not one solo laner but three: they win the soak war outright, and collapsing on one Viking still leaves two earning elsewhere."
+  },
+  "zarya": {
+    "syn": ["garrosh", "illidan", "valla", "sonya"],
+    "beats": ["genji", "tracer", "thebutcher"],
+    "loses": ["yrel", "lunara", "maiev", "auriel"],
+    "plan": {
+      "early": "Lane with a partner: eat poke with Personal Barrier for free Energy, shield your ally right before trades, and grenade at high Energy.",
+      "mid": "Expulsion Zone at 10: drop it on the choke as they engage to cut their team in half, then unload the beam at 100 Energy.",
+      "fight": "Time Shield Ally onto the dive target as burst lands: their engage becomes your Energy, then melt whoever Expulsion displaced.",
+      "late": "Late you let your carry face-tank: keep both barriers rotating; the risk is Energy starving when they refuse to hit shields, force it."
+    },
+    "solo": ""
+  },
+  "alarak": {
+    "syn": ["raynor", "jaina", "etc", "garrosh"],
+    "beats": ["kaelthas", "liming", "guldan"],
+    "loses": ["johanna", "deathwing", "medivh"],
+    "plan": {
+      "early": "Win the solo lane to stack Sadism: Telekinesis them into Discord Strike's silence, and do not die, deaths bleed your stacks.",
+      "mid": "Counter-Strike at 10: bait their stun or burst, flip it back for the kill window, then combo Telekinesis into Discord Strike.",
+      "fight": "Go second: let tanks trade first, then Telekinesis their healer into your team, Discord silences the save, self-cast E to exit.",
+      "late": "At high Sadism you one-shot squishies; every late death costs stacks, so flank, kill isolated targets, and never coin-flip a fight."
+    },
+    "solo": "Premier solo laner: the silence wins trades, Lightning Surge clears while poking, and one kill snowballs Sadism; just respect ganks."
+  },
+  "genji": {
+    "syn": ["jaina", "uther", "etc", "kaelthas"],
+    "beats": ["sylvanas", "lostvikings", "chromie", "hanzo"],
+    "loses": ["varian", "malfurion", "lunara", "uther"],
+    "plan": {
+      "early": "Poke with Shuriken fans, tax the wave, and keep Swift Strike as your exit; dying early on Genji is the only way to lose the lane.",
+      "mid": "X-Strike at 10: land it on a CC'd target after your tank's stun and Swift Strike through so both cross-slashes connect.",
+      "fight": "Hunt the lowest target: a Swift Strike kill resets the dash, Deflect their answer on the way in, Cyber Agility over the wall out.",
+      "late": "Late your resets snowball cleanups; the risks are mana and CC, so keep 25% mana, never dive without Deflect, exit before the stun."
+    },
+    "solo": ""
+  },
+  "illidan": {
+    "syn": ["abathur", "medivh", "rehgar", "zarya"],
+    "beats": ["valla", "zagara", "kaelthas", "guldan"],
+    "loses": ["arthas", "lili", "johanna", "uther", "varian"],
+    "plan": {
+      "early": "Auto everything: Betrayer's Thirst heals you and cuts cooldowns; take camps early, Dive behind for trades, Sweep out before CC.",
+      "mid": "The Hunt at 10: hold it to cross the map for a pick or to join the fight your team starts; open on the healer, never the tank.",
+      "fight": "Dive the backline with The Hunt, Evasion when autos focus you, Sweep through targets to dodge skillshots, kite back through your team.",
+      "late": "Late you live on tempo: split-push, force rotations, and only all-in when their stuns are down; one held Uther stun ends your run."
+    },
+    "solo": "Strong solo lane into auto-attackers thanks to Evasion; loses to blinds and sustained-CC bruisers, so ask for a swap versus Arthas."
+  },
+  "valeera": {
+    "syn": ["garrosh", "etc", "thrall", "abathur"],
+    "beats": ["sylvanas", "valla", "kaelthas", "chromie"],
+    "loses": ["arthas", "medivh", "lucio"],
+    "plan": {
+      "early": "Gank from Vanish: open Cheap Shot on overextended squishies, Sinister Strike out; you tax lanes with kill pressure, not soak.",
+      "mid": "Smoke Bomb at 10: open Garrote on the healer, drop Smoke when their peel arrives, and finish Eviscerate at 3 combo points inside.",
+      "fight": "Wait for their engage, then Garrote-silence the backline caster; you delete one target and Vanish out, you never stand and brawl.",
+      "late": "Late you own the fog: a pick before the objective wins the game, but breaking stealth to a stray AoE near their team is the throw."
+    },
+    "solo": ""
+  },
+  "zeratul": {
+    "syn": ["abathur", "diablo", "garrosh", "jaina"],
+    "beats": ["valla", "sylvanas", "zagara", "sgthammer", "lostvikings"],
+    "loses": ["brightwing", "uther", "varian", "medivh"],
+    "plan": {
+      "early": "Gank with Cleave burst from stealth, Blink in only when the exit is safe, and take camps between ganks; you don't sit in a lane.",
+      "mid": "Void Prison at 10: trap half their team on the objective and kill the outsiders, or Prison the rescuer to seal a pick.",
+      "fight": "Cleave plus autos on the healer, Blink to disjoint the return skillshot, Wormhole back out, re-stealth, and re-enter on cooldown.",
+      "late": "Late one good Prison wins the game: cut their frontline from backline at the choke; the risk is face-checking bushes into CC chains."
+    },
+    "solo": ""
+  },
+  "greymane": {
+    "syn": ["etc", "garrosh", "uther", "malthael"],
+    "beats": ["valla", "liming", "chromie"],
+    "loses": ["arthas", "johanna", "muradin", "thebutcher", "xul"],
+    "plan": {
+      "early": "Bounce Gilnean Cocktail off the wave so the cone burns their hero, stay Human at range, and only go Worgen once their CC is down.",
+      "mid": "Cursed Bullet at 10: fire it into the tank or a fat healer right after your team engages, then Darkflight in and finish in Worgen.",
+      "fight": "Poke in Human until someone hits half, then all-in: Razor Swipe through them, Worgen autos, and Swipe back out when peel arrives.",
+      "late": "Late you execute anyone below half: wait out the healer's cooldowns before the all-in; overstaying in Worgen into CC kills you."
+    },
+    "solo": ""
+  }
+}

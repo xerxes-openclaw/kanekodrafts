@@ -1,0 +1,218 @@
+{
+  "azmodan": {
+    "syn": ["jaina", "johanna", "malfurion", "maiev"],
+    "beats": ["chromie", "kelthuzad", "ltmorales", "sgthammer"],
+    "loses": ["thebutcher", "malthael", "leoric", "anubarak", "sonya"],
+    "plan": {
+      "early": "Stack Globe of Annihilation on full waves, ping so team leaves you the wave; send Demon Lieutenant to empty lanes on cooldown.",
+      "mid": "At 10 take Demonic Invasion: drop it on a fort while your team stalls the objective, trading siege for their attention.",
+      "fight": "Open with max-range Globe on clumps, channel All Shall Burn only behind your front; cancel it the second a stun threatens.",
+      "late": "Late you win via a 200+ stack Globe and constant three-lane push; you lose if stunned mid-channel, so track their CC."
+    },
+    "solo": "Strong solo laner: wins the sustained wave war while stacking Globe, but hard dive punishes his total lack of escape."
+  },
+  "cassia": {
+    "syn": ["lili", "johanna", "artanis", "jaina"],
+    "beats": ["valla", "raynor", "zuljin", "illidan"],
+    "loses": ["kaelthas", "xul", "etc", "malganis"],
+    "plan": {
+      "early": "Fend the wave, keep moving so Avoidance armor stays up, and throw Lightning Fury through gates to stack Thunderstroke.",
+      "mid": "At 10 take Ball Lightning: bounce it between two stunned targets at objectives, then Fend through the leftovers.",
+      "fight": "Your job is deleting their auto-attackers: Blinding Light the Valla or Raynor, then Fend blinded targets for bonus damage.",
+      "late": "Late, Infinite Lightning bounces win extended fights; stay stutter-stepping, standing still drops Avoidance and you melt."
+    },
+    "solo": "Can offlane into auto-attack bruisers thanks to Avoidance and Blind, but loses to mages and heavy CC; a niche counterpick."
+  },
+  "chromie": {
+    "syn": ["malfurion", "ana", "johanna", "etc"],
+    "beats": ["azmodan", "ltmorales", "sgthammer", "nazeebo"],
+    "loses": ["illidan", "zeratul", "tracer", "genji"],
+    "plan": {
+      "early": "Poke Sand Blast on cooldown from max range and finish Timewalker's Pursuit; you outrange everyone, never take return fire.",
+      "mid": "At her early 10 take Slowing Sands: drop it on the objective choke and Dragon's Breath anyone who sits in the slow.",
+      "fight": "Sit two screens back, spam Sand Blast into their frontline, and save Time Trap for the Zeratul or Tracer coming for you.",
+      "late": "Late you outrange keeps and win every poke war, but one dive kills you; never move without a Time Trap planted behind you."
+    },
+    "solo": ""
+  },
+  "falstad": {
+    "syn": ["etc", "arthas", "tassadar", "uther"],
+    "beats": ["kaelthas", "guldan", "azmodan", "sgthammer"],
+    "loses": ["genji", "greymane", "valeera", "zeratul"],
+    "plan": {
+      "early": "Trade with Hammerang plus autos, keep Barrel Roll pocketed, and use Flight to double-soak the moment your wave is safe.",
+      "mid": "At 10 take Mighty Gust: fly cross-map to arrive first at objectives, then Gust their team off the point or into yours.",
+      "fight": "Stutter-step their frontline, hook Lightning Rod on whoever stays in range, and hold Gust to cancel a Mosh or peel divers.",
+      "late": "Late, Flight lets you soak and still make every fight; dying to stealth ganks mid-rotation is how you throw it."
+    },
+    "solo": "Not a true solo laner, but Flight covers the solo lane in a pinch and punishes offlaners who overextend without vision."
+  },
+  "fenix": {
+    "syn": ["johanna", "maiev", "thrall", "diablo"],
+    "beats": ["azmodan", "nazeebo", "ltmorales", "sgthammer"],
+    "loses": ["varian", "etc", "genji", "zeratul"],
+    "plan": {
+      "early": "Swap weapons smartly: Repeater Cannon for trades, Phase Bomb for wave; poke Plasma Cutter plus autos while shields eat free.",
+      "mid": "At 10 take Purification Salvo: tag the two squishiest heroes at objectives, then Repeater Cannon them as the salvo lands.",
+      "fight": "Max-range stutter-step with Repeater Cannon, Plasma Cutter their retreat path, and Warp out the moment your shield breaks.",
+      "late": "Late, Offensive Cadence third shots win DPS races; Warp's delay is your risk, start it before they land on you, not after."
+    },
+    "solo": "Can hold a solo lane briefly on shields and waveclear, but zero sustain means he bleeds health; better in a duo lane."
+  },
+  "guldan": {
+    "syn": ["etc", "malfurion", "auriel", "johanna"],
+    "beats": ["arthas", "azmodan", "nazeebo", "ltmorales"],
+    "loses": ["illidan", "greymane", "kerrigan", "tracer"],
+    "plan": {
+      "early": "Life Tap freely then Fel Flame the wave; you never leave lane for mana, just don't Tap below half with their ganker missing.",
+      "mid": "At 10 take Horrify: at objectives fear their frontline off your carries, or flip a dive the second they jump your backline.",
+      "fight": "Corruption the clump, Drain Life whoever your tank roots, and keep Healthstone for the burst window right after a Life Tap.",
+      "late": "Late, Haunt plus Darkness Within makes you a raid boss; mobile assassins are the loss condition, hug peel and pre-aim Horrify."
+    },
+    "solo": ""
+  },
+  "hanzo": {
+    "syn": ["etc", "diablo", "johanna", "malganis"],
+    "beats": ["azmodan", "nazeebo", "sgthammer", "stukov"],
+    "loses": ["genji", "illidan", "zeratul", "tracer"],
+    "plan": {
+      "early": "Storm Bow pokes at max range for Target Practice stacks; Sonic Arrow every bush before you step up, never facecheck.",
+      "mid": "At 10 take Dragon's Arrow: fire from mid range so the stun lands, then full Storm Bow charge plus Scatter on the stunned target.",
+      "fight": "Live at max bow range, ricochet Scatter Arrow off walls into melee, and keep Natural Agility strictly as your escape.",
+      "late": "Late, Bullseye stuns turn picks into won fights; divers are your risk, hop terrain early, not after they land on you."
+    },
+    "solo": ""
+  },
+  "jaina": {
+    "syn": ["etc", "johanna", "muradin", "malfurion"],
+    "beats": ["arthas", "thebutcher", "sonya", "zagara"],
+    "loses": ["genji", "tracer", "zeratul", "anubarak"],
+    "plan": {
+      "early": "One Blizzard clears the caster wave; poke Frostbolt into Ice Lance combos and keep Cone of Cold for anyone who jumps you.",
+      "mid": "At 10 take Water Elemental: open objective fights with Elemental plus Blizzard on the clump for chained Frostbite slows.",
+      "fight": "Hold Ring of Frost for their dive, chain Cone of Cold slows so melee never reach you, burst the rooted target with Ice Lance.",
+      "late": "Late your combo one-shots squishies, but you are the squishiest thing alive; play behind two bodies and pre-cast on chokes."
+    },
+    "solo": ""
+  },
+  "junkrat": {
+    "syn": ["etc", "garrosh", "uther", "malfurion"],
+    "beats": ["arthas", "azmodan", "leoric", "thebutcher"],
+    "loses": ["illidan", "tracer", "genji", "zeratul"],
+    "plan": {
+      "early": "Lob Frag Launcher at the front edge of their hitbox so grenades bounce in; trap the bush, keep Concussion Mine for escapes.",
+      "mid": "At 10 take RIP-Tire: drive it in from fog at objectives to split their team, then spam frags into the choke they retreat through.",
+      "fight": "Shell the clump from behind your tank, pre-place Steel Trap on the flank route, and mine divers off your healer, not for damage.",
+      "late": "Late you zone entire chokes and Total Mayhem trades even in death; mobile assassins are still your death sentence, hug peel."
+    },
+    "solo": ""
+  },
+  "kaelthas": {
+    "syn": ["etc", "arthas", "malfurion", "uther"],
+    "beats": ["cassia", "azmodan", "leoric", "stukov"],
+    "loses": ["illidan", "zeratul", "kerrigan", "tracer"],
+    "plan": {
+      "early": "Verdant Spheres Living Bomb one-shots the caster wave and feeds Mana Addict; Gravity Lapse anyone who walks at you.",
+      "mid": "At 10 take Phoenix: land it on the objective so it zones and sieges, and save Verdant Spheres for the follow-up Flamestrike.",
+      "fight": "Spread Living Bomb into their clump, empowered Flamestrike the stunned target; hold Lapse for the diver, it is your only peel.",
+      "late": "Late an empowered bomb chain wipes teams; you die in one rotation though, so cast from fog and never lead the walk-up."
+    },
+    "solo": ""
+  },
+  "kelthuzad": {
+    "syn": ["arthas", "johanna", "anduin", "varian"],
+    "beats": ["mephisto", "azmodan", "ltmorales", "nazeebo"],
+    "loses": ["genji", "tracer", "valeera", "anubarak"],
+    "plan": {
+      "early": "Every Chains hit on a hero builds Master of the Cold Dark; fish combos in lane, finishing the quest early is your whole game.",
+      "mid": "At 10 take Frost Blast: Chains a target, root the clump, then land the full combo and Death and Decay on the frozen pile.",
+      "fight": "One combo decides it: Chains the frontliner to a wall, Frost Nova the pair, then recast Chains through Glacial Spike.",
+      "late": "Late with quest done you one-combo squishies; you have zero escapes, so combo from range and keep a body between you and dives."
+    },
+    "solo": ""
+  },
+  "liming": {
+    "syn": ["etc", "johanna", "malfurion", "varian"],
+    "beats": ["murky", "lostvikings", "chromie", "nova"],
+    "loses": ["genji", "tracer", "valeera", "zeratul"],
+    "plan": {
+      "early": "Magic Missiles on cooldown, hero hits refund mana with Charged Blast; throw Arcane Orb only at max range where it hurts.",
+      "mid": "At 10 take Wave of Force into dive or channel comps; fish for one objective kill, the reset refreshes everything, re-engage.",
+      "fight": "Third line, max range: Orb the clump, Missiles the low target, Teleport aggressively ONLY when the reset kill is guaranteed.",
+      "late": "Late every reset chains another kill and Tal Rasha ramps; overchasing after one Teleport is how you hand the fight back."
+    },
+    "solo": ""
+  },
+  "lunara": {
+    "syn": ["arthas", "muradin", "jaina"],
+    "beats": ["ltmorales", "uther", "arthas", "leoric"],
+    "loses": ["illidan", "genji", "malfurion", "stukov"],
+    "plan": {
+      "early": "Poison autos then hop back and let Nature's Toxin tick; Noxious Blossom the wave, never burn Leaping Strike to engage.",
+      "mid": "At 10 take Thornwood Vine: weave the three-hit vines through objective fights to keep toxin rolling on their whole team.",
+      "fight": "Kite at max range, keep poison ticking on every enemy the healer must save, save Leaping Strike for the Butcher on you.",
+      "late": "Late your dot pressure breaks single-target healers; AoE-cleanse healers blank you, so spread toxin wider, not deeper."
+    },
+    "solo": "Real offlane option: outranges melee bruisers, poisons and skips away, but a gank with Leaping Strike down usually kills her."
+  },
+  "mephisto": {
+    "syn": ["deckard", "etc", "zarya", "diablo"],
+    "beats": ["arthas", "azmodan", "ltmorales", "sgthammer"],
+    "loses": ["kaelthas", "kelthuzad", "junkrat", "stitches"],
+    "plan": {
+      "early": "Lightning Nova the wave then walk it onto their melee; every hero hit refunds cooldowns, so you win trades by circling.",
+      "mid": "At 10 take Durance of Hate: at objectives Shade in, Nova the clump, and throw Skull Missile as you snap back to safety.",
+      "fight": "Shade behind them, spin Lightning Nova through max targets, and aim Durance at slowed or rooted heroes so it cannot miss.",
+      "late": "Late, Nova with full CDR is a fight-long AoE; the snapback spot is your life, never cast Shade from a losing position."
+    },
+    "solo": ""
+  },
+  "nazeebo": {
+    "syn": ["johanna", "raynor", "stukov", "diablo"],
+    "beats": ["thebutcher", "sonya", "arthas", "leoric"],
+    "loses": ["etc", "sylvanas", "genji", "tracer"],
+    "plan": {
+      "early": "Every minion killed by an ability stacks Voodoo Ritual; Spiders plus Blossom each wave, hit big stacks early or fall off.",
+      "mid": "At 10 take Gargantuan: drop it at objectives for the stomp slow, and trap their bruiser in Zombie Wall for your team.",
+      "fight": "Wall the diver off your healer or wall their tank in, Blossom plus Spiders inside it, and keep Ice Block for when they turn.",
+      "late": "Late, Vile Infection makes toxin lethal; if the quest is not done you are a minion, so soak waves relentlessly all game."
+    },
+    "solo": "Passable solo laner on big maps: safe ranged clear while stacking Ritual, but loses hard to dive bruisers before Ice Block."
+  },
+  "nova": {
+    "syn": ["johanna", "blaze", "sylvanas", "stukov"],
+    "beats": ["falstad", "kelthuzad", "chromie", "jaina"],
+    "loses": ["zarya", "brightwing", "genji", "anubarak"],
+    "plan": {
+      "early": "Gank, don't lane: Pinning Shot into Snipe from cloak on overextended squishies; Holo Decoy baits abilities before you commit.",
+      "mid": "At 10 take Precision Strike: snipe objective fights from fog, and use it globally to clear far catapult waves between fights.",
+      "fight": "You are a finisher, not an opener: wait for CC, Pinning Shot into Snipe on the 60 percent target, recloak, reposition, repeat.",
+      "late": "Late, Rewind doubles your burst combo; if their tank buys reveal or Zarya bubbles your target, swap marks fast or go siege."
+    },
+    "solo": ""
+  },
+  "orphea": {
+    "syn": ["blaze", "johanna", "varian", "malganis"],
+    "beats": ["arthas", "leoric", "azmodan", "guldan"],
+    "loses": ["genji", "lunara", "muradin", "anubarak"],
+    "plan": {
+      "early": "Chomp the wave for safe clear, poke Shadow Waltz from range, and bank Chaos stacks; the dash is your escape, not damage.",
+      "mid": "At 10 take Eternal Feast: land it on two-plus heroes at objectives and keep dealing damage so it re-triggers through the fight.",
+      "fight": "Aim Dread slightly behind slowed targets so wave and eruption both hit, then dump Chaos autos; Waltz backward out of dives.",
+      "late": "Late, Dead Magic turns your autos into AoE burst; hold Waltz for their engage every time, cooldown greed is how you die."
+    },
+    "solo": ""
+  },
+  "probius": {
+    "syn": ["etc", "diablo", "arthas", "malfurion"],
+    "beats": ["azmodan", "leoric", "sonya", "arthas"],
+    "loses": ["kerrigan", "alarak", "zeratul", "tracer"],
+    "plan": {
+      "early": "Pylon in the bush, Warp Rift under the wave, pop it with Disruption Pulse; you win every clear war if pylons survive.",
+      "mid": "At 10 take Pylon Overcharge: pre-build pylons at the objective choke and force them to fight inside your cannon field.",
+      "fight": "Fight inside your power field: chain Warp Rifts in the choke, detonate with Pulse as they clump, retreat pylon to pylon.",
+      "late": "Late, Construct Additional Pylons makes objectives fortresses; caught without a field you are the slowest squishy alive."
+    },
+    "solo": "Zone-control offlaner: pylons and rifts hold waves forever and deny trades, but dive bruisers demolish him one on one."
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "anubarak": {
+    "syn": ["kaelthas", "jaina", "kerrigan", "greymane"],
+    "beats": ["liming", "guldan", "kelthuzad", "chromie"],
+    "loses": ["leoric", "malthael", "valla", "tracer"],
+    "plan": {
+      "early": "Poke with Impale through the wave, keep Harden Carapace for their mage rotation, never burn Burrow Charge in; it is your only out",
+      "mid": "Cocoon at 10: Burrow Charge the healer, Cocoon them, Impale the peelers. Start every objective fight with your engage or don't start it",
+      "fight": "Burrow the backline mage, Cocoon the healer, then turn and Impale divers off your carry. No charge without follow-up in range",
+      "late": "Epicenter at 16 widens your engage, but sustained AAs melt you late. Carapace eats spell burst; disengage when it is down"
+    },
+    "solo": "Can offlane vs casters thanks to Harden Carapace spell shield, but AA bruisers like Leoric and Sonya run him out of lane"
+  },
+  "artanis": {
+    "syn": ["garrosh", "arthas", "kaelthas", "malfurion"],
+    "beats": ["diablo", "stitches", "chogall", "azmodan"],
+    "loses": ["etc", "jaina", "lili", "varian"],
+    "plan": {
+      "early": "Trade with Twin Blades then back off; Blade Dash through the wave to cycle Shield Overload. Don't spend Dash as pure damage",
+      "mid": "Suppression Pulse at 10: blind their AA core as fights start, then Phase Prism swap their squishiest into your team",
+      "fight": "Prism-swap the backline carry into your team, Dash out after. Engage when Shield Overload is up, disengage when it is down",
+      "late": "You win long brawls: Force of Will at 16 keeps shields rolling. Blinds and roots kill you; hold Dash to escape, not chase"
+    },
+    "solo": "Solid solo: out-trades sustain bruisers with Twin Blades and shield cycling; blinds (Johanna, Li Li) and Leoric make his lane miserable"
+  },
+  "blaze": {
+    "syn": ["arthas", "kerrigan", "maiev", "malfurion"],
+    "beats": ["illidan", "thebutcher", "varian", "genji"],
+    "loses": ["leoric", "malthael", "lunara", "valla"],
+    "plan": {
+      "early": "Hit BOTH Flame Streams on the enemy laner, drop Oil Spill on globes to zone, hold Jet Propulsion strictly for ganks",
+      "mid": "Bunker Drop at 10: drop it ON your team when their burst lands; everyone ports in, walks out with flamethrowers rolling",
+      "fight": "Ignite Oil Spill under their divers, body-block for your carry, save Jet to peel. Bunker beats Mosh and Apocalypse combos",
+      "late": "Juggernaut Plating at 16 makes you unkillable in oil, but percent damage still shreds you. Never fight with Bunker on CD"
+    },
+    "solo": "Comfortable solo: double-soaks with long-range streams and bullies melee bruisers; Leoric and Malthael percent damage beat him"
+  },
+  "chen": {
+    "syn": ["tyrael", "greymane", "rehgar", "abathur"],
+    "beats": ["illidan", "thebutcher", "sonya", "kerrigan"],
+    "loses": ["etc", "yrel", "raynor", "liming"],
+    "plan": {
+      "early": "Keg Smash into Breath of Fire, weave AAs to refill brew. Drink behind the wave and bait their interrupt before committing",
+      "mid": "Wandering Keg at 10: bowl their team off the objective or roll one tank into your side. Never keg enemies onto your own backline",
+      "fight": "Stagger their engage: Flying Kick the diver, Keg Smash slow, drink through the burst. Your job is soaking CDs, not chasing kills",
+      "late": "You win by attrition, but every stun cancels your brew. Bait CC first, drink after; Purifying Brew at 20 removes that weakness"
+    },
+    "solo": "Strong solo: out-sustains Sonya and Mal'Ganis style traders; Yrel and stun-heavy laners who cancel Fortifying Brew bully him"
+  },
+  "dva": {
+    "syn": ["garrosh", "maiev", "falstad", "deckard"],
+    "beats": ["illidan", "tracer", "greymane", "valla"],
+    "loses": ["etc", "malthael", "raynor", "kaelthas"],
+    "plan": {
+      "early": "Boosters between two lanes to double-soak; de-meched, Big Shot the wave, hero hits refund Call Mech. Matrix their AA laner in trades",
+      "mid": "Bunny Hop at 10: wait for their frontline to commit, then hop the clump and keep 3+ perma-stunned on the objective",
+      "fight": "Defense Matrix the Tychus or Valla, Boosters to peel your healer, throw Self-Destruct into the choke as zone denial",
+      "late": "Losing mech to CC plus burst mid-fight is your death spiral: Matrix BEFORE stuns land, keep Self-Destruct charged for resets"
+    },
+    "solo": "Great solo: absurdly hard to kill and Boosters double-soak; Leoric out-trades pilot form and percent damage melts the mech"
+  },
+  "diablo": {
+    "syn": ["thrall", "tassadar", "medivh", "tyrande"],
+    "beats": ["jaina", "liming", "guldan", "ltmorales"],
+    "loses": ["garrosh", "malthael", "tychus", "leoric"],
+    "plan": {
+      "early": "Stack souls fast: trade with Shadow Charge into Overpower under your own gate, Fire Stomp the wave. At 100 souls play fearless",
+      "mid": "Lightning Breath at 10: flip a target with Overpower first, then breathe while Unstoppable. Charge their mage on objectives",
+      "fight": "Charge a squishy into your team, or Overpower their diver back onto your carry as the peel. Aim Fire Stomps into the clump",
+      "late": "Hellgate at 20 flips fights alone, but at 0 souls you are paper. Never chain deaths; the 100-soul buff IS your tankiness"
+    },
+    "solo": "Workable solo with Fire Stomp sustain, punishes immobile laners near walls; percent damage and Garrosh tosses ruin him"
+  },
+  "etc": {
+    "syn": ["kaelthas", "greymane", "uther", "alarak"],
+    "beats": ["illidan", "thebutcher", "kerrigan", "valla"],
+    "loses": ["johanna", "deathwing", "raynor", "brightwing"],
+    "plan": {
+      "early": "Play safe soak, heal with Guitar Solo, slide only through the wave with an exit. Powerslide is engage AND escape, never both",
+      "mid": "Mosh Pit at 10: slide-stun only when it does not risk your Mosh; Face Melt their engage, then Mosh the re-clump on objectives",
+      "fight": "Powerslide the backline, hold Mosh for a 3+ clump, count their interrupts first. Face Melt peels divers off your healer",
+      "late": "A landed late Mosh wins the game and a cancelled one loses it. Track every enemy stun and channel-breaker before you press R"
+    },
+    "solo": "Rarely solos; only offlane on huge maps with a Stage Dive build, otherwise keep him main tank"
+  },
+  "garrosh": {
+    "syn": ["jaina", "hanzo", "zarya", "malfurion"],
+    "beats": ["illidan", "thebutcher", "diablo", "maiev"],
+    "loses": ["johanna", "malthael", "anduin", "lunara"],
+    "plan": {
+      "early": "Trade under your tower: Groundbreaker pull, Wrecking Ball toss into tower shots, Bloodthirst back up. You are strongest at low HP",
+      "mid": "Decimate at 10: spam the slow on objectives and toss their bruiser into your team the second your mage has cooldowns",
+      "fight": "Toss the diver off your healer, or flip their carry into your team. Armor Up means you tank BETTER while low; don't panic out",
+      "late": "Late, every Wrecking Ball should trade a kill. Watch for Unstoppable and Iron Skin timers; toss the target who cannot answer"
+    },
+    "solo": "Fine solo: nearly ungankable at low HP under tower; loses pure sustain wars to Mal'Ganis and percent-damage laners"
+  },
+  "johanna": {
+    "syn": ["jaina", "blaze", "maiev", "deckard"],
+    "beats": ["illidan", "tracer", "garrosh", "thebutcher"],
+    "loses": ["varian", "leoric", "hanzo", "zeratul"],
+    "plan": {
+      "early": "Punish the melee laner on CD, Shield Glare their AA windows, Iron Skin AFTER their stun commits. Condemn drags the wave for clears",
+      "mid": "Blessed Shield at 10: open fights by stunning two, or bank it to interrupt Mosh Pit and Ring of Frost on objectives",
+      "fight": "Walk at their carry, Condemn pull into Punish, keep the AA hero Glared all fight. Iron Skin their engage; you cannot be peeled",
+      "late": "Your risk is tanking with no threat: hit multi-hero Glares for Holy Renewal at 16 and hold Iron Skin to eat their wombo"
+    },
+    "solo": "Safe solo into anything and blunts AA bruisers with Glare; low kill threat means Dehaka or Leoric happily out-soak her"
+  },
+  "malganis": {
+    "syn": ["kelthuzad", "jaina", "sonya", "illidan"],
+    "beats": ["zeratul", "malfurion", "thebutcher", "valla"],
+    "loses": ["garrosh", "hanzo", "deckard", "lunara"],
+    "plan": {
+      "early": "Weave AAs between Fel Claws swipes, the third swipe stuns for a free trade. Necrotic Embrace shrugs poke; sleep ganks with Night Rush",
+      "mid": "Carrion Swarm at 10: stun with the third Fel Claws swipe, then swarm through 3+ heroes to heal back to full mid-fight",
+      "fight": "Night Rush their healer to sleep, chain Fel Claws stuns onto the carry. Every extra hero you hit is extra healing; fight in the pile",
+      "late": "Plague Bats at 16 turns swarm into a fight-winner; hard CC during it is your death. Bait stuns, then commit and outlast them"
+    },
+    "solo": "Elite solo sustain: out-heals nearly every bruiser trade; ranged offlaners and healing reduction (Ana) neuter him"
+  },
+  "muradin": {
+    "syn": ["kaelthas", "kerrigan", "hanzo", "malfurion"],
+    "beats": ["illidan", "zeratul", "tracer", "thebutcher"],
+    "loses": ["etc", "raynor", "jaina", "tychus"],
+    "plan": {
+      "early": "Hold Storm Bolt until Thunder Clap's slow guarantees it, soak and let Second Wind top you off, Dwarf Toss over terrain resets ganks",
+      "mid": "Avatar at 10: pop it entering the objective fight and eat their CC as the sponge; if it is down, do not start fights",
+      "fight": "Peel first: Thunder Clap the divers, Storm Bolt the kill target when your team commits, Dwarf Toss out last",
+      "late": "Avatar plus Second Wind is near-immortal vs spell comps, but Tychus-style percent damage ignores it. Never Toss INTO five"
+    },
+    "solo": "Classic safe solo: escapes any gank with Dwarf Toss and heals it off; sustain traders like Mal'Ganis slowly win the lane"
+  },
+  "stitches": {
+    "syn": ["blaze", "falstad", "kaelthas", "malfurion"],
+    "beats": ["jaina", "liming", "ltmorales", "kelthuzad"],
+    "loses": ["johanna", "malthael", "tychus", "anduin"],
+    "plan": {
+      "early": "Hook only clean lanes, it stops on minions. Slam clears and dismounts roamers; Devour the bruiser to out-sustain trades",
+      "mid": "Gorge at 10: Hook the healer, walk them into your team, then Gorge whoever comes to save them. Hold Hook to break channels",
+      "fight": "One button wins it: Hook their carry into five allies. Follow with Gorge on the second target, Slam slow to peel after",
+      "late": "Master Hooker at 20 makes picks constant: hook from fog, never from plain sight. A missed hook means playing the fight 4v5"
+    },
+    "solo": "Decent solo: Devour keeps him topped forever; percent damage (Malthael, Tychus flex) and slippery laners like Dehaka beat him"
+  },
+  "tyrael": {
+    "syn": ["illidan", "alarak", "sgthammer", "ltmorales"],
+    "beats": ["etc", "kelthuzad", "jaina", "diablo"],
+    "loses": ["arthas", "blaze", "zeratul", "medivh"],
+    "plan": {
+      "early": "Poke with El'druin's Might and teleport back out, Smite the wave edge for move speed rotations, Righteousness BEFORE damage lands",
+      "mid": "Judgment at 10 to dive carries after escapes are down; take Sanctification instead when they run Mosh or KTZ wombo",
+      "fight": "El'druin in, Righteousness your diver, Smite speed the chase. Even dying works: your death bomb zones their backline",
+      "late": "You enable the carry, not yourself: hold Sanctification for their R combo. Sancting nothing is how late fights get lost"
+    },
+    "solo": "Flex solo: very safe with El'druin escapes but low kill pressure; Arthas and Blaze out-trade him all lane"
+  },
+  "chogall": {
+    "syn": ["ana", "auriel", "brightwing", "yrel"],
+    "beats": ["jaina", "guldan", "kelthuzad", "sgthammer"],
+    "loses": ["malthael", "greymane", "leoric", "anubarak"],
+    "plan": {
+      "early": "Two players, one body: soak the safest lane, Cho lands close-range Rune Bombs so Gall detonates Runic Blast on cooldown",
+      "mid": "Hammer of Twilight plus Twisting Nether at 10: Surging Fist in, Hammer stun, Nether the clump; Gall never stops Shadowflame",
+      "fight": "You ARE the frontline: Fist their carry, Hammer the peeler, Gall dumps Shadowflame and Dread Orb nonstop. Leave at 50%, not 20%",
+      "late": "You feed double XP when you die: never get caught solo. C'Thun's Gift and Twilight Frenzy at 20 win any grouped fight"
+    },
+    "solo": ""
+  },
+  "arthas": {
+    "syn": ["chromie", "maiev", "zarya", "rehgar"],
+    "beats": ["illidan", "thebutcher", "samuro", "tracer"],
+    "loses": ["garrosh", "ana", "hanzo", "kelthuzad"],
+    "plan": {
+      "early": "Trade with Death Coil, root predictable paths with Howling Blast, toggle Frozen Tempest only in trades; it drains mana fast",
+      "mid": "Sindragosa at 10: hit 3+ heroes or freeze the fort before you push; disabled towers make your objective follow-up free",
+      "fight": "Walk through their front to the AA carry, Tempest halves attack speed, Howling Blast the dash as it starts. Enter last, no escape",
+      "late": "Frostmourne Hungers plus Remorseless Winter at 16 melts anyone in melee; displacement is death, so hug your team and walls"
+    },
+    "solo": "Strong solo vs melee: Frozen Tempest ruins AA bruisers; ranged offlaners kite him for free and Ana cuts his self-heal"
+  },
+  "hogger": {
+    "syn": ["diablo", "hanzo", "liming", "stukov"],
+    "beats": ["illidan", "thebutcher", "kerrigan", "valeera"],
+    "loses": ["malthael", "tychus", "lunara", "uther"],
+    "plan": {
+      "early": "Throw Loot Hoard for the meat heal, Staggering Blow enemies into it or walls for stuns, keep Rage above 50 by trading often",
+      "mid": "Hoardapult at 10: launch onto their backline at objectives, Hogg Wild spin the clump, Staggering Blow stragglers into terrain",
+      "fight": "Pin their carry to a wall with Staggering Blow, point-blank Ez-Thro Dynamite so it pops instantly, spin out with Hogg Wild",
+      "late": "No wall means no stun: pick fight locations first. Stay above 50 Rage for the armor or you fall over in seconds"
+    },
+    "solo": "Premier offlaner: wins most melee matchups with wall stuns and meat sustain; poke ranged like Lunara starve him out"
+  },
+  "imperius": {
+    "syn": ["jaina", "etc", "rehgar", "malganis"],
+    "beats": ["sonya", "artanis", "thebutcher", "dehaka"],
+    "loses": ["raynor", "sgthammer", "zuljin", "lucio"],
+    "plan": {
+      "early": "Charge the bruiser through the minion line, stack Valor with W and E, consume with AAs. Flash of Anger at 7 wins every trade",
+      "mid": "Wrath of the Angiris at 10: lift the carry and drop them inside your team, but only when follow-up CC is ready to land",
+      "fight": "Lay Solarion's Fire, Charge-pin their carry along it, Molten Armor the marked target. Vs dive, save Charge to peel your healer",
+      "late": "Late Wraths must hit the carry with your team set to catch; you are airborne and useless for 2s, so time it as the opener"
+    },
+    "solo": "Top-tier solo bully: beats Sonya, Artanis, and The Butcher head-on; ranged kiters and Sgt. Hammer deny his Charge"
+  },
+  "leoric": {
+    "syn": ["diablo", "orphea", "stukov", "jaina"],
+    "beats": ["stitches", "azmodan", "chogall", "dva"],
+    "loses": ["dehaka", "samuro", "tracer", "ana"],
+    "plan": {
+      "early": "Skeletal Swing slow first so the full Drain Hope channel sticks; even dead you keep soaking as Undying, so never leave lane XP",
+      "mid": "Entomb at 10: box the healer against a wall on the objective, Drain Hope inside while your team collapses on them",
+      "fight": "March at the biggest health bar, Drain their tank's percent HP, Wraith Walk through bodies to reach the healer. Die AFTER it's won",
+      "late": "Buried Alive at 20 removes their carry for 4s: open fights with it. Mobile heroes walk out of Entomb; trap against walls only"
+    },
+    "solo": "Premier solo soaker: even his corpse soaks XP; Dehaka out-rotates him and Samuro or Tracer dodge everything he throws"
+  }
+}

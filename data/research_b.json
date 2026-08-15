@@ -1,0 +1,218 @@
+{
+  "dehaka": {
+    "syn": ["anubarak", "jaina", "hanzo", "maiev"],
+    "beats": ["guldan", "kaelthas", "nazeebo", "kelthuzad"],
+    "loses": ["etc", "valla", "raynor", "sgthammer", "lucio"],
+    "plan": {
+      "early": "Soak two lanes with Brushstalker, eat essence globs, and save the Essence Collection burst heal for when a gank actually lands.",
+      "mid": "Isolation at 10: silence-blind their carry, then Drag them into your team. Brushstalker to the objective the second it spawns.",
+      "fight": "Ambush from a bush, weave an auto first, then Drag the backliner over the wall into your team. Hold essence until they burn burst.",
+      "late": "Late you win on cross-map Brushstalker picks; Isolation plus Drag makes every fight 4v5. Kite comps like Valla are your death."
+    },
+    "solo": "Safe, sustainy solo laner who bullies immobile bruisers and never misses soak; ranged kite laners and blind comps outlast him."
+  },
+  "deathwing": {
+    "syn": ["etc", "arthas", "johanna", "muradin"],
+    "beats": ["garrosh", "mei", "malfurion", "diablo"],
+    "loses": ["tychus", "greymane", "valla", "zeratul", "tracer"],
+    "plan": {
+      "early": "Land at full armor, clear waves in World Breaker from range, and lift out before the plates melt. Never fight below half armor.",
+      "mid": "Cataclysm the objective start: the burn zone forces them off the point. Drop Destroyer form on their backline when your team commits.",
+      "fight": "You are permanently unstoppable: land on the clump, Onslaught stun the carry, Incinerate, then Dragonflight out before you go red.",
+      "late": "Late the risk is percent damage, Tychus and Giant Killer shred plates. Leave at half armor, reset in the sky, re-drop for round two."
+    },
+    "solo": "Fine solo pick: World Breaker poke bullies melee bruisers who cannot trade back; Malthael and percent-damage laners send him home."
+  },
+  "gazlowe": {
+    "syn": ["etc", "diablo", "jaina", "malfurion"],
+    "beats": ["illidan", "thebutcher", "kerrigan", "samuro"],
+    "loses": ["raynor", "lunara", "guldan", "chromie", "liming"],
+    "plan": {
+      "early": "Hide Rock-It Turrets in bushes by the wave, Xplodium under it, collect scrap. You outclear everyone, so shove and take early camps.",
+      "mid": "Grav-O-Bomb at 10: hold it until they clump on the objective, pull them into Xplodium's stun, then turrets and Deth Lazor eat the pile.",
+      "fight": "Set turrets BEFORE the fight and make them come to your nest. Grav-O into Xplodium is the wombo; never open with the bomb alone.",
+      "late": "Late you win zone control: pre-stack turret nests on the point. Long-range poke like Chromie dismantles the nest before anyone enters."
+    },
+    "solo": "Sturdy solo laner on his turret nest; melee who must step into it lose, but ranged laners like Lunara poke him off his scrap for free."
+  },
+  "malthael": {
+    "syn": ["etc", "garrosh", "medivh", "ana"],
+    "beats": ["stitches", "arthas", "diablo", "chogall"],
+    "loses": ["fenix", "lunara", "tracer", "valla", "blaze"],
+    "plan": {
+      "early": "One Death Shroud marks the whole wave and Soul Rip heals it back. Trade into any melee freely, your percent damage always wins.",
+      "mid": "Last Rites at 10: mark, shave them under the execute line, cash it. Do not sit on it, a guaranteed kill is worth the cooldown.",
+      "fight": "Live on their frontline: keep two or three marked, Soul Rip on cooldown, Wraith Strike through the tank to tag the backline when safe.",
+      "late": "Late you melt 20-stack tanks and Last Rites the biggest one at 25 percent. Blinds and kiting blank you, pick your moment to stick."
+    },
+    "solo": "Solid solo vs tanky bruisers he shreds with marks; Fenix and ranged offlaners kite him and Lunara's poison outtrades Soul Rip."
+  },
+  "ragnaros": {
+    "syn": ["etc", "hanzo", "kaelthas", "ana"],
+    "beats": ["thebutcher", "xul", "azmodan", "nazeebo"],
+    "loses": ["garrosh", "chen", "lunara", "jaina", "stukov"],
+    "plan": {
+      "early": "Offlane: Empower Sulfuras clears the wave and heals in one swing, Living Meteor the camp. Trade around trait, back off without it.",
+      "mid": "Lava Wave at 10: send it down the opposite lane the moment the objective starts. It erases the wave and forces a defender home.",
+      "fight": "Second-line bruiser: let your tank open, then Empower cleave their front and Blast Wave out. Never lead, you have no escape when focused.",
+      "late": "Late, Molten Core turns a fort defense into a won fight; Sulfuras Smash the CC'd clump. Displacement like Garrosh ruins your trait."
+    },
+    "solo": "Premier solo laner: Empower sustain beats most bruisers and he never misses soak; Chen and Garrosh displacement give him fits."
+  },
+  "rexxar": {
+    "syn": ["johanna", "jaina", "malfurion"],
+    "beats": ["azmodan", "xul", "nazeebo", "thebutcher"],
+    "loses": ["illidan", "qhira", "zeratul", "kharazim", "tyrael"],
+    "plan": {
+      "early": "Send Misha into the wave while you auto from range; park her in the gank bush. You never miss soak and duo camps early with her.",
+      "mid": "Unleash the Boars at 10: fire it as they rotate to the objective to reveal and slow all five, then collapse with the Misha stun.",
+      "fight": "Misha, Charge! the diver off your healer and body-block skillshots with her; you stay on the edge with autos and Spirit Swoop slows.",
+      "late": "Late you split the map: Misha holds a lane or point alone while you fight. Mobile assassins who ignore Misha and jump you are the risk."
+    },
+    "solo": "Elite solo laner: Misha tanks while Rexxar soaks for free, bullying Azmodan and Xul; hard divers like Illidan kill him through her."
+  },
+  "sonya": {
+    "syn": ["muradin", "jaina", "medivh", "rehgar"],
+    "beats": ["azmodan", "xul", "arthas", "nazeebo"],
+    "loses": ["etc", "leoric", "sylvanas", "tychus", "brightwing"],
+    "plan": {
+      "early": "Offlane: Whirlwind through the full wave to heal, Ancient Spear whoever tries to leave. Solo your camp at 5, she takes it fastest.",
+      "mid": "Wrath of the Berserker at 10: pop it, Spear in, keep swinging so Fury extends it. Use it to shrug slows and stuns, not as a finisher.",
+      "fight": "Spear their backline only with follow-up; otherwise Whirlwind the frontline and be unkillable. Wrath halves stun and root duration.",
+      "late": "Late you out-duel anyone and solo bosses. Silences and Tychus melt you mid-Whirlwind, so count their CC before you commit the Spear."
+    },
+    "solo": "Top-tier solo bruiser: Whirlwind sustain wins almost every melee matchup; Leoric drains her and blind or kite lanes shut her down."
+  },
+  "thrall": {
+    "syn": ["diablo", "fenix", "chromie", "rehgar"],
+    "beats": ["illidan", "thebutcher", "varian"],
+    "loses": ["johanna", "arthas", "kaelthas", "lunara", "malfurion"],
+    "plan": {
+      "early": "Feral Spirit the wave then poke with Chain Lightning; Frostwolf Resilience heals every trade. The wolf root starts every gank.",
+      "mid": "Sundering at 10: split their team on the objective or wall the carry off from the healer, then root and Windfury the stranded half.",
+      "fight": "Second-wave assassin: let the tank engage, then Windfury onto the CC'd target and wolf-root the peel. Never lead the charge yourself.",
+      "late": "Late a good Sundering wins the fight alone; keep trait stacks banked before you engage. Kite comps that deny his autos starve him."
+    },
+    "solo": "Can offlane vs melee, trait sustain and the wolf root punish hard, but self-sustain bruisers like Johanna and Arthas outlast him."
+  },
+  "varian": {
+    "syn": ["etc", "blaze", "liming", "tyrande"],
+    "beats": ["illidan", "thebutcher", "tracer", "zeratul"],
+    "loses": ["hanzo", "garrosh", "etc", "arthas", "lunara"],
+    "plan": {
+      "early": "Trade with Lion's Fang and Parry the big auto; your spike is level 4 when the heroic comes online. Shove, then join the first gank.",
+      "mid": "Pick at 4: Taunt if you must tank, Twin Blades to carry, Smash for burst. On objectives open by Charge-Taunting their key damage.",
+      "fight": "Charge in, Taunt the carry your team is already hitting, Parry the counter-swing. Taunt also interrupts channels, save it for those.",
+      "late": "Late Taunt Varian peels and interrupts; Twin Blades must stay on safe targets. You are the CC magnet, so track Parry charges."
+    },
+    "solo": "Decent solo laner after 4: Twin Blades sustain bullies melee and Parry blanks Butcher; ranged offlaners kite him out before then."
+  },
+  "xul": {
+    "syn": ["tyrande", "medivh", "liming", "falstad"],
+    "beats": ["illidan", "valla", "raynor", "samuro"],
+    "loses": ["etc", "johanna", "jaina", "sgthammer"],
+    "plan": {
+      "early": "You are the wave: clear, mount, rotate, clear again while skeletons shove. Bone Armor makes ganks cheap. Never stop soaking.",
+      "mid": "Skeletal Mages at 10: wall the objective choke so their team enters slowed or gives the point up. Cast it early, not as a save.",
+      "fight": "Bone Prison their diver, Cursed Strikes to halve every auto-attacker's speed, mages across the choke. You zone, you do not assassinate.",
+      "late": "Late the push wins: every dead hero means a skeleton lane hitting core. Getting picked first is the risk, use Bone Armor early."
+    },
+    "solo": "Classic solo laner: out-pushes everyone and Cursed Strikes ruins melee auto-attackers; Johanna's blind and ranged poke keep him passive."
+  },
+  "yrel": {
+    "syn": ["garrosh", "zarya", "sgthammer", "whitemane"],
+    "beats": ["illidan", "thebutcher", "samuro", "qhira"],
+    "loses": ["malthael", "tracer", "stukov", "sgthammer", "muradin"],
+    "plan": {
+      "early": "Offlane: charge Vindication on the wave to heal, keep Divine Purpose banked for an instant Righteous Hammer when they jump you.",
+      "mid": "Sacred Ground at 10: drop it ON the point and dare them to walk in. You cannot be moved off it, so hold until they truly commit.",
+      "fight": "Front-arc bully: Hammer the diver off your healer, Avenging Wrath stun the clump, charge casts from behind your tank's body.",
+      "late": "Late she is near unkillable on Sacred Ground; take Ardent Defender into burst. Percent damage and Stukov's silence cancel her charges."
+    },
+    "solo": "A-tier solo bruiser: outsustains melee and punishes dives with Divine Purpose stuns; Malthael and ranged percent pressure beat her."
+  },
+  "thebutcher": {
+    "syn": ["abathur", "tyrande", "uther", "tyrael"],
+    "beats": ["guldan", "kaelthas", "liming", "kelthuzad"],
+    "loses": ["johanna", "etc", "brightwing", "uther"],
+    "plan": {
+      "early": "Meat first, kills second: soak and last-hit for Fresh Meat and do not die, deaths cost stacks. Hit 200 before you play hero.",
+      "mid": "Lamb to the Slaughter at 10: chain it onto Ruthless Onslaught, Brand the target, they die tethered. Flank objectives, never walk in front.",
+      "fight": "One job: Onslaught the marked squishy with Brand up and kill them inside the Lamb. Brand is your only sustain, never waste it as damage.",
+      "late": "Late with 200 meat you one-combo squishies; blinds and body-block peel blank you. A CC'd Butcher is a dead Butcher, count their stuns."
+    },
+    "solo": "Can offlane for stacks against passive laners, but real bruisers like Johanna or Yrel starve him; start ganking once meat is rolling."
+  },
+  "gall": {
+    "syn": ["chogall", "ana", "auriel", "brightwing"],
+    "beats": ["arthas", "stitches", "azmodan"],
+    "loses": ["anubarak", "maiev", "garrosh", "greymane", "leoric"],
+    "plan": {
+      "early": "You are the damage half: Shadowflame every wave Cho walks into, bounce Dread Orb behind minions for poke. Farm to 13, do not force.",
+      "mid": "Twisting Nether at 10: call it when Cho is deep and they clump, the slow plus detonation zones the whole objective by itself.",
+      "fight": "Your job is uptime: Shadowflame on cooldown, catch the Dread Orb bounce-back, and call targets. You steer the damage, Cho steers the feet.",
+      "late": "Late, two heads scale hardest in the game and 2v5 fights at 16 plus. Cocoon or Containment Disc deletes both of you, track Maiev."
+    },
+    "solo": ""
+  },
+  "kerrigan": {
+    "syn": ["tyrael", "uther", "medivh", "tyrande"],
+    "beats": ["jaina", "kaelthas", "guldan", "kelthuzad"],
+    "loses": ["etc", "garrosh", "uther", "medivh", "lucio"],
+    "plan": {
+      "early": "Stack your level 1 Ravage quest on minions; when they step up, Primal Grasp into Impaling Blades. Assimilation shields win the trade.",
+      "mid": "Summon Ultralisk at 10: send it as engage or as a peel wall, then run the Grasp into Blades into Ravage combo while it tanks.",
+      "fight": "You are the pick: Grasp their squishy into the Blades stun and let the team follow. Combo, then let Assimilation shields eat the poke.",
+      "late": "Late the full combo one-shots; whiffing Grasp is the risk since it is her whole engage. Hold it until their dodge cooldowns are down."
+    },
+    "solo": "Rarely solos: the combo needs kill follow-up and she starves alone; only offlane her into immobile melee as a cheese pick."
+  },
+  "maiev": {
+    "syn": ["etc", "blaze", "jaina", "deckard"],
+    "beats": ["chogall", "thebutcher", "kerrigan"],
+    "loses": ["johanna", "etc", "lunara", "tracer", "lucio"],
+    "plan": {
+      "early": "Fan of Knives resets clear waves instantly; rotate and set ganks with Umbral Bind from bushes. Hold Vault to escape, never to engage.",
+      "mid": "Containment Disc at 10: disc the healer or a Cho'gall at objective start, then Umbral Bind the rest back into your team's AoE.",
+      "fight": "Spirit of Vengeance in, Umbral Bind two or more, drag them back into your team. Hold Fan of Knives until it hits at least two heroes.",
+      "late": "Late she chain-fights off Fan resets and the Disc pick decides fights. Unstoppable and cleanse blank the Bind, track those cooldowns."
+    },
+    "solo": "Not a real solo laner: no sustain and her value is roam ganks; if forced, clear fast with Fan and rotate rather than trade."
+  },
+  "mei": {
+    "syn": ["xul", "lunara", "jaina", "deckard"],
+    "beats": ["illidan", "thebutcher", "samuro", "greymane"],
+    "loses": ["etc", "yrel", "hanzo", "junkrat", "ana"],
+    "plan": {
+      "early": "Offlane on blind uptime: Snow Blind every trade so melee whiff, Icing out of ganks, Cryo-Freeze baits their full combo for free.",
+      "mid": "Ice Wall at 10: cut their frontline off from the healer on the objective, or wall the choke so they enter the fight in halves.",
+      "fight": "Peel machine: blind the enemy auto-attacker on cooldown, Blizzard the clump for the stun, Cryo-Freeze the burst aimed at you.",
+      "late": "Late one good Ice Wall wins the fight before it starts; the risk is walling YOUR team wrong. Breathe, cut their backline, not yours."
+    },
+    "solo": "Great solo lane vs auto-attack melee: Snow Blind makes Butcher and Illidan whiff; loses to poke like Hanzo who never touches her blind."
+  },
+  "qhira": {
+    "syn": ["uther", "rehgar", "abathur", "anubarak"],
+    "beats": ["rexxar", "guldan", "kaelthas", "nazeebo"],
+    "loses": ["etc", "lucio", "uther", "garrosh", "tracer"],
+    "plan": {
+      "early": "Offlane: keep Carnage bleeds rolling and pop Blood Rage to heal off the wave plus the laner. Grappling Hook over terrain for free ganks.",
+      "mid": "Final Strike at 10: bleed them down, Revolving Sweep to stick, then line the execute through both carries on the objective.",
+      "fight": "Revolving Sweep their carry to dodge damage while attached, drop the stun, spread bleeds, Blood Rage once three are marked.",
+      "late": "Late she snipes kills with Final Strike off any chip damage; knockback peel like E.T.C. blanks Sweep, engage after their CC is burned."
+    },
+    "solo": "Strong solo laner: bleeds plus Blood Rage outsustain most bruisers and Hook makes her ungankable; hard CC ganks and Yrel beat her."
+  },
+  "samuro": {
+    "syn": ["abathur", "deckard", "malfurion", "sylvanas"],
+    "beats": ["azmodan", "nazeebo", "sgthammer"],
+    "loses": ["etc", "lucio", "stukov", "yrel", "cassia"],
+    "plan": {
+      "early": "Offlane: park a Mirror Image side-lane to double-soak, duel with Image Transmission swaps, Wind Walk out before the gank arrives.",
+      "mid": "Bladestorm at 10: spin when they clump on your team at the objective, or clear the point solo while your images hold tower aggro.",
+      "fight": "Enter on clones, Critical Strike the squishiest target, Image Transmission out the moment you are focused. Clean fights, never start them.",
+      "late": "Late you win by split-pushing side lanes and swapping out of every collapse; the risk is ARAM comps that never give you a map to use."
+    },
+    "solo": "Premier solo laner and camp thief: clones tank everything and almost nobody pins him; Stukov's silence and AoE cleave ruin the images."
+  }
+}

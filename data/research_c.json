@@ -1,0 +1,230 @@
+{
+  "alexstrasza": {
+    "syn": ["johanna", "blaze", "kaelthas", "azmodan"],
+    "beats": ["valla", "lunara", "nazeebo"],
+    "loses": ["anubarak", "yrel", "junkrat", "sylvanas", "ana"],
+    "plan": {
+      "early": "Poke with Flame Buffet, drop Abundance behind minions for real trades; Gift of Life costs your own HP, never cast it below half.",
+      "mid": "Take Life-Binder at 10 for the double heal; open objective fights in Dragonqueen form when they commit and can't disengage.",
+      "fight": "Stand second line, pre-place Abundance where your team will actually fight, and save Dragonqueen to flip their hard engage.",
+      "late": "Late, Verdant Flourish keeps you topped for cheap Gift of Life; you lose to anti-heal and dive, never start a fight under 60% HP."
+    },
+    "solo": ""
+  },
+  "ana": {
+    "syn": ["liming", "mephisto", "etc", "valla"],
+    "beats": ["arthas", "thebutcher", "rehgar"],
+    "loses": ["zeratul", "tracer", "genji", "anubarak"],
+    "plan": {
+      "early": "Hit every Healing Dart, each miss is lost sustain; keep Sleep Dart for defense only and dart bushes before anyone facechecks.",
+      "mid": "Nano Boost at 10; cast it on your mage AS the fight starts, not mid-fight, so the 8s window covers their full rotation.",
+      "fight": "Max range behind your tank, land anti-heal Biotic Grenade on their engage target, Sleep Dart the diver that jumps you.",
+      "late": "Late you die to any dive: hug terrain, hold Sleep for Genji or Zeratul, and grenade their healer right before your team commits."
+    },
+    "solo": ""
+  },
+  "anduin": {
+    "syn": ["johanna", "blaze", "raynor", "diablo"],
+    "beats": ["garrosh", "stitches", "thebutcher"],
+    "loses": ["varian", "sonya", "lunara", "kaelthas", "stukov"],
+    "plan": {
+      "early": "Poke with Divine Star through the wave for double value; cancel Flash Heal channels you don't need to save mana and cooldown.",
+      "mid": "Lightbomb at 10; hold it for their dive landing on your backline, one two-man stun wins most objective fights.",
+      "fight": "Keep Leap of Faith for the hooked or gorged ally, pull the instant CC lands, then Chastise the diver off yourself.",
+      "late": "Late your Lightwell build out-sustains poke, but you have no escape; stay in Chastise range of your tank and never show side lane."
+    },
+    "solo": ""
+  },
+  "auriel": {
+    "syn": ["valla", "diablo", "chogall", "yrel"],
+    "beats": ["kaelthas", "thebutcher", "nova"],
+    "loses": ["anubarak", "chen", "junkrat", "chromie", "deckard"],
+    "plan": {
+      "early": "Bestow Hope on your highest-damage laner and bank energy; Detainment Strike into a wall is your kill setup, don't poke with it.",
+      "mid": "Crystal Aegis at 10; Aegis the ally mid-combo, not after it lands, and never start an objective without a full energy bar.",
+      "fight": "Your healing IS your team's damage: call fights on, keep Ray of Heaven hitting two allies, stun-peel divers into walls with Q.",
+      "late": "Late, empty energy means zero healing; if your carry dies, disengage. Aegis the Pyroblast target and reset the fight on your terms."
+    },
+    "solo": ""
+  },
+  "brightwing": {
+    "syn": ["diablo", "stitches", "genji", "tracer"],
+    "beats": ["zeratul", "illidan", "thebutcher"],
+    "loses": ["anubarak", "johanna", "etc"],
+    "plan": {
+      "early": "Soak your lane and poke with center-hit Arcane Flare; Soothing Mist heals passively, so save Polymorph for the gank, not the trade.",
+      "mid": "Blink Heal at 10; teleport to the objective the moment it spawns, your global trait is worth a full extra hero on the map.",
+      "fight": "Sit mid-team, Polymorph the diver the second they commit to your backline, and spend Blink Heal charges early, they recharge.",
+      "late": "Late, keep teleporting to soak between fights; BW wins by being a level up and by Poly denying their carry, not by raw healing."
+    },
+    "solo": ""
+  },
+  "deckard": {
+    "syn": ["johanna", "blaze", "sgthammer", "jaina"],
+    "beats": ["arthas", "leoric", "azmodan"],
+    "loses": ["tracer", "liming", "genji", "deathwing"],
+    "plan": {
+      "early": "Toss Healing Potions behind your laner BEFORE the trade; Horadric Cube poke plus potions wins most sustain lanes outright.",
+      "mid": "Stay Awhile and Listen most games; cast the sleep from fog or behind your frontline so it can't be dodged, then collapse on it.",
+      "fight": "Land Scroll of Sealing on two-plus heroes, follow with Cube slow, and litter potions along the path your team retreats through.",
+      "late": "Late, Morenados zone whole fights; your death risk is mobile divers, hug your team and pre-pot before the poke ever lands."
+    },
+    "solo": ""
+  },
+  "kharazim": {
+    "syn": ["garrosh", "etc", "anubarak", "genji"],
+    "beats": ["chogall", "stitches", "arthas"],
+    "loses": ["johanna", "auriel", "medivh", "uther"],
+    "plan": {
+      "early": "Trade with Deadly Reach and trait procs, Radiant Dash in and out; with Transcendence every third punch heals, so keep swinging.",
+      "mid": "Divine Palm vs burst comps, Seven-Sided Strike vs tanks; at objectives only dash their backline once key stuns are down.",
+      "fight": "Play hybrid: punch the frontliner to fuel Transcendence heals, keep one Dash charge to exit, Palm the ally about to get bursted.",
+      "late": "Late, SSS melts high-HP targets; blinds and roots ruin you, track Johanna's Blind and never burn both Dash charges going in."
+    },
+    "solo": "Can flex offlane with the Iron Fists damage build, but you give up a real healer; niche pick, not his best seat."
+  },
+  "lili": {
+    "syn": ["johanna", "blaze", "uther", "hanzo"],
+    "beats": ["illidan", "thebutcher", "raynor", "zuljin"],
+    "loses": ["etc", "jaina", "sylvanas", "stukov"],
+    "plan": {
+      "early": "Healing Brew is free, heal on cooldown; angle Cloud Serpent onto whoever trades and hover danger's edge to keep Fast Feet rolling.",
+      "mid": "Jug of 1,000 Cups at 10; start it EARLY in the fight before anyone is bursted, and cancel instantly to move if you get dived.",
+      "fight": "Blinding Wind the Illidan or Raynor the moment they commit; your job is uptime: brew every 3s, Serpent the frontline, keep moving.",
+      "late": "Late, Jug of 1,000,000 Cups out-sustains anything if you live; you lose to burst, hug your tank and bait the dive before jugging."
+    },
+    "solo": ""
+  },
+  "lucio": {
+    "syn": ["arthas", "diablo", "greymane", "valla"],
+    "beats": ["chromie", "hanzo", "junkrat"],
+    "loses": ["deckard", "malfurion", "sgthammer", "raynor"],
+    "plan": {
+      "early": "Crossfade Speed for rotations, Healing for trades; Wall Ride to soak two lanes and Soundwave to interrupt their engage attempts.",
+      "mid": "High Five at 10 on most maps; hit Amp It Up on speed as your team engages so everyone arrives before their stuns come back up.",
+      "fight": "Stay stacked, your aura only hits nearby allies; Amp healing right after their burst window, Soundwave the diver off your mage.",
+      "late": "Late, three-man Amped speed engages win games; CC is your death, keep Wall Riding mid-fight so you're never a stationary target."
+    },
+    "solo": ""
+  },
+  "malfurion": {
+    "syn": ["kaelthas", "jaina", "guldan", "kelthuzad"],
+    "beats": ["valla", "raynor", "azmodan"],
+    "loses": ["anubarak", "tracer", "liming", "kerrigan"],
+    "plan": {
+      "early": "Keep Regrowth rolling on your laner, Moonfire only to refresh it and check bushes; Innervate your mage's mana between waves.",
+      "mid": "Tranquility at 10 most comps; channel as damage STARTS, not at 20% HP, and root divers as they land so your team can turn.",
+      "fight": "Pre-Regrowth two targets before the engage, land Entangling Roots on already-CC'd enemies, save Tranq for their heroic burst.",
+      "late": "Late, Twilight Dream at 20 silences entire fights; your risk is burst dive, stand deep with roots between you and their melee."
+    },
+    "solo": ""
+  },
+  "rehgar": {
+    "syn": ["sonya", "illidan", "greymane", "thebutcher"],
+    "beats": ["jaina", "kaelthas", "thebutcher"],
+    "loses": ["muradin", "varian", "ana", "tracer"],
+    "plan": {
+      "early": "Ghost Wolf between lane and camps, empowered bites clear waves; Earthbind on trades, Chain Heal when it bounces to two-plus.",
+      "mid": "Ancestral Healing at 10; cast it EARLY on the focus target, a half-second late is a death. Take camps with wolf speed between waves.",
+      "fight": "Ride your melee: Lightning Shield the Sonya or Illidan, Earthbind under the brawl, bank Ancestral for whoever they commit on.",
+      "late": "Late, Farseer's Blessing Ancestral wins extended fights; Ana's grenade blanks it, so bait the anti-heal before you commit the heal."
+    },
+    "solo": ""
+  },
+  "stukov": {
+    "syn": ["raynor", "etc", "sgthammer", "diablo"],
+    "beats": ["azmodan", "nazeebo", "guldan"],
+    "loses": ["anubarak", "genji", "uther", "tracer"],
+    "plan": {
+      "early": "Spread Healing Pathogen so it jumps to allies through the wave; poke with Weighted Pustule and pop Bio-Kill Switch for burst value.",
+      "mid": "Flailing Swipe vs melee balls, Lurking Arm otherwise; at objectives park the Arm's silence on the choke they must walk through.",
+      "fight": "Pathogen the frontline pre-fight, hold Bio-Kill Switch until two-plus pathogens tick, Massive Shove the diver off your backline.",
+      "late": "Late, Universal Carrier keeps pathogens on everyone; you have no cleanse, so vs heavy CC stay behind the Arm and shove their engage."
+    },
+    "solo": ""
+  },
+  "tyrande": {
+    "syn": ["diablo", "etc", "varian", "valla"],
+    "beats": ["stitches", "chogall", "nova"],
+    "loses": ["anubarak", "maiev", "fenix", "lunara"],
+    "plan": {
+      "early": "Trade with Light of Elune plus autos, set up ganks with Lunar Flare stuns, and fire Sentinel cross-map for free vision on rotation.",
+      "mid": "Shadowstalk vs ambush comps, Starfall vs sustain healers; Hunter's Mark the objective boss, the vulnerability melts it fast.",
+      "fight": "You heal by attacking: keep autos flowing, Flare the diver on your carry, Mark the target your team is actually focusing.",
+      "late": "Late, Celestial Attunement cleanses their lockdown; you die fast, play max range and hold Flare for self-peel, not for damage."
+    },
+    "solo": ""
+  },
+  "uther": {
+    "syn": ["etc", "kerrigan", "illidan", "zuljin"],
+    "beats": ["nova", "kaelthas", "jaina"],
+    "loses": ["guldan", "lunara", "nazeebo", "sylvanas"],
+    "plan": {
+      "early": "Trade around Holy Radiance hitting wave plus laner; your mana dies fast, so no reflex Holy Lights, save them for real burst.",
+      "mid": "Divine Shield at 10; bubble your aggro melee as they engage, and heal BEFORE damage lands, every heal grants Devotion armor.",
+      "fight": "Hold Divine Shield for their engage target, stun-secure kills with Hammer of Justice, use Benediction resets for double heals.",
+      "late": "Late, Redemption at 20 means your death isn't a fight loss, keep frontlining; the real risk is mana, tap the well every push."
+    },
+    "solo": ""
+  },
+  "whitemane": {
+    "syn": ["johanna", "sonya", "cassia", "hanzo"],
+    "beats": ["arthas", "azmodan", "leoric"],
+    "loses": ["garrosh", "alarak", "liming", "ana"],
+    "plan": {
+      "early": "Zeal your laner FIRST, then poke with Searing Lash, the damage converts to healing; watch Desperation stacks or you go OOM.",
+      "mid": "Scarlet Aegis at 10 most games; open objective fights with Aegis to mass-apply Zeal, hold Inquisition to cancel their engage.",
+      "fight": "Keep Zeal on two-plus allies and never stop casting Smite and Lash; Inquisition the diver, but drop it if Zeal targets get low.",
+      "late": "Late your damage-healing out-scales everyone, but one displacement kills you; play behind terrain vs Garrosh, pre-Zeal every dive."
+    },
+    "solo": ""
+  },
+  "abathur": {
+    "syn": ["illidan", "genji", "tracer", "sonya"],
+    "beats": ["leoric", "arthas", "thebutcher"],
+    "loses": ["dehaka", "falstad", "sylvanas", "sgthammer"],
+    "plan": {
+      "early": "Body-soak the safest lane behind gates, hat the winning trade elsewhere; seed Toxic Nests in bushes and camp entrances for vision.",
+      "mid": "Ultimate Evolution at 10; clone your Greymane or Illidan as the objective fight starts, then swap the body to soak the empty lane.",
+      "fight": "Fight as the hat: Symbiote your engager, spam Spike Burst, shield Carapace on their burst window; your body keeps soaking elsewhere.",
+      "late": "Late, locusts plus Nests win on map pressure; track enemy globals, a found Abathur body is a free kill and a lost keep, move often."
+    },
+    "solo": "Not a laner but the team's extra soaker; the body sits safe in a side lane while the hat plays the map."
+  },
+  "medivh": {
+    "syn": ["illidan", "genji", "diablo", "stitches"],
+    "beats": ["kaelthas", "jaina", "thebutcher"],
+    "loses": ["guldan", "lunara", "garrosh", "malfurion"],
+    "plan": {
+      "early": "Raven Form to scout and soak two lanes; gank with Portal for your laners and bank Force of Will for the counter-gank, it wins 2v2s.",
+      "mid": "Ley Line Seal at 10; seal half their team while yours bursts the other half, or take Poly Bomb into stacked melee comps.",
+      "fight": "Force of Will the engage target the moment CC lands, Portal your backline out of dive, weave Arcane Rifts through the fight.",
+      "late": "Late, a whiffed Ley Line loses the game, cast it on CC'd targets only; Medivh value is damage your team never took, track shields."
+    },
+    "solo": ""
+  },
+  "tassadar": {
+    "syn": ["maiev", "johanna", "etc", "genji"],
+    "beats": ["zagara", "nazeebo", "xul"],
+    "loses": ["tracer", "greymane", "zeratul", "anubarak"],
+    "plan": {
+      "early": "Waveclear with Psionic Storm and keep Resonance Beam stacked by tagging minions; channel Shock Ray from fog so it can't be dodged.",
+      "mid": "Archon at 10; pop it only after their stuns are burned and melt the frontline with splash, or Black Hole clumped teams.",
+      "fight": "Sit second line, Storm the brawl, Shock Ray finishers on runners; Dimensional Shift is your only out, never waste it to poke.",
+      "late": "Late, Archon timing decides fights; you're paper outside it, so track the enemy dive and hold Dimensional Shift for their opener."
+    },
+    "solo": ""
+  },
+  "ltmorales": {
+    "syn": ["etc", "raynor", "valla", "johanna"],
+    "beats": ["illidan", "thebutcher", "sonya"],
+    "loses": ["garrosh", "chromie", "lunara", "anubarak"],
+    "plan": {
+      "early": "Beam the laner taking hits and let Caduceus Reactor regen you; hold Displacement Grenade for their gap-closer, it cancels engages.",
+      "mid": "Stim Drone at 10 on your Raynor or Valla at objectives; Medivac only with an organized five. Enter fights above half energy.",
+      "fight": "Tunnel the focus target with Healing Beam, Safeguard the burst, grenade divers off you; sync your steps so the beam never breaks.",
+      "late": "Late, Stim on your hypercarry wins fights outright; energy is finite, don't beam chip damage, and never facecheck, you feed picks."
+    },
+    "solo": ""
+  }
+}
