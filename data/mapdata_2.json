@@ -1,0 +1,30 @@
+{
+  "Haunted Mines": {
+    "sig": ["sylvanas", "zagara", "jaina", "kaelthas", "nazeebo", "tychus"],
+    "strong": ["sylvanas", "zagara", "jaina", "kaelthas", "nazeebo", "tychus", "azmodan", "guldan", "kerrigan", "diablo", "johanna", "leoric", "raynor", "xul"]
+  },
+  "Infernal Shrines": {
+    "sig": ["azmodan", "sylvanas", "zagara", "jaina", "nazeebo", "guldan", "kaelthas"],
+    "strong": ["azmodan", "sylvanas", "zagara", "jaina", "nazeebo", "guldan", "kaelthas", "malthael", "kerrigan", "johanna", "diablo", "leoric", "xul", "cassia"]
+  },
+  "Sky Temple": {
+    "sig": ["abathur", "dehaka", "falstad", "zagara", "nazeebo", "xul", "sylvanas"],
+    "strong": ["abathur", "dehaka", "falstad", "zagara", "nazeebo", "xul", "sylvanas", "guldan", "azmodan", "brightwing", "kaelthas", "jaina", "tychus", "murky"]
+  },
+  "Tomb of the Spider Queen": {
+    "sig": ["kaelthas", "jaina", "sylvanas", "guldan", "azmodan", "zagara"],
+    "strong": ["kaelthas", "jaina", "sylvanas", "guldan", "azmodan", "zagara", "nazeebo", "kelthuzad", "liming", "orphea", "mephisto", "chromie", "tychus", "kerrigan"]
+  },
+  "Towers of Doom": {
+    "sig": ["sylvanas", "azmodan", "falstad", "dehaka", "brightwing", "kaelthas"],
+    "strong": ["sylvanas", "azmodan", "falstad", "dehaka", "brightwing", "kaelthas", "jaina", "guldan", "zagara", "nazeebo", "johanna", "gazlowe", "xul", "tychus"]
+  },
+  "Volskaya Foundry": {
+    "sig": ["kaelthas", "jaina", "kerrigan", "malthael", "johanna", "diablo"],
+    "strong": ["kaelthas", "jaina", "kerrigan", "malthael", "johanna", "diablo", "sonya", "garrosh", "muradin", "stitches", "guldan", "azmodan", "tychus", "greymane", "cassia"]
+  },
+  "Warhead Junction": {
+    "sig": ["dehaka", "falstad", "brightwing", "abathur", "lostvikings", "zagara"],
+    "strong": ["dehaka", "falstad", "brightwing", "abathur", "lostvikings", "zagara", "sylvanas", "xul", "azmodan", "tychus", "nova", "junkrat", "gazlowe", "samuro"]
+  }
+}

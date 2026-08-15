@@ -5,8 +5,12 @@ OUT = sys.argv[2] if len(sys.argv) > 2 else "index.html"
 
 talents = json.load(open("data/talents.json", encoding="utf-8"))
 meta = json.load(open("data/meta.json", encoding="utf-8"))
+mapsig = {}
+if os.path.exists("data/mapsig.json"):
+    mapsig = json.load(open("data/mapsig.json", encoding="utf-8"))
 
-data = json.dumps({"talents": talents, "meta": meta}, ensure_ascii=False, separators=(",", ":"))
+data = json.dumps({"talents": talents, "meta": meta, "mapsig": mapsig},
+                  ensure_ascii=False, separators=(",", ":"))
 # ponytail: escape </script> inside JSON strings so the inline block can't be terminated early
 data = data.replace("</", "<\\/")
 

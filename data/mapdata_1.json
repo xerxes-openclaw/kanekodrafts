@@ -1,0 +1,30 @@
+{
+  "Alterac Pass": {
+    "sig": ["dehaka", "falstad", "brightwing", "sonya", "imperius", "artanis"],
+    "strong": ["dehaka", "falstad", "brightwing", "sonya", "imperius", "artanis", "jaina", "kaelthas", "johanna", "malfurion", "rehgar", "valla", "tychus", "garrosh"]
+  },
+  "Battlefield of Eternity": {
+    "sig": ["valla", "raynor", "hanzo", "tychus", "zuljin", "greymane", "whitemane", "auriel"],
+    "strong": ["valla", "raynor", "hanzo", "tychus", "zuljin", "greymane", "whitemane", "auriel", "lunara", "jaina", "malfurion", "rehgar", "cassia", "fenix", "liming"]
+  },
+  "Braxis Holdout": {
+    "sig": ["zagara", "sylvanas", "nazeebo", "guldan", "kaelthas", "jaina"],
+    "strong": ["zagara", "sylvanas", "nazeebo", "guldan", "kaelthas", "jaina", "azmodan", "kelthuzad", "xul", "johanna", "blaze", "tychus", "malfurion", "diablo"]
+  },
+  "Cursed Hollow": {
+    "sig": ["jaina", "kaelthas", "azmodan", "zagara", "kerrigan", "garrosh"],
+    "strong": ["jaina", "kaelthas", "azmodan", "zagara", "kerrigan", "garrosh", "dehaka", "johanna", "malfurion", "rehgar", "valla", "liming", "nazeebo", "sylvanas"]
+  },
+  "Dragon Shire": {
+    "sig": ["samuro", "falstad", "dehaka", "sonya", "genji", "tracer"],
+    "strong": ["samuro", "falstad", "dehaka", "sonya", "genji", "tracer", "brightwing", "artanis", "thrall", "blaze", "zeratul", "greymane", "valla", "imperius"]
+  },
+  "Garden of Terror": {
+    "sig": ["nazeebo", "zagara", "sylvanas", "xul", "guldan", "azmodan"],
+    "strong": ["nazeebo", "zagara", "sylvanas", "xul", "guldan", "azmodan", "kaelthas", "jaina", "kelthuzad", "johanna", "malfurion", "valla", "tychus", "leoric"]
+  },
+  "Hanamura Temple": {
+    "sig": ["sgthammer", "azmodan", "hanzo", "dehaka", "falstad", "guldan"],
+    "strong": ["sgthammer", "azmodan", "hanzo", "dehaka", "falstad", "guldan", "raynor", "zagara", "nazeebo", "johanna", "xul", "medivh", "sylvanas", "tychus"]
+  }
+}
