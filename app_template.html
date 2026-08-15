@@ -287,18 +287,9 @@ select:focus, input:focus { outline: 1px solid var(--gold); outline-offset: -1px
 .goal .ph { font-size: 9px; font-weight: 800; width: 54px; flex: none; text-transform: uppercase; letter-spacing: 0.1em; }
 .goal .ph.early { color: var(--green); } .goal .ph.mid { color: var(--gold); } .goal .ph.late { color: #9db7ff; } .goal .ph.fight { color: #ff7373; }
 
-/* ============ MODAL (hero select) ============ */
-.modal { position: fixed; inset: 0; background: rgba(3, 5, 9, 0.9); display: none; align-items: flex-start; justify-content: center; padding: 40px 16px; z-index: 10; }
-.modal.open { display: flex; }
-.mbox {
-  background: var(--carbon), linear-gradient(180deg, var(--steel2), #0d1118 90%);
-  border: 1px solid var(--line); border-top: 2px solid var(--gold);
-  clip-path: polygon(18px 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%, 0 18px);
-  padding: 16px; width: min(880px, 100%); max-height: 82vh; overflow: auto;
-  box-shadow: 0 0 80px rgba(245,185,66,0.08);
-}
-.mbox input { width: 100%; margin-bottom: 12px; font-size: 15px; clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
-.hgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); gap: 8px; }
+/* ============ HERO POOL (inline picker) ============ */
+#poolBox input { width: 100%; margin-bottom: 12px; font-size: 14px; clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
+.hgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); gap: 8px; max-height: 480px; overflow-y: auto; padding-right: 4px; }
 .hopt {
   background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent 40%), #10151d;
   border: 1px solid var(--line);
@@ -310,6 +301,16 @@ select:focus, input:focus { outline: 1px solid var(--gold); outline-offset: -1px
 .hopt .pf { width: 54px; height: 54px; margin: 0 auto 5px; display: block; }
 .hopt .r { display: block; font-size: 8px; color: var(--dim); font-weight: 600; letter-spacing: 0.12em; }
 .hopt.taken { opacity: 0.22; pointer-events: none; filter: grayscale(1); }
+.hopt { position: relative; }
+.hopt.rec {
+  border: 1px solid var(--gold); background: linear-gradient(180deg, rgba(245,185,66,0.10), transparent 55%), #191509;
+  box-shadow: 0 0 12px rgba(245,185,66,0.25);
+}
+.recbadge {
+  position: absolute; top: 3px; left: 5px;
+  font-size: 10px; font-weight: 800; font-style: italic; color: var(--gold2);
+  text-shadow: 0 0 8px rgba(245,185,66,0.6);
+}
 .note { color: var(--dim); font-size: 12px; text-transform: none; letter-spacing: normal; }
 
 /* ---- role border colors ---- */
@@ -347,6 +348,11 @@ select:focus, input:focus { outline: 1px solid var(--gold); outline-offset: -1px
       <h2 id="suggTitle">Suggestions</h2>
       <div id="suggList"><p class="note">Set the map, mark your team, then click any slot to start assigning. Suggestions update every pick.</p></div>
     </div>
+    <div class="sugg" id="poolBox">
+      <h2>All heroes</h2>
+      <input id="search" placeholder="Search hero... (recommended picks glow gold)">
+      <div class="hgrid" id="hgrid"></div>
+    </div>
     <div class="buildbox" id="buildBox" style="display:none">
       <div class="bhead"><img class="pf" id="buildPf" alt=""><div><h2 id="buildTitle">Build</h2><span class="note" id="buildNote"></span></div></div>
       <div id="buildList"></div>
@@ -356,13 +362,6 @@ select:focus, input:focus { outline: 1px solid var(--gold); outline-offset: -1px
   <div class="teamcol red">
     <h2>Red team <button class="mine off" id="mineRed">MY TEAM</button></h2>
     <div id="redSlots"></div>
-  </div>
-</div>
-
-<div class="modal" id="modal">
-  <div class="mbox">
-    <input id="search" placeholder="Search hero...">
-    <div class="hgrid" id="hgrid"></div>
   </div>
 </div>
 
@@ -472,6 +471,7 @@ function suggest() {
       if (m.tier === "S") chips.unshift({ c: "neutral", t: "S-tier, deny it" });
       return { h, pts, chips };
     }).sort((a, b) => b.pts - a.pts).slice(0, 5);
+    state.top5 = scored.map(s => s.h);
     render(scored, idx, "BAN");
     return;
   }
@@ -480,6 +480,7 @@ function suggest() {
   const myEnemies = isMine ? enemies : allies;
   const scored = cands.map(h => ({ h, ...score(h, myAllies, myEnemies) }))
     .sort((a, b) => b.pts - a.pts).slice(0, 5);
+  state.top5 = scored.map(s => s.h);
   render(scored, idx, "PICK");
 }
 
@@ -505,7 +506,7 @@ function assign(idx, hero) {
   if (state.slots[idx].kind === "pick" && state.slots[idx].team === state.mine) showBuild(hero);
   state.activeIdx = nextEmpty();
   if (state.activeIdx === null && state.lastShown) showBuild(state.lastShown);
-  closeModal(); draw();
+  draw();
 }
 
 const MAP_OBJ = {
@@ -617,7 +618,7 @@ function draw() {
         if (ev.target.classList.contains("x")) { s.hero = null; state.activeIdx = i; draw(); return; }
         if (s.hero) { if (s.kind === "pick") showBuild(s.hero); return; }
         state.activeIdx = i;
-        draw(); openModal();
+        draw(); document.getElementById("search").focus();
       };
       el.appendChild(d);
     });
@@ -629,25 +630,27 @@ function draw() {
   document.getElementById("mineBlue").className = "mine" + (state.mine === "blue" ? "" : " off");
   document.getElementById("mineRed").className = "mine" + (state.mine === "red" ? "" : " off");
   suggest();
+  fillGrid(document.getElementById("search").value);
 }
 
-function openModal() {
-  const modal = document.getElementById("modal");
-  modal.classList.add("open");
-  const inp = document.getElementById("search");
-  inp.value = ""; fillGrid(""); inp.focus();
-}
-function closeModal() { document.getElementById("modal").classList.remove("open"); }
 function fillGrid(q) {
   const grid = document.getElementById("hgrid");
   grid.innerHTML = "";
   const tk = taken();
-  Object.keys(DATA.talents).sort((a, b) => nameOf(a).localeCompare(nameOf(b))).forEach(h => {
+  const rec = state.top5 || [];
+  // recommended first (in rank order), then the rest alphabetically
+  const rest = Object.keys(DATA.talents).filter(h => !rec.includes(h))
+    .sort((a, b) => nameOf(a).localeCompare(nameOf(b)));
+  rec.concat(rest).forEach(h => {
     const nm = nameOf(h);
     if (q && !nm.toLowerCase().includes(q.toLowerCase())) return;
+    const ri = rec.indexOf(h);
     const d = document.createElement("div");
-    d.className = "hopt " + (ROLE_CLS[roleOf(h)] || "") + (tk.has(h) ? " taken" : "");
-    d.innerHTML = pfImg(h) + nm + '<span class="r">' + roleOf(h) + '</span>';
+    d.className = "hopt " + (ROLE_CLS[roleOf(h)] || "") + (tk.has(h) ? " taken" : "") +
+      (ri >= 0 && !tk.has(h) ? " rec" : "");
+    d.title = DATA.meta[h].tier + "-tier · " + (DATA.meta[h].why || "");
+    d.innerHTML = (ri >= 0 && !tk.has(h) ? '<span class="recbadge">' + (ri + 1) + '</span>' : "") +
+      pfImg(h) + nm + '<span class="r">' + roleOf(h) + " · " + DATA.meta[h].tier + '</span>';
     d.onclick = () => { if (state.activeIdx !== null) assign(state.activeIdx, h); };
     grid.appendChild(d);
   });
@@ -663,7 +666,6 @@ document.getElementById("mineBlue").onclick = () => { state.mine = "blue"; draw(
 document.getElementById("mineRed").onclick = () => { state.mine = "red"; draw(); };
 document.getElementById("resetBtn").onclick = () => { initSlots(); document.getElementById("buildBox").style.display = "none"; draw(); };
 document.getElementById("search").oninput = e => fillGrid(e.target.value);
-document.getElementById("modal").onclick = e => { if (e.target.id === "modal") closeModal(); };
 
 initSlots(); draw();
 
