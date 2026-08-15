@@ -573,15 +573,17 @@ function showBuild(hero) {
   document.getElementById("buildNote").textContent = m.note || "";
   const list = document.getElementById("buildList");
   list.innerHTML = "";
-  const bicons = m.build_icons || [];
+  const bicons = m.build_icons || [], bwhy = m.build_why || [];
   m.build.forEach((name, i) => {
     const tier = TIERS[i];
     const tal = (t.talents[tier] || []).find(x => x.name === name);
     const row = document.createElement("div");
     row.className = "btier";
     const ic = bicons[i] ? '<img class="ti" src="img/talents/' + bicons[i] + '" alt="" loading="lazy">' : '';
+    // Why you pick it (the pick reason), not the vanilla tooltip.
+    const why = bwhy[i] || (tal ? tal.description : "");
     row.innerHTML = '<span class="t">' + tier + '</span>' + ic + '<span class="n">' + name + '</span>' +
-      (tal ? '<span class="d">' + tal.description + '</span>' : "");
+      '<span class="d">' + why + '</span>';
     list.appendChild(row);
   });
   const heroTeam = state.slots.find(s => s.hero === hero && s.kind === "pick");

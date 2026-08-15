@@ -1,0 +1,137 @@
+{
+  "hanzo": {
+    "Target Practice": "Free scaling for tagging all 5 once, do it early and your poke range balloons for the rest of the game.",
+    "Explosive Arrows": "Turns Storm Bow into instant waveclear so you can shove and roam, take it on maps that reward soak.",
+    "Never Outmatched": "Autos refund Scatter's cooldown, keeping your bounce-shot pick tool up far more often in skirmish-heavy games.",
+    "Dragonstrike": "Your teamfight zoning ult, drop it on the objective or a clumped enemy to force them off with huge sustained AoE.",
+    "Fleet of Foot": "Stacks move speed off Storm Bow hits, take it to kite dive and hold spacing while you keep poking.",
+    "Piercing Arrows": "The damage spike: Storm Bow and Scatter pierce, doubling waveclear and letting one arrow tag a whole line.",
+    "Perfect Agility": "A second reposition charge, take it when they can dive you so you always keep an out after committing."
+  },
+  "hogger": {
+    "On The Prowl": "Rage on demand plus rage-scaled healing, your lane sustain and the fuel to keep abilities firing in a brawl.",
+    "Brute Force": "Auto-attack quest that permanently ups your damage, plus more Loot Hoard reach for wall-slam setups.",
+    "Dense Blasting Powder": "Loads extra dynamite into your combo, the burst spike that turns a wall-stun into a kill.",
+    "Hoardapult": "Your ranged engage, ride the hoard onto their backline with a slow attached to lock a target down.",
+    "Dust Devil": "Armor through your Hogg Wild spin, take it vs burst so you survive diving into their line.",
+    "Headbanger": "Payoff for the wall-slam: longer stun and bonus max-health damage make your signature combo lethal.",
+    "Secret Stash": "Turns Hoardapult into a dynamite machine gun, huge zone pressure and follow-up after the engage."
+  },
+  "illidan": {
+    "Immolation": "Lifesteal-fueled burn gives the lane sustain and waveclear to keep diving without a healer babysitting you.",
+    "Reflexive Block": "Physical armor on Dive, take vs auto-attack comps so you survive the moment you land on their backline.",
+    "Rapid Chase": "Move speed and a cd refund on Dive into heroes, your reset to chain-dive and stick to a fleeing target.",
+    "The Hunt": "Your global engage and stun, flank from across the map to lock their carry and start the fight on your terms.",
+    "Nimble Defender": "Armor each time Sweeping Strike tags a hero, the in-fight survivability so you bruise instead of getting bursted.",
+    "Blades of Azzinoth": "The damage spike: hit 5 heroes with sweep and your autos hit like a truck, wins extended brawls.",
+    "Demonic Form": "Permanent meta for attack speed and 50% CC reduction, the late answer to being kited and locked down."
+  },
+  "imperius": {
+    "Impaling Light": "Rewards stacking Valorous Brand before you stun, more marks means a longer Charge stun and a lower cooldown.",
+    "Press Forward": "Globe armor and refreshed regen when you trade, the sustain that wins his solo lane against other bruisers.",
+    "Flash of Anger": "Turns your marks into burst plus a shield, the spike that lets a Charge combo actually delete a squishy.",
+    "Angelic Armaments": "A big on-demand shield that fires back damage, the safer ult when you need to survive the dive you start.",
+    "Divine Rage": "Every mark you consume refreshes Molten Armor, keeping your sustain and waveclear engine running in fights.",
+    "Celestial Swiftness": "Move and attack speed after every Charge, take it to stick to targets and cash the stun in with autos.",
+    "Unrelenting Descent": "Refills a big chunk of health and mana when you dive in, the reset that lets you commit fight after fight."
+  },
+  "jaina": {
+    "Winter's Reach": "More Frostbolt reach and speed so you land the Chill from safer range, the setup for every combo you throw.",
+    "Frost Shards": "Frostbolt pierces two, so you clear waves and Chill a whole clump at once for follow-up Blizzard damage.",
+    "Ice Lance": "Frostbolt on a Chilled target refunds cd and mana, the engine that lets you machine-gun spells at frozen enemies.",
+    "Ring of Frost": "Your zoning ult and combo finisher, root a clump then dump Blizzard on top, take it when they group.",
+    "Storm Front": "Bigger, longer-range Blizzard, cast it from safety and blanket more of the fight to keep everyone Chilled.",
+    "Snowstorm": "The burst spike, later Blizzard waves hit far harder, turning your zone into real kill pressure on a clump.",
+    "Cold Snap": "Ring freezes twice, extending your lockdown and letting a single ult set up a full wombo."
+  },
+  "johanna": {
+    "Divine Fortress": "Stacks physical armor off your autos plus bonus health, the backbone of her near-unkillable frontline.",
+    "Subdue": "Non-decaying 80% slow when you clip two heroes, locks a target in place for your team to collapse.",
+    "Sins Exposed": "Punish shuts off enemy healing, take it into heavy-sustain comps where your kills otherwise slip away.",
+    "Falling Sword": "Global engage that makes allies under you unstoppable, your initiation or a save from across the map.",
+    "Roar": "Big Punish damage when it clips multiple targets, adding real teamfight burst on top of the slow.",
+    "Shrinking Vacuum": "Condemn now weakens and slows, a peel tool that blunts their dive and buys a diving ally an out.",
+    "Indestructible": "A full-health shield the instant you'd die, the reason she anchors a fight no one can break through."
+  },
+  "junkrat": {
+    "Extra-Wound Timers": "Beefs up your last grenade and keeps nades live longer, more zone and burst out of one Frag reload.",
+    "Taste For Explosions": "The damage quest, stack it early by tagging heroes with Frags so your whole kit scales into midgame.",
+    "Bogged Down": "Concussion Mine slows on landing, so the enemy you boop stays put for your Frags and your team's follow-up.",
+    "RIP-Tire": "Your pick and zone ult, drive it around a corner to blow up a squishy or force them off an objective.",
+    "Bombs Away": "Auto then Frag deals bonus damage at extra range, smoothing your in-lane trades and poke DPS.",
+    "Endless Nades": "Hero hits refund Frag's cooldown, the sustained-damage spike that lets you never stop lobbing in a fight.",
+    "Cannonball!": "Bigger grenade and splash radius, take it for consistency so you stop clipping the small hitboxes you chase."
+  },
+  "kaelthas": {
+    "Fel Infusion": "A flat spell-power bump and a heal each rotation, free scaling and the sustain to keep poking without a healer.",
+    "Nether Wind": "Longer Gravity Lapse with a mana refund, your setup lift, land it and the whole combo lands for free.",
+    "Burned Flesh": "Flamestrike adds max-health damage when it catches two, the reason it hits like a truck into grouped fights.",
+    "Phoenix": "Sustained AoE that zones and chunks a clump for 7 seconds, the ult that beats Pyroblast when they fight together.",
+    "Fission Bomb": "Wider Living Bomb spread, so your bombs chain across a stack and multiply the AoE off one cast.",
+    "Fury of the Sunwell": "Flamestrike detonates twice, doubling your burst, the spike that turns a rooted target into a corpse.",
+    "Rebirth": "Phoenix lasts twice as long and you steer it, turning your ult into a persistent zone that reshapes the fight."
+  },
+  "kelthuzad": {
+    "Barbed Chains": "Loads damage and armor shred onto Chains, the pull that starts every combo now hits and softens the target.",
+    "Strip Shields": "Permanent stacking shield each time you land Chains, the survivability that keeps your squishy mage comboing.",
+    "Accelerated Decay": "Death and Decay ramps the longer they sit in it, the core of his damage, punishing anyone rooted in your zone.",
+    "Frost Blast": "Your delete button, a rooted-target nuke that with a clean Chains-Nova setup one-shots their carry.",
+    "Icy Grasp": "Beefier Frost Nova slow that refunds its own cd on damage, the CC engine that locks targets for the combo.",
+    "Arcane Echoes": "D&D explosions cut their own cooldown, keeping your damage zone up nearly constantly in a drawn-out fight.",
+    "The Damned Return": "A shade doubles your Death and Decay, stacking two damage pools for absurd teamfight and zone output."
+  },
+  "kerrigan": {
+    "Siphoning Impact": "Ravage grants shields on hit, the survivability that lets her dive in, combo, and come back out alive.",
+    "Sharpened Blades": "Ravage's damage quest, farm the early stacks so your engage combo actually kills instead of just poking.",
+    "Queen of Blades": "Cuts Ravage's cooldown and doubles PvE damage, better waveclear and a faster reset to reach the backline.",
+    "Maelstrom": "AoE nuke that caps her pull combo, drop it after Impaling Blades to melt everyone you lassoed together.",
+    "Volatile Power": "More shields per damage dealt, take it to be the tankier all-in threat when you're the one starting fights.",
+    "Painful Spikes": "Impaled targets take bonus damage from your next hits, the spike that guarantees the pull becomes a kill.",
+    "Omegastorm": "Maelstrom extends each time it damages a hero, turning a clumped fight into a long self-sustaining AoE grind."
+  },
+  "kharazim": {
+    "Transcendence": "Turns your autos into healing, the build that lets you punch the fight and top the diving ally at once.",
+    "Earth Ally": "A physical-armor totem, take it into auto-attack comps to blunt their carry while your team stands on it.",
+    "Heavenly Zeal": "Dashing to an ally supercharges their Breath of Heaven heal and speeds you both, your dive-follow tool.",
+    "Divine Palm": "Cheat-death on an ally, the clutch save that eats their whole burst combo and hands you the fight.",
+    "Quicksilver": "Dash grants both of you move speed, take it to chase kills or kite a dive off your carry.",
+    "Cleansing Touch": "Dash makes an ally unstoppable, a mini-cleanse that pulls a target out of a stun chain or Ring of Frost.",
+    "Peaceful Repose": "If they survive, Palm's cooldown drops to 5 seconds, so you can throw the big save nearly every fight."
+  },
+  "leoric": {
+    "Ossein Renewal": "A big self-heal on demand refreshed by globes, the sustain that lets him out-brawl anyone who pokes him.",
+    "Paralyzing Rage": "A stronger Skeletal Swing slow, take it to stick to a target or peel a dive off your backline.",
+    "Willing Vessel": "Drain Hope heals a huge chunk of his health, the tether becomes a full lifeline in extended fights.",
+    "Entomb": "A wall ult that splits their team or traps a target, your setup for a kill or a clutch peel.",
+    "Unyielding Despair": "Drain Hope's cooldown melts while it's active, keeping the tether and its damage and heal up almost always.",
+    "Crushing Hope": "Full-duration Drain Hope rips max-health damage, the payoff that makes him a genuine tank-shredder.",
+    "Death March": "The final ult swing tethers everyone nearby with Drain Hope, chaining lockdown and damage across their team."
+  },
+  "lili": {
+    "Eager Adventurer": "Longer Fast Feet and mana regen, more uptime on the speed that keeps her alive and her mana healthy.",
+    "Wind Serpent": "Cloud Serpent speeds up and hits harder, boosting both your passive healing throughput and your poke.",
+    "The Good Stuff": "Adds a heal-over-time to Brew, doubled while Fast Feet is up, a real healing spike for a random-target healer.",
+    "Jug of 1,000 Cups": "A massive channeled team heal, take it as your emergency button to out-heal a sustained teamfight.",
+    "Hindering Winds": "A stronger, longer Blinding Wind slow, turning your anti-auto blind into a kiting and peel tool too.",
+    "Pick Me Up": "Brew heals far more on low allies, so her randomness still lands big when a teammate is about to die.",
+    "Double Dragon": "A second Water Dragon on impact, doubling the blind and damage, your best teamfight-tempo pick."
+  },
+  "liming": {
+    "Force Armor": "Spell armor whenever your missiles connect, the buffer that keeps a zero-defense mage alive through burst.",
+    "Triumvirate": "Arcane Orb refunds cd and mana on a hero hit, your sustainable poke and waveclear from max range.",
+    "Seeker": "Third Magic Missile on one target adds big burst, rewarding you for locking your poke onto a single squishy.",
+    "Wave of Force": "A knockback that self-peels and disengages, take it over Disintegrate when their dive would otherwise delete you.",
+    "Illusionist": "A kill already resets Teleport; this resets it when you take burst too, your extra get-out-of-jail button.",
+    "Diamond Skin": "Teleport hands you a shield, stacking with the reset so every blink is also a survival cooldown.",
+    "Repulsion": "Massively longer Wave of Force range and knockback, turning your peel into a fight-wide displacement tool."
+  },
+  "lostvikings": {
+    "Olaf the Stout": "Beefs up your durable Viking with health and periodic armor, so Olaf can hold a lane and eat a gank attempt.",
+    "Erik the Swift": "Erik moves faster and self-heals on the go, the mobility that makes triple-lane soak and escapes reliable.",
+    "Norse Force!": "An on-demand shield across all three, your panic button to survive a collapse and keep your soakers alive.",
+    "Longboat Raid!": "Bundles the Vikings into a fighting boat, the ult that lets them contest teamfights and push, not just soak.",
+    "Jump!": "Invulnerability and pass-through for all Vikings, the ungankable escape when they finally catch a lone body.",
+    "64 KB Marathon": "Go Go Go bursts speed and breaks roots, your rotation and disengage tool to keep all three lanes covered.",
+    "The Sequel!": "Halves the death timer, so a caught Viking is back soaking almost immediately, minimizing the lost XP."
+  }
+}

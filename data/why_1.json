@@ -1,0 +1,137 @@
+{
+  "abathur": {
+    "Survival Instincts": "Locusts become real siege pressure and a lane-soak army, letting you push while hatting fights elsewhere.",
+    "Adrenal Overload": "Turns Symbiote into an attack-speed steroid on your carry, spiking whoever you hat in a fight.",
+    "Vile Nest": "Your only reliable peel and gank setup, drop nests in chokes so allies catch the slowed target.",
+    "Ultimate Evolution": "The gamechanger clone, copy their best hero for a free extra body in fights and pushes.",
+    "Soma Transference": "Keeps your hatted ally alive off Spike Burst, letting them dive deeper and hold the front.",
+    "Adrenaline Boost": "Your peel and engage tool, sling your carry in or a diver out with a 40% speed burst on Carapace.",
+    "Hivemind": "Doubles your global impact, hat two allies at once for shields and poke across the map."
+  },
+  "alarak": {
+    "Overwhelming Power": "Your sustain and dueling spike, the lifesteal and attack speed win every trade after landing Discord.",
+    "Chaos Reigns": "Quest ramps Discord damage so your combo one-shots squishies by mid game.",
+    "Dissonance": "Longer Silence locks a mage out of every escape, the whole reason to draft Alarak.",
+    "Deadly Charge": "Your gap-closer and fight opener, engage from off-screen and stack Sadism on their backline.",
+    "Rite of Rak'Shir": "Snowball tool, mark their carry to pump Sadism every Discord and reach terrifying damage.",
+    "Lightning Barrage": "Doubles your poke and burst, a second free Surge on another target to zone or finish.",
+    "Last Laugh": "Escape plus reposition, teleport out of a lost dive or into a cleaner Discord angle."
+  },
+  "alexstrasza": {
+    "Live and Let Live": "Keeps Gift of Life spammable while you stay topped up, your baseline single-target healing engine.",
+    "Surge of Vitality": "Turns Abundance into a speed boost for engage or disengage, not just raw healing.",
+    "Lifeblossom": "Rewards good positioning, the self-heal refunds Gift of Life's cost so your Health never dips.",
+    "Life-Binder": "The clutch swing save, top a low ally instantly and raise your effective pool in a brawl.",
+    "Dragon Scales": "Armor exactly when they chain-CC you, your survival answer vs dive that hunts the healer.",
+    "Overprotective": "Big-fight value, layers shields on Abundance so preemptive heals hold against burst.",
+    "Ancient Flame": "Adds real damage in Dragonqueen, your attacks chunk while you heal through the fight."
+  },
+  "ana": {
+    "Contact Healing": "Landing Grenade on the clump burst-heals your team and amps damage on theirs, your fight swinger.",
+    "Biotic Enhancements": "More uptime on the heal and anti-heal window plus faster cooldown, your core efficiency pick.",
+    "Mind-Numbing Agent": "Doses gut enemy mage burst, take it into heavy Spell Power comps to blunt their combos.",
+    "Nano Boost": "The wombo enabler, hand your hypercarry 30% Spell Power to nuke a fight wide open.",
+    "Smelling Salts": "Cleanse a key stun off your carry mid-fight, invaluable into hard-engage CC comps.",
+    "Sharpshooter": "Rewards accurate darting, ramps single-target throughput to out-heal sustained damage.",
+    "Nano Infusion": "Turns Nano Boost into lifesteal for the team, doubling as healing during your burst window."
+  },
+  "anduin": {
+    "Evenhanded Blessings": "Spread Flash Heal across targets for near-free casts, your mana-efficient multi-target sustain.",
+    "Moral Compass": "Gives you real poke and lane presence, Divine Star chips while your attack range extends.",
+    "Binding Heal": "Self-sustain so you heal allies without dropping yourself, keeps you alive under poke.",
+    "Holy Word: Salvation": "The clutch teamfight save, mass-heal and Protect your team through a wombo.",
+    "Speed of the Pious": "Chains Divine Star casts and gives escape speed, keeps your poke-heal loop rolling.",
+    "Inner Focus": "An on-demand giant heal reset for a dived ally, and it comes back faster when you poke.",
+    "Light of Stormwind": "Upgrades your ult to full Invulnerability, hard-counters their all-in timing."
+  },
+  "anubarak": {
+    "Legion of Beetles": "Free beetle army for waveclear and a spell-armor shield source, fuels your whole identity.",
+    "Underking": "Longer, harder Burrow Charge is your engage, close onto their backline from farther out.",
+    "Chitinous Plating": "Refreshes Carapace off their ability damage, letting you dive into burst and survive it.",
+    "Locust Swarm": "Sustain-heavy ult that keeps you alive deep in their line while chunking everyone nearby.",
+    "Urticating Spines": "Adds burst to every Carapace, turning your defensive cooldown into backline damage.",
+    "Debilitation": "Guts enemy mage output on your engage target, take it to neuter their burst combo.",
+    "Hive Master": "A permanent free damage-and-heal pet, constant sustain and pressure between cooldowns."
+  },
+  "artanis": {
+    "Amateur Opponent": "Free waveclear and camp speed so you solo-lane and rotate without falling behind.",
+    "Shield Surge": "Doubles your Overload shields when low, the sustain spike that lets you brawl up front.",
+    "Solarite Reaper": "Front-loads Blade Dash into real burst, your poke and trade winner in lane.",
+    "Suppression Pulse": "Team-wide Blind shuts down an enemy auto-attack carry, best into AA-heavy comps.",
+    "Triple Strike": "More Twin Blades hits means more Shield Overload procs and steadier sustained damage.",
+    "Titan Killer": "Percent-max-HP damage lets you actually melt tanks and beefy targets over a fight.",
+    "Orbital Bombardment": "A second Suppression Pulse for double Blind uptime, locks down their carries longer."
+  },
+  "arthas": {
+    "Eternal Hunger": "Solves your mana and adds damage, keeps Frostmourne Hungers online so you spam abilities.",
+    "Icy Talons": "Ramps attack speed the longer you brawl inside Frozen Tempest, your sustained-damage identity.",
+    "Immortal Coil": "Lets you sling Death Coil offensively and still self-heal, flexible sustain in a fight.",
+    "Summon Sindragosa": "Huge AoE slow that wins brawls and disables structures, your teamfight-control ult.",
+    "Shattered Armor": "Armor shred on Howling Blast so your team focuses the slowed target down faster.",
+    "Remorseless Winter": "Roots anyone who lingers in your aura, punishing melee that tries to trade with you.",
+    "Legion of Northrend": "A ghoul army for extra damage and sustain, great for split-push and brawl pressure."
+  },
+  "auriel": {
+    "Righteous Assault": "Center-hit Sweeps refund cooldown, your energy-and-poke engine to keep Ray of Heaven flowing.",
+    "Repeated Offense": "Ramps Detainment Strike into a real pin, a knockback tool to wall-stun engagers.",
+    "Energized Cord": "Maximizes energy stored from your battery's damage, the core of your healing output.",
+    "Resurrect": "The fight-winner, bring a dead ally straight back and swing a lost teamfight.",
+    "Blinding Flash": "Adds a Blind to Sweep to shut down an auto-attacker, pick vs AA-reliant carries.",
+    "Reservoir of Hope": "Quest grows max energy so a late-fight Ray of Heaven becomes a massive burst heal.",
+    "Angelic Flight": "Global repositioning to save an ally or land a clutch res across the map."
+  },
+  "azmodan": {
+    "Greed": "Ramps your global range and Globe damage, the quest that makes you a screen-away sieger.",
+    "Army of Hell": "Extra Demon Warrior for stronger lane pressure and constant split-push threat.",
+    "Bombardment": "Weaves attacks after Globe for extra burst, spiking your single-target damage.",
+    "Demonic Invasion": "Wave of grunts for burst plus push, your camp-soak and fight-damage ult.",
+    "Brutish Vanguard": "Beefier, slowing demons that peel for you and pressure lanes harder.",
+    "Total Annihilation": "Adds percent-max-HP to Globe, turning poke into real burst on tanks and squishies alike.",
+    "Siegebreaker": "Your demons melt structures, the macro finisher that closes out games."
+  },
+  "blaze": {
+    "Endurance Stimpack": "Baseline self-shield sustain, keeps you frontlining and healthy through poke.",
+    "Oil Dispersal": "Ties Flame Stream into Oil Spill uptime, your wave-control and zoning engine.",
+    "Suppressive Fire": "Guts enemy mage damage when you land streams, a Spell Power debuff vs burst comps.",
+    "Bunker Drop": "The peel ult, a mobile fortress your team ducks into to escape or reset a fight.",
+    "Grill and Kill": "Quest ramps your Ignite damage so your zoning oil actually threatens kills.",
+    "Juggernaut Plating": "On-demand Spell Armor plus a shield, your answer to burst mage focus.",
+    "Flash Fire": "Fixes Combustion's self-slow so you keep pace and land the ult's full slow."
+  },
+  "brightwing": {
+    "Hyper Shift": "Bigger Phase Shift heals with lower cooldown near minions, your primary single-target save.",
+    "Dream Shot": "Long-range Flare with a huge cooldown reset on center hits, your poke and mana engine.",
+    "Sticky Flare": "Adds a slow to Flare so your team catches the target, peel plus setup from range.",
+    "Emerald Wind": "The peel and disengage ult, knock divers off your carry or clear a point.",
+    "Pixie Power": "More Pixie Dust uptime and Spell Armor, your defensive cooldown vs burst mages.",
+    "Hush!": "Silence plus damage cut on center Flare, take it to shut down a combo caster.",
+    "Faerie Protector": "Team-wide Pixie Dust for AoE Spell Armor, huge into wombo and burst comps."
+  },
+  "cassia": {
+    "Thunderstroke": "Ramps Lightning Fury damage per Hero hit, your scaling poke and waveclear quest.",
+    "Inner Light": "Self-heal tied to hitting Fury, sustains you through lane and poke wars.",
+    "Surge of Light": "Punishes auto-attackers into your Avoidance, turning their AA into your burst counter.",
+    "Ball Lightning": "Bounces huge damage in a clumped fight, your teamfight nuke when they group up.",
+    "War Matron": "Protected during Fend lets you channel your damage safely into a brawl.",
+    "Power Strike": "Piercing Fury marks enemies for a burst spike, ramping your sustained AoE threat.",
+    "Imprisoning Light": "Long Blind on your impale target shuts off an enemy carry's whole auto-attack window."
+  },
+  "chen": {
+    "Stormstout Secret Recipe": "Ability-hit self-heal is your brew-free sustain, keeps you in every brawl.",
+    "Deadly Strike": "Free, empowered Flying Kick becomes your mobile poke and engage without draining brew.",
+    "Brewmaster's Balance": "Rewards brew management with speed or regen, keeps you slippery and topped up.",
+    "Wandering Keg": "Unstoppable disruption barrel to scatter their backline and body-block, your signature CC.",
+    "A Touch of Honey": "Longer, stronger Keg Smash slow makes your disruption stickier for follow-up.",
+    "Flying Leap": "Ignite-driven Flying Kick resets keep you diving and repositioning nonstop.",
+    "Untapped Potential": "Massive speed and armor on Keg turns you into an unkillable wrecking ball."
+  },
+  "chogall": {
+    "Consuming Fire": "Ramps your Blaze self-heal when Ignited, the sustain that keeps the shared body alive.",
+    "Uppercut": "Percent-HP damage and a cooldown cut on Surging Fist, your repeatable engage burst.",
+    "Power Surge": "Slow plus speed on Fist makes your charge stick, catching targets for your Ogre partner.",
+    "Hammer of Twilight": "A reliable stun and knockback that sets up your co-pilot's whole combo.",
+    "Surging Dash": "Self-heals while charging Fist, letting the body brawl through incoming damage.",
+    "Frenzied Fists": "Attack-speed spike after Fist turns your engage into heavy sustained damage.",
+    "Hour of Twilight": "Shorter death timer, critical since one death removes two players from the map."
+  }
+}

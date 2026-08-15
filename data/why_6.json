@@ -1,0 +1,137 @@
+{
+  "tracer": {
+    "One-Two Punch": "Extra melee charge for reset harass; poke the backline between reloads and feed Telefrag's cooldown later.",
+    "Is That a Health Pack?!": "Globe sustain keeps you in their face; with no escape but position, this is your lifeline.",
+    "Sleight of Hand": "The DPS pick: faster reload is flat 20% more damage, and your whole kit is basic attacks.",
+    "Quantum Spike": "Percent-health bomb finishes tanks and squishies alike, your only real burst on an auto-attacker.",
+    "Telefrag": "Recall CDR plus unstoppable arrival: dive in, dump the clip, blink out safe, the survival backbone.",
+    "Bullet Spray": "AoE melee resets clear waves and hit clumped backliners, and every hit shaves Recall's cooldown.",
+    "Composition B": "Double bomb doubles your burst, near-guarantees the squishy kill once you stick it."
+  },
+  "tychus": {
+    "Press the Advantage": "Range is Tychus's lifeblood; an extra tile lets you shred tanks while staying out of melee.",
+    "In the Rhythm": "The core quest: permanent Minigun uptime is your whole damage identity, start stacking early.",
+    "Relentless Soldier": "Armor when stunned or rooted; you're the dive target, so this keeps you firing through their CC.",
+    "Commandeer Odin": "Your range fix and survival tool, drop the Odin to stomp the objective fight and out-range their dive.",
+    "That's the Stuff!": "Minigun self-heal sustains you through long fights so you never have to back off DPS.",
+    "Titan Grenade": "Percent-health on the grenade with cooldown refund, adds burst to your sustained tank-melting.",
+    "Big Red Button": "Longer Odin plus a nuke turns your ult into a fight-ending AoE bomb."
+  },
+  "tyrael": {
+    "Justice for All": "Shares your shield with allies, turning Righteousness into a team-wide save, core to enabling dive.",
+    "Stalwart Angel": "Armor on your teleport lets you dive in and El'druin back out without dying.",
+    "Reciprocate": "Shield explosion adds damage to your engages, punishing enemies clumped on your dived ally.",
+    "Sanctification": "The reason you draft Tyrael: an invuln bubble that eats their wombo, hold it for their combo ult.",
+    "Holy Ground": "Walls off your teleport landing, peel a diver off your carry or trap a target in.",
+    "Horadric Reforging": "Attacks lower El'druin's cooldown, more teleports means more repositioning and shield uptime.",
+    "Seal of El'druin": "Attack speed on every ability cast keeps your shield engine and self-sustain rolling."
+  },
+  "tyrande": {
+    "Ranger": "Pierce plus distance scaling makes Sentinel real poke and a scout tool, snipes stragglers.",
+    "Everlasting Light": "Bonus heal for hitting a second target rewards spreading Light of Elune across your team.",
+    "Moonlit Arrows": "Attacks refund Light of Elune; weave autos to heal more, your near mana-free sustain engine.",
+    "Shadowstalk": "Team stealth plus heal wins objective rotations and sets up ganks, the utility ult.",
+    "Quickening Blessing": "Move speed on your heal kites an ally out of danger or into position.",
+    "Celestial Attunement": "Cleanse on Light of Elune pulls the stun or silence off your carry mid-fight.",
+    "Celestial Wrath": "Starfall applies Hunter's Mark, turning your zone ult into a team-wide damage amp."
+  },
+  "uther": {
+    "Silver Touch": "Quest cuts Holy Light's cost so you can spam heals; the Devotion armor uptime is free value.",
+    "Holy Fire": "Passive attack damage gives Uther real solo-lane presence and poke between heals.",
+    "Armor of Faith": "Being CC'd refunds mana and rushes Holy Light back, punishing them for stunning you.",
+    "Divine Shield": "Your panic button for a dived ally; save it for their all-in on your carry, not for chip damage.",
+    "Blessed Champion": "Autos heal after Holy Light, extending one big heal into sustained team healing.",
+    "Tyr's Deliverance": "Autos empower Holy Radiance; weave attacks to boost your AoE heal and poke.",
+    "Divine Protection": "Beefs Devotion armor for everyone, your team-wide damage reduction aura at its strongest."
+  },
+  "valeera": {
+    "Vigor": "More energy regen and a higher cap let you chain the full combo without running dry.",
+    "Relentless Strikes": "Cheaper Sinister Strike means more combo throughput, spam it in the burst window.",
+    "Mutilate": "Both blades for big burst, the pick when you want to delete a squishy on the opener.",
+    "Smoke Bomb": "Escape plus armor bubble, the survival ult that lets you dive deep and still get out.",
+    "Death From Above": "Ambush teleport cuts Vanish's cooldown, re-stealth faster to reset your assassination.",
+    "Thistle Tea": "Instant energy without breaking stealth, refuels mid-combo to finish the kill.",
+    "Adrenaline Rush": "Huge energy regen inside Smoke Bomb, unload a whole combo while untargetable."
+  },
+  "valla": {
+    "Puncturing Arrow": "The Q-build quest: extra bounce plus permanent damage stacks, your poke and kite backbone.",
+    "Repeating Arrow": "Free Vault that resets Hungering Arrow, fire and reposition, the kite engine.",
+    "Monster Hunter": "Bonus PvE damage secures camps and bosses fast to snowball map control.",
+    "Strafe": "Move-and-shoot burst, the safe DPS ult that lets you kite while dumping damage.",
+    "Siphoning Arrows": "Lifesteal on Q and W keeps a squishy backliner topped up through the fight.",
+    "Manticore": "Percent-health every 3rd auto, your tank-shredding scaling for the late game.",
+    "Death Siphon": "Longer Strafe with penetrating bolts turns your ult into sustained AoE carry damage."
+  },
+  "varian": {
+    "High King's Quest": "The flex quest: completing it grants your chosen heroic, take it every single game.",
+    "Taunt": "The tank path, silence and force-attack plus huge HP, drafts Varian as a frontline anti-carry.",
+    "Lionheart": "Boosts Lion's Fang healing, your self-sustain to hold the frontline as a taunt tank.",
+    "Shield Wall": "The survival heroic: full immunity on Parry makes you unkillable through their burst.",
+    "Juggernaut": "Percent-health on Charge adds pick potential and tank-busting to your engage.",
+    "Banner of Stormwind": "Team move speed, an engage or disengage tool that amps your whole squad.",
+    "Glory to the Alliance": "Banner now heals too, a team-wide sustain aura on a short cooldown for long fights."
+  },
+  "whitemane": {
+    "Pity the Frail": "Inquisition CDR plus more healing to low allies feeds your damage-to-heal loop.",
+    "Indulgence": "Move speed scaling with Zeal keeps you positioned so your damage abilities keep landing.",
+    "Intercession": "A one-second unstoppable save, pull an ally out of a stun-chain or root.",
+    "Scarlet Aegis": "Burst heal plus armor for the team, the reactive save versus a wombo, the safer heroic.",
+    "Subjugation": "Inquisition halves the target's damage, soft CC that neuters their diver or carry.",
+    "Radiance": "Desperation stacks heal and reapply Zeal, maximizing your channel-healing throughput.",
+    "Judgment Day": "Divine Reckoning pulls and hits harder, turning your ult into a wombo setup."
+  },
+  "xul": {
+    "Backlash": "Bone Armor's expiry burns nearby heroes for percent-health, free trade damage every skirmish.",
+    "Grim Scythe": "Cursed Strikes CDR plus attack damage, spam the cleave to melt waves and poke.",
+    "Trag'Oul's Essence": "Skeletons refund health and mana, sustaining your endless wave-clear and lane presence.",
+    "Poison Nova": "Massive AoE DoT, the pick versus stacked comps, huge damage that also delays their objective.",
+    "Echoes of Death": "Extra scythes on your root mean wider gank setups and more wave-delete.",
+    "Weaken": "Your cleave and skeletons cut enemy damage, a team-wide defensive debuff in brawls.",
+    "Andariel's Visage": "Poison Nova heals you and lasts longer, sustaining you through the fight it zones."
+  },
+  "yrel": {
+    "Dauntless": "Armor on every ability cast, your steady survivability while you charge abilities.",
+    "Hand of Freedom": "Cleanse plus speed for an ally, the reason she saves people, pull them out of a root or slow.",
+    "Righteous Momentum": "No slow while channeling Hammer lets you chase down and land your empowered abilities.",
+    "Ardent Defender": "Full damage immunity plus heal, the unkillable bubble that flips their all-in.",
+    "Velen's Chosen": "Spell power stacks on max-charge hits ramp your late-game bully damage.",
+    "Templar's Verdict": "Armor shred plus percent-health on Hammer, your teamfight burst and tank-buster.",
+    "Word of Glory": "Ardent Defender heals allies too, turning your survival ult into a team save."
+  },
+  "zagara": {
+    "Volatile Acid": "Longer baneling range, poke and zone from safety, chip their frontline before the fight.",
+    "Envenomed Spines": "A big auto DoT, real single-target damage to punish anyone who steps up.",
+    "Bile Drop": "The Infested Drop quest, more roachlings and radius, boosts wave-clear and zone pressure.",
+    "Nydus Network": "Map-wide teleport off your creep, the macro ult, soak and rotate anywhere instantly.",
+    "Hydralisk Transfusion": "Hunter Killers heal you, sustaining your zoning as a squishy specialist.",
+    "Corrosive Saliva": "Percent-health from your creatures adds tank-shredding to back up your zone.",
+    "Tyrant Maw": "Stronger Devouring Maw with takedown CDR, your one real teamfight CC, spam it."
+  },
+  "zarya": {
+    "Feel the Heat": "Bonus melee damage and bigger attacks at high energy reward aggressive shield-charging.",
+    "Give Me Twenty": "Globe quest boosts Shield Ally, more energy generation and stronger team shields.",
+    "Pinpoint Accuracy": "Grenade damage plus a center slow adds poke and a pick tool to your kit.",
+    "Graviton Surge": "Your wombo setup, grav a clump for your team's AoE, take it when they group and you have follow-up.",
+    "Spell Barrier": "Spell armor when your barrier breaks doubles down on eating their ability burst.",
+    "Cleansing Shield": "Shield Ally now cleanses, pull a teammate out of a stun-chain or root, the peel pick.",
+    "Gravity Kills": "Longer grav that also silences locks their team in for the full wombo."
+  },
+  "zeratul": {
+    "Greater Cleave": "Wider cleave means better wave-clear and multi-target harass while you roam.",
+    "Rending Cleave": "Cleave DoT adds sustained damage to your blink-in combos.",
+    "Wormhole": "Blink out and back, the survival talent, dive the backline and escape the collapse.",
+    "Void Prison": "The reason you draft Zeratul: a time-stop that wins 5v5s, isolate their core or save your team.",
+    "Shroud of Adun": "A shield from staying cloaked lets you survive the burst when you dive deep.",
+    "Void Slash": "Cleave hitting multiple heroes deals more with CDR, ramping your teamfight damage.",
+    "Twilight Falls": "A takedown resets your abilities, chain a second blink combo to clean up the fight."
+  },
+  "zuljin": {
+    "Boneslicer": "Grievous Throw pierces and its mark sticks, setting up your No Mercy execute on the whole line.",
+    "Troll's Blood": "Stronger Regeneration plus mana refund, your only real sustain, keeps the berserker topped up.",
+    "Ferocity": "More Berserker attack speed, flat DPS scaling as your health drops, core to the identity.",
+    "Taz'dingo!": "Can't die for 4 seconds, the pick versus burst, unload free damage while they can't kill you.",
+    "Lacerate": "Stronger Twin Cleave slow, a self-peel and kite tool for a hero with no escape.",
+    "No Mercy!": "Autos ignore armor and add percent-health on marked targets, your tank-melting spike.",
+    "Buzzsaw": "Guillotine pierces and full-heals on a kill, a global execute that refills your health bar."
+  }
+}

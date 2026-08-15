@@ -1,0 +1,137 @@
+{
+  "ltmorales": {
+    "Caduceus Feedback": "Bonus range keeps you out of reach while feeding Energy, so Stim Drone and Safeguard come online faster.",
+    "Trauma Trigger": "Your anti-dive layer, the armor procs the moment you get focused so you don't get bursted before healing back.",
+    "Physical Therapy": "Turns Safeguard into a slow-cleanse on a short cooldown, take it to keep your carry mobile vs slow-heavy comps.",
+    "Stim Drone": "The reason you draft Morales, turns your best auto-attacker into a monster for the fight.",
+    "EMP Grenade": "Extra poke that shreds shields, take it vs shield-stacking comps like Zarya or Medivh.",
+    "Extended Care": "Boosts single-target throughput, your beam target keeps healing while you weave off to safety.",
+    "Hyperactivity": "Near double Stim uptime plus more kite speed, one boost for every fight, doubling down on your carry-buffing job."
+  },
+  "lucio": {
+    "Accelerando": "Your rotation and disengage speed, ramps while wall-riding so you outrun everything and enable global map play.",
+    "Subwoofer": "Boops divers farther to peel, and the quest range makes your knockback reach into their backline.",
+    "Boombox": "Doubles your aura output on the objective, allies get speed or heal plus armor while you fight.",
+    "Sound Barrier": "Your teamfight save button, drop it before their wombo to soak the burst that would wipe your team.",
+    "All Together": "More allies on your speed track means more team speed, snowballs your speed-wins-fights identity.",
+    "Rejuvenescência": "Extra sustained healing while amped, take it when you need to out-heal poke rather than out-speed it.",
+    "House Party": "Scales healing with a stacked team, the pick when fights are 5-man clumps and you're the main healer."
+  },
+  "lunara": {
+    "Sentinel Wisp": "Free map vision from your Wisp, the safe default to scout objectives and ganks without risking yourself.",
+    "Blossom Swell": "Ramps your poison from range, faster toxin stacking means faster DPS and better zoning of a clump.",
+    "Splintered Spear": "Big multi-target hit that spreads Nature's Toxin across their whole team, huge wave clear too.",
+    "Thornwood Vine": "Long-range burst that banks charges, the damage ult when you want to out-poke rather than control fights.",
+    "Greater Spell Shield": "Your survival pick vs burst mages, eats their key ability so you keep dancing at range.",
+    "Invigorating Spores": "Your DPS spike once poison is stacked, take it to melt tanks with sustained auto-attacks.",
+    "Forest's Wrath": "Turns your ult into a poison applicator and extends range and vision, ramping late-game poison pressure."
+  },
+  "maiev": {
+    "Pursuit of Vengeance": "Keeps Spirit of Vengeance up nonstop, your engage and escape tool comes back faster the more you tether.",
+    "Pin Down": "Rewards hitting clumps with your cleave, complete it and your AoE burst and wave clear spike hard.",
+    "Bonds of Corruption": "Amps the follow-up on a pinned target, the armor shred sets up your team to delete them.",
+    "Containment Disc": "Take a key target out of the fight for 4 seconds, isolate their tank or delay a save during your dive.",
+    "Bladed Armor": "Free survivability when you cleave a clump, lets you dive into multiple enemies and live.",
+    "Vengeful Knives": "Adds percent-health burst to your cleave, take it to melt tanks alongside the squishies.",
+    "Shadow Orb: Vengeance": "Double-engage or double-escape on demand, chain your wall combos or bail from a lost fight."
+  },
+  "malfurion": {
+    "Deep Roots": "Bigger, longer root to lock their engage, and the mana quest fuels your spammy healing all game.",
+    "Rejuvenation": "Free self-sustain every time you heal an ally, keeps you topped to play aggressive with Moonfire poke.",
+    "Wild Growth": "Rewards weaving Moonfire poke, each hit stretches your heal-over-times for more efficient sustain.",
+    "Twilight Dream": "Your AoE silence teamfight ult, lock a clump to stop their casts or peel a dive off your carry.",
+    "Nature's Swiftness": "Kiting speed while heals are rolling, stay out of reach as you sustain, take it vs dive.",
+    "Nature's Balance": "Wider Moonfire and longer Regrowth, cranks your poke-and-sustain engine for max efficiency.",
+    "Serenity": "Refreshes and amplifies Tranquility, spam near-constant AoE healing to out-sustain drawn-out fights."
+  },
+  "malganis": {
+    "Winged Guard": "Your baseline tankiness vs autos, stack armor by hitting their frontline so you shrug off attacks while draining.",
+    "Echo of Doom": "Cranks Necrotic Embrace uptime and AoE, more armor procs and more sustain in a clump.",
+    "Black Claws": "Sets up your kill pressure, the armor shred amps your and your team's follow-up burst on a target.",
+    "Carrion Swarm": "Invulnerable escape that also deals damage, dodge their combo mid-fight then keep draining.",
+    "Deep Sleep": "Longer sleep to take their carry out of the fight, your signature pick to set up a kill from the flank.",
+    "Plague Bats": "Adds real burst to your rotation, take it when you need damage over pure tankiness.",
+    "Wrath of Nathreza": "Turns your single-target sleep-kill into AoE burst, punishes them for grouping near the target."
+  },
+  "malthael": {
+    "Death's Reach": "More gap-close and reset range on Wraith Strike, stick to fleeing targets and chain-reset through a fight.",
+    "Throwing Shade": "Your main DPS and Reaper's Mark applicator, cheaper and wider so you keep marks on their whole team.",
+    "Cold Hand": "Sticky slow to catch kiters, closes the gap so ranged heroes can't peel you off.",
+    "Tormented Souls": "Marks their whole team for massive sustained AoE, your teamfight ult that also heals you through it.",
+    "Soul Siphon": "Turns tanks into your health pack, out-sustain their frontline while you shred it.",
+    "Soul Collector": "More frequent Soul Rips means more healing and DPS, ramps your bruiser sustain engine.",
+    "Reaper of Souls": "Keeps your AoE mark rolling as long as you get kills, snowballs a won teamfight into an ace."
+  },
+  "medivh": {
+    "Portal Mastery": "Full control of both portal ends, the standard pick to set up huge engages or instant escapes anywhere.",
+    "Mage Armor": "Rewards allies for using your portals, the armor turns a portal into a save vs burst dives.",
+    "Force of Magic": "Ramps your damage by shielding well, take it to poke harder with Arcane Rift between saves.",
+    "Poly Bomb": "Chain-disable their clumped team, silence a key caster then watch it hop to the rest.",
+    "Enduring Will": "Near-permanent shield uptime, block their big hits back-to-back to keep your carry alive.",
+    "Arcane Charge": "Turns poke into real damage, rewards consistent Rift hits for chip pressure between fights.",
+    "Guardian of Tirisfal": "Instant wave clear from your poke, take it to solo-hold a lane and free your team to roam."
+  },
+  "mei": {
+    "Ice Storm": "Buffs your main setup, more Blizzard damage and a beefier stun to lock a clump for your team.",
+    "Slushball": "Stronger blind for peel and it shuts off forts, take it for both teamfight and siege pressure.",
+    "Induce Hibernation": "Turns Blizzard into a defensive zone, drop it on your team to gut their burst in a fight.",
+    "Avalanche": "Your grab-and-displace ult, roll their backline into your team or peel a whole dive off your carry.",
+    "Cooling Servos": "Refreshes your abilities while invulnerable, freeze mid-fight then come out with everything up.",
+    "Fresh Powder": "Double blind uptime, lock down two auto-attackers or extend your peel across a longer fight.",
+    "Flash Freeze": "A free second life every fight, bait their whole combo then walk away, cementing your unkillable peel."
+  },
+  "mephisto": {
+    "Malicious Intent": "Your damage ramp, the spell power while shading powers your skull spam and rotations.",
+    "Hateful Mending": "Free sustain and mana off your main poke, spam skulls to stay on the map without recalling.",
+    "Ghastly Armor": "Survivability when you dive in with Shade, the armor covers you while you reposition out.",
+    "Consume Souls": "Map-wide execute, finish low targets anywhere and turn any won skirmish into a teamwipe.",
+    "Abhorred Skull": "Doubles down on skull spam, ramps your poke and adds execute damage on low targets.",
+    "Static Field": "Adds burst when you dive a clump with Nova, punishes them for grouping near you.",
+    "Consumed by Hatred": "Turns your ult into a true global execute that can cast twice, wins fights outright when they're low."
+  },
+  "muradin": {
+    "Third Wind": "Your infinite sustain, stay topped between fights so you can body-block and peel without recalling.",
+    "Thunder Burn": "Extra wave clear and poke, and it doubles your slow zone to lock down their frontline.",
+    "Heavy Impact": "Adds a strong slow to your leap, gap-close and peel divers off your backline.",
+    "Avatar": "Your unkillable engage button, dive in as a giant meatshield and soak their whole combo.",
+    "Healing Static": "Sustain scaled to their clump, spam Clap in a teamfight to stay full while you peel.",
+    "Stoneform": "An on-demand full heal to survive focus, take it vs burst comps that try to blow you up.",
+    "Rewind": "Double stun, clap and toss in one fight, your peel and CC output doubles at the key moment."
+  },
+  "murky": {
+    "Egg Hunt": "Hides your real egg among decoys and buffs your respawn, keep them guessing and stay unkillable.",
+    "Tufferfish": "Protects your bomb from being popped and rewards sliming first, your main teamfight and wave damage.",
+    "Slippery When Wet": "Turns your bubble into an escape and engage tool, dodge in and out of their whole team untouched.",
+    "Octo-Grab": "A guaranteed 3-second lockdown, pin their carry so your team collapses, your real teamfight contribution.",
+    "Rejuvenating Bubble": "Full sustain every bubble, makes you even more of a time-wasting nuisance they can't kill.",
+    "Toxic Buildup": "Auto-applies your slime for constant DPS, ramps your in-your-face auto-attack harassment.",
+    "Big Tuna Kahuna": "Doubles your HP for real teamfight staying power, trade the fast respawn to become a bruiser."
+  },
+  "nazeebo": {
+    "Widowmakers": "Sticky spiders for kiting, and the attack quest ramps your spider DPS all game.",
+    "Big Voodoo": "More health and mana from stacks, stays tanky and topped so you can stack safely into late game.",
+    "Spirit of Arachyr": "More spiders means more stacks and DPS, accelerates your ramp toward the 175 quest.",
+    "Gargantuan": "A beefy AoE bruiser summon, zone objectives and add sustained damage plus a stun with the upgrade.",
+    "Superstition": "Spell armor plus a spider on your attacker, take it when melee assassins try to blow you up.",
+    "Spider Colony": "Turns spider uptime into ability spam, floods the fight with zombies and spiders for huge AoE.",
+    "Vile Infection": "The payoff for stacking all game, Voodoo Ritual becomes a hero-melting DoT, your late-game monster spike."
+  },
+  "nova": {
+    "Longshot": "More range to open safely, land your slow-and-snipe from max distance before they can react.",
+    "Covert Mission": "Free merc camps from your soak, snowball map pressure while you wait for a pick.",
+    "Perfect Shot": "Rewards landing snipes, near-spammable poke that chunks their squishies from safety.",
+    "Triple Tap": "Your long-range one-shot combo, delete a squishy from across the fight without leaving stealth.",
+    "Double Tap": "Two slows to chain a target down, lock your victim so the combo lands and they can't escape.",
+    "Crippling Shot": "Amps your whole combo by 20%, take it to guarantee the kill on a tankier target.",
+    "Fast Reload": "Chain-executes, land a kill and immediately snipe the next, can carry a won fight into a wipe."
+  },
+  "orphea": {
+    "Ancestral Strength": "Rewards comboing off CC, hits harder on locked targets and your own slow enables the follow-up.",
+    "Allegrissimo": "Near-spammable dash for poke and mobility, weave in damage and reposition constantly.",
+    "Mind Devourer": "Your burst ramp, complete it and land free full-damage Dread eruptions for massive poke.",
+    "Crushing Jaws": "Your wombo ult, pull their clump together for your team's follow-up or to peel a dive.",
+    "Invasive Miasma": "Self-peel and sustain in one, punish melee that dive you and heal back while gaining Chaos.",
+    "Lurking Terror": "A second Chomp for burst and slow, extends your combo range to catch fleeing targets.",
+    "Monster Within": "Turns your zone ult into a rotation engine, spam abilities during Feast for relentless burst."
+  }
+}

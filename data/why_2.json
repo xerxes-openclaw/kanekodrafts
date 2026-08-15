@@ -1,0 +1,137 @@
+{
+  "chromie": {
+    "Deep Breathing": "Ramps Dragon's Breath into a real waveclear and AoE nuke; take when they clump so you land hits and finish the quest fast.",
+    "Andorhal Anomaly": "Three Time Traps let you wall off multiple angles and guarantee Sand Blast follow-ups; the core trap-control pick.",
+    "Mobius Loop": "Adds a slow to Dragon's Breath so you self-peel and land guaranteed Sand Blasts on anyone caught in the center.",
+    "Slowing Sands": "A lockdown zone to trap immobile targets and guarantee your poke lands; plays directly to punishing rooted comps.",
+    "Here and There": "Your repositioning escape; swap to an Echo to dodge dives and keep max range on comps that can't reach you.",
+    "Quantum Overdrive": "A burst window that turns poke into a one-shot; landing Sand Blast keeps it near-permanent uptime.",
+    "Unravelling": "Turns Slowing Sands into a spell-armor shred zone so your whole team's magic burst amplifies on trapped enemies."
+  },
+  "deathwing": {
+    "Draconic Might": "Your only sustain since you can't be healed; attack lifesteal keeps armor plates up so you can brawl and flank.",
+    "Heat Wave": "Destroyer-form AoE that pressures clumped teams and clears waves; take when you want teamfight and lane zone.",
+    "Skyfall": "Adds ranged meteor pressure after Dragonflight; chip poke that punishes grouped enemies from safety.",
+    "Burn Beneath My Shadow": "Amps Cataclysm's DoT and resets it on structure kills; snowball a sieging lead into repeated map-wide damage.",
+    "Wicked Inferno": "Makes Molten Flame sustainable so you channel it longer; the pick when you're the Destroyer-form face-melter.",
+    "Conflagration": "Adds a burn execute to Molten Flame for real burst on the tanks and heroes you sustain the beam on.",
+    "Stood in the Fire": "Turns Cataclysm's scorched ground into a slow zone so enemies can't escape your follow-up damage."
+  },
+  "deckard": {
+    "Scroll of Identify": "Ramps Scroll of Sealing into a real root-and-damage tool plus reveal; take to make your root chains reliable.",
+    "Ruby": "Turns Horadric Cube into burst plus a wave of healing potions; the value pick that adds damage and sustain at once.",
+    "Cube Mastery": "Cheaper seals and cube-into-seal CD refunds so you can chain your root and slow lockdowns nonstop.",
+    "Stay Awhile and Listen": "Your fight-flipping AoE sleep; lock a whole clumped team and set up your side's wombo combo.",
+    "Super Healing Potion": "Doubles potion healing when not instantly grabbed; your main throughput boost as the potion-based healer.",
+    "Safety in Numbers": "Grants your grouped team armor and mana; the defensive spike for protecting a diving, stacked frontline.",
+    "Morenados!": "Extra Lorenado charge plus CD refund on knockbacks; more displacement to peel and disrupt late-game fights."
+  },
+  "dehaka": {
+    "Enduring Swarm": "Spell armor while Dark Swarm is up; the survivability to dive in and sustain through their magic burst.",
+    "Hero Stalker": "Doubles essence from takedowns and swarm hits so you reach max Health faster; the standard growth pick.",
+    "Feeding Frenzy": "Attacks refund Drag's cooldown and extend it; keeps your isolate-and-drag lockdown online every fight.",
+    "Isolation": "The reason you draft Dehaka to pick a carry: silence, slow and reveal to yank one target from their team.",
+    "Ferocious Stalker": "Amps Dark Swarm damage and adds a slow while roam speed is up; your ganking and brawl damage spike.",
+    "Elongated Tongue": "More Drag range so you hook from further and isolate deeper into their backline.",
+    "Contagion": "Isolation now hits everyone near the target; turns a single pick into a team-wide silence wombo."
+  },
+  "diablo": {
+    "Devil's Due": "Souls boost globe and fountain healing; the soak-and-sustain pick to stay healthy while stacking your bulk.",
+    "Souls to the Flame": "Fire Stomp generates souls and heals; your in-combat soul engine that fuels the Health-per-soul trait.",
+    "Diabolical Momentum": "Attacks slash Shadow Charge and Overpower cooldowns; lets you chain your CC combos far more often.",
+    "Lightning Breath": "Unstoppable channel for reliable zone damage; take over Apocalypse when you want anti-dive and self-peel.",
+    "Cruelty": "Stunning with Charge or Overpower ramps your attack speed; converts your combo into real follow-up auto damage.",
+    "Overpowering Nightmare": "Two extra Overpower charges; more displacement and stuns to flip multiple targets into your team.",
+    "Dying Breath": "Huge Apocalypse CD refund per hero hit plus a free death-cast; gives you near-constant lockdown ult uptime."
+  },
+  "dva": {
+    "Full Metal": "More mech Health plus fusion-cannon lifesteal; the frontline sustain to body-block on the point longer.",
+    "Rush-down": "Boosters deal percent-Health damage and heal you; turns your engage into real burst and sustain vs tanks.",
+    "Get On The Point!": "Boosters grant team speed and refresh faster when undamaged; keeps you mobile for repeated zoning and peels.",
+    "Micro Missiles": "Burst damage that combos off Boosters; the kill-pressure pick over the purely defensive Bunny Hop.",
+    "Target Locked": "Defense Matrix shreds armor and slows; converts your skillshot-denial zone into a damage-amp for your team.",
+    "In For The Kill": "Boosters grant a shield and ramp attack damage per hero hit; your bruiser spike for diving their clump.",
+    "Stop and Pop": "Extends Bunny Hop and stops decay while stationary; turns the ult into a long AoE zone-lock on the point."
+  },
+  "etc": {
+    "Prog Rock": "Ramps Guitar Solo healing into real teamfight sustain; the standard scaling pick to stay healthy in fights.",
+    "Crowd Surfer": "Powerslide over walls with a CD refund on a miss; your flexible engage or escape angle and free re-engages.",
+    "Pinball Wizard": "Face Melt smashes anyone recently Powerslid; your burst combo to punish targets you just knocked.",
+    "Mosh Pit": "Your wombo and the whole reason to draft ETC: a 4-second AoE stun that sets up every follow-up on your team.",
+    "Encore": "Face Melt leaves a second knockback and refunds CD per hero hit; more disruption and faster ability uptime.",
+    "Show Stopper": "35 armor after Powerslide; take when you dive so you survive the focus right after engaging.",
+    "Tour Bus": "Mosh refreshes Powerslide and can extend Mosh; engage, stun, then reposition or lengthen the wombo."
+  },
+  "falstad": {
+    "Gathering Storm": "Ramps Hammerang into heavy poke and waveclear; the scaling pick that rewards landing your skillshot.",
+    "Static Shield": "Lightning Rod grants a stacking shield; free survivability while you sit and auto-attack in fights.",
+    "Secret Weapon": "Longer Hammerang plus big attack bonus while it's out; your core auto-attack DPS spike.",
+    "Hinterland Blast": "Long-range execute nuke with a huge CD refund on hits; snipe low targets and poke from total safety.",
+    "Flow Rider": "Tailwind doubles ability recharge; nonstop Hammerang and Barrel Roll uptime while you rotate the map.",
+    "Aerie Gusts": "Faster, stronger Tailwind; more sustained move speed to auto-kite and rotate between lanes quicker.",
+    "Call of the Wildhammer": "Double-range, higher-damage Hinterland Blast; a map-wide execute that finishes fights from screens away."
+  },
+  "fenix": {
+    "Mobile Offense": "Bonus attack damage after moving; rewards your kiting so you keep poking between repositions.",
+    "Target Acquired": "Attacks on slowed heroes stack move speed; keeps you glued to kited targets and safe while dealing damage.",
+    "Combat Advantage": "Plasma Cutter hits slowed targets harder; your burst combo right after you land the slow.",
+    "Planet Cracker": "A battleground-wide beam for massive sustained teamfight and wave damage; the standard high-output heroic.",
+    "Auxiliary Shields": "Trades Health for a huge shield that regens off attacks; the survivability engine to brawl at the front.",
+    "Offensive Cadence": "Every 3rd attack deals percent-max Health; the reason Fenix melts tanks, scales your DPS vs beefy targets.",
+    "Singularity Charge": "Doubles Repeater Cannon attack speed; your late-game DPS explosion that shreds anything you focus."
+  },
+  "gall": {
+    "Keep Moving!": "Better Shove speed and duration off Cho's movement; helps the shared body reposition and kite in fights.",
+    "Rising Dread": "Dread Orb ramps radius and damage and can reverse; your main poke, controllable AoE that punishes clumps.",
+    "Edge of Madness": "Stacking Shadowflame damage on the same target; rewards sustained focus for real single-target burst.",
+    "Shadow Bolt Volley": "Aim-controlled barrage for enormous teamfight damage; the standard high-output heroic.",
+    "Searing Shadows": "Shadowflame adds percent-max Health damage; scales your poke against high-Health frontlines.",
+    "Shadowsnare": "Basic abilities stack a slow; self-peel and lockdown to hold enemies in your damage since Cho drives movement.",
+    "The Will of Gall": "Takedowns permanently ramp Ogre Rage; snowballs your damage the longer the game and the more kills you get."
+  },
+  "garrosh": {
+    "Warbreaker": "Quest adds a big DoT to Groundbreaker's stun; take for kill pressure and to reward landing your primary CC.",
+    "In For the Kill": "Bloodthirst resets and refunds on kills plus sustain; your lane-sustain and self-heal engine to stay topped.",
+    "Intimidation": "Groundbreaker slows enemy attack speed; the anti-auto-attacker pick to blunt their carry's DPS.",
+    "Warlord's Challenge": "An AoE taunt that flips a dive: silence and force their whole clump to attack you instead.",
+    "Defensive Measures": "A shield when Groundbreaker stuns; keeps you alive after committing your engage CC into their team.",
+    "Mortal Combo": "Chaining stun into Wrecking Ball slashes its CD; lets you throw enemies far more often, your signature play.",
+    "Titanic Might": "Wrecking Ball throws two enemies; double the displacement to yank multiple divers into your team."
+  },
+  "gazlowe": {
+    "Big Game Hunter": "More Scrap and faster regen off attacks; fuels your ability rotation and your camp and waveclear tempo.",
+    "Rock It Sock It": "Turret casts shield you; free survivability so you can hold your zone under pressure.",
+    "Goblin Fusion": "Deth Lazor refunds 3 Scrap per hero hit; landing your poke supercharges your ability uptime.",
+    "Grav-O-Bomb 3000": "An AoE pull that clumps enemies and amps your follow-up; the wombo-setup heroic for your team's burst.",
+    "Superior Schematics": "Turrets hit extra targets at longer range; stronger zone control plus camp and waveclear.",
+    "Firin' Mah Lazorz": "All your turrets fire a Deth Lazor with you; massive burst once you've set up a turret field.",
+    "Mecha-Lord": "Stacking armor and bonus damage to CC'd enemies; your late-game bruiser survivability and wombo payoff."
+  },
+  "genji": {
+    "Swift as the Wind": "Swift Strike grants move speed on hero hits; keeps you slippery to weave in and out of their backline.",
+    "Shuriken Mastery": "Quest ramps Shuriken damage and cuts Cyber Agility CD; your core scaling for both burst and mobility.",
+    "Augmented Guard": "Deflect converts blocked damage into a shield; rewards a good deflect with the survivability to dive again.",
+    "X-Strike": "A delayed cross burst that combos with Swift Strike resets; the high-burst pick to delete a squishy.",
+    "Shingan": "Hitting all 3 Shuriken adds big bonus damage; your primary damage spike for landing full combos.",
+    "Steady Blade": "Swift Strike stacks damage per hero hit; rewards diving into their clump with escalating burst.",
+    "The Dragon Becomes Me": "Dragonblade extends on hits and refreshes Swift Strike on kills; turns a fed ult into a backline massacre."
+  },
+  "greymane": {
+    "Wolfheart": "Bigger Inner Beast CD reduction per attack; keeps your Worgen burst windows up far more often.",
+    "Insatiable": "Attacks restore mana and cut Healing Fountain CD; solves your mana and adds map sustain for aggressive play.",
+    "Quicksilver Bullets": "Longer Human attack range; lets you poke and Cocktail safely before committing to a Worgen dive.",
+    "Go for the Throat": "A leap execute that can chain on kills; the pick to dive and reset through their backline.",
+    "Running Wild": "Longer, lower-CD Darkflight and Disengage; more dive range in and safety out, your mobility spike.",
+    "Alpha Killer": "Worgen attacks add percent-max Health damage; the reason you shred tanks, scales your sustained DPS.",
+    "Unleashed": "Go for the Throat hits harder and fully resets on kills; snowball a teamfight into a solo wipe."
+  },
+  "guldan": {
+    "Pursuit of Flame": "Widens Fel Flame; the standard scaling pick since Fel Flame is your bread-and-butter poke and sustain fuel.",
+    "Improved Life Tap": "More mana per Life Tap; keeps your no-cooldown spam online so you never run dry mid-fight.",
+    "Curse of Exhaustion": "Drain Life adds damage and a heavy slow; self-peel plus a lockdown to hold targets in your damage.",
+    "Horrify": "Your fight-flipper: an AoE fear and silence that breaks their engage and sets up your team's follow-up.",
+    "Fel Armor": "Spell armor on Fel Flame hits; the survivability vs burst mages so you can stand and channel damage.",
+    "Darkness Within": "A free Life Tap plus a spell-power burst after damage; your damage spike that rewards landing spells.",
+    "Haunt": "Longer Horrify plus armor shred on feared enemies; turns your CC ult into a team-wide damage-amp wombo."
+  }
+}

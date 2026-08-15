@@ -1,0 +1,137 @@
+{
+ "probius": {
+  "Warp Resonance": "Quest ramps your Warp Rift explosion damage, your main poke and burst engine, complete it early to two-shot squishies.",
+  "Photon Barrier": "Free spell armor whenever a cannon is up, keeps fragile Probius alive against mage poke while you hold zone.",
+  "Particle Accelerator": "Turns a detonated Rift into a 4-pulse nuke, massive burst on a clumped or rooted target after you land pulses.",
+  "Pylon Overcharge": "Your defensive ult, turns pylons into turrets to wall off a lane and defend a point in a 5v5.",
+  "Shield Battery": "Pylons shield your whole team, take it over damage when you need to enable a dive or protect the carry.",
+  "Quantum Entanglement": "Extends the Rift slow so a stepped-on target stays snared long enough for your combo or an ally gank to land.",
+  "Construct Additional Pylons": "Three pylons means map-wide vision and stacked Overcharge zones, locks down any objective fight."
+ },
+ "qhira": {
+  "Fatal Wounds": "Quest ramps your bleed and adds an execute on low targets, the core of Qhira DPS, rush it to snowball.",
+  "Upstage": "Evade on hitting 2 heroes with Blood Rage, your survival tool that lets you commit into a bruiser and live.",
+  "The Thirst": "Carnage lifesteal plus an empowered follow-up attack, sustains you in duels and chunks the target.",
+  "Unrelenting Strikes": "Your teamfight ult, a growing sword that pumps AoE and ends in a burst, take it in grouped fights.",
+  "Chainsaw": "Refreshes Carnage while a target is at max bleed, near-permanent access to your gap-close and sustain.",
+  "Lingering Ailment": "Armor shred on your grapples, opens the target for your own burst and your team's follow-up.",
+  "Silent Killer": "Adds a silence to Unrelenting Strikes, locks down a mobile or channel-reliant target while you shred them."
+ },
+ "ragnaros": {
+  "Shifting Meteor": "Ramps Living Meteor damage on repeat hits and quests for more, your poke and waveclear engine, land it repeatedly.",
+  "Slow Burn": "Blast Wave slow gives you the self-peel and setup to keep meteors landing on a fleeing target.",
+  "Hand of Ragnaros": "Empower resets fast on 2+ hero hits, near-infinite empowered attacks to shove waves and sustain in brawls.",
+  "Sulfuras Smash": "Your burst and engage ult, a long-range slam for a pick or to zone, huge center damage on a caught target.",
+  "Cauterize Wounds": "Empower heals off hero damage, the sustain that lets you brawl on the frontline and hold a losing lane.",
+  "Meteor Bomb": "Living Meteor explodes for a second hit, a big AoE burst spike that punishes grouped enemies.",
+  "Submerge": "Your escape and reset, stasis and heal to bait cooldowns then re-engage, survives a full combo dumped on you."
+ },
+ "raynor": {
+  "Ace In The Hole": "Bonus damage to slowed targets plus a slow on your knockback, rewards your peel and chunks divers.",
+  "Fight or Flight": "Lower cooldown and armor on Adrenaline Rush, the sustain and survival that keeps an immobile carry alive.",
+  "Heavy Slugs": "Boosts your only self-peel and poke, take it to shove a diver off you and chunk their frontline from range.",
+  "Hyperion": "Big AoE zoning ult that pressures the whole fight and objectives, the standard pick over the raid heroic.",
+  "Line 'Em Up": "Cuts Penetrating Round cooldown, more when it hits 2+, near-constant peel and poke in grouped fights.",
+  "Paint Them Red": "More Penetrating Round damage plus heavy self-heal, turns your peel into real burst and sustain.",
+  "Execute Orders": "Shorter death timer and a free Hyperion on death, keeps you in the game and punishes them for the kill."
+ },
+ "rehgar": {
+  "Colossal Totem": "Movable, bigger Earthbind totem, better zoning and lets you re-snare a target as the fight shifts.",
+  "Earthliving Enchant": "Extra heal-over-time when Chain Heal lands on a low ally, big sustain to keep a dived ally alive.",
+  "Grounded Totem": "Adds attack speed and spell power reduction, real teamfight peel against auto-attackers and mages.",
+  "Ancestral Healing": "Your clutch full-heal to deny a pick, bank it for the exact ally they commit onto in a 5v5.",
+  "Tidal Waves": "Chain Heal cooldown and mana drop per hero healed, sustained group healing in drawn-out brawls.",
+  "Rising Storm": "Ramps Lightning Shield damage, adds real waveclear and poke so you are not purely a healbot.",
+  "Gladiator's War Shout": "Doubles Bloodlust duration and range, a fight-winning team steroid over the Ancestral upgrade."
+ },
+ "rexxar": {
+  "Bird of Prey": "Boosts Spirit Swoop against minions, the waveclear and soak that lets Rexxar hold a solo lane.",
+  "Hungry Bear": "Misha lifesteals on attacks, keeps your bear alive as a frontline peel wall against dive.",
+  "Crippling Talons": "Big slow upgrade on Spirit Swoop, your primary setup to lock a target for Misha and your team.",
+  "Bestial Wrath": "Massive Misha attack damage for a burst window, your main kill pressure, commit it on a caught target.",
+  "Aspect of the Hawk": "Spirit Swoop grants attack speed extended by Misha, ramps your sustained damage in a long fight.",
+  "Thrill of the Hunt": "Move speed on your attacks, chase down kites and keep Misha stuck on the target.",
+  "Spirit Bond": "Longer Bestial Wrath plus heavy self-heal off Misha, turns your ult window into sustain and survival."
+ },
+ "samuro": {
+  "Way of the Blade": "Guaranteed crit every 3rd attack, the reliable damage backbone for your images and split push.",
+  "One With The Wind": "Armor during and after Wind Walk, the survivability that makes you nearly unkillable in a dive or escape.",
+  "Burning Blade": "Crits add AoE spell damage, boosts your waveclear and cleave in grouped fights.",
+  "Bladestorm": "AoE burst plus armor, your teamfight and waveclear ult when you are grouped rather than split.",
+  "Kawarimi": "Wind Walk leaves a decoy image that keeps acting, free clone for pressure and the ultimate juke tool.",
+  "Harsh Winds": "Attacking out of Wind Walk amps your damage on that target, a huge burst opener on a squishy.",
+  "Wind Strider": "Shorter Wind Walk cooldown, more escapes, more Harsh Winds openers, more constant map pressure."
+ },
+ "sgthammer": {
+  "Advanced Artillery": "Bigger, harder Siege Mode splash, multiplies your zone and structure pressure, the core of Hammer damage.",
+  "Barricade": "Cheaper Concussive Blast plus a wall, peel divers off you and block a choke to save your fragile self.",
+  "Hover Siege Mode": "Move while sieged, the mobility fix for Hammer's biggest weakness so you can reposition under pressure.",
+  "Blunt Force Gun": "Long-range line nuke for poke and picks, softens the enemy before a fight from total safety.",
+  "Tactical Mine Deployment": "Mine trail while thrusting, self-peel and area denial that punishes anyone chasing you.",
+  "Mechanical Know-how": "Shield plus attack damage on Neosteel, survives a dive and spikes your burst window.",
+  "Orbital BFG": "Blunt Force Gun orbits the map repeatedly, permanent global damage that zones and chips objectives."
+ },
+ "sonya": {
+  "Furious Blow": "Free empowered Seismic Slam every 4th cast, sustains your Fury economy and boosts your main damage.",
+  "Shot Of Fury": "Instant Fury plus an empowered attack, burst on demand and fixes Fury starvation when you engage.",
+  "Life Funnel": "Whirlwind heals for more, the self-sustain that lets Sonya dive in and solo camps between fights.",
+  "Wrath of the Berserker": "Damage boost and CC reduction, your engage and bruiser steroid, the standard teamfight ult.",
+  "Mystical Spear": "Ancient Spear always pulls you in on a lower cooldown, reliable gap-close and escape even on a miss.",
+  "Giant Slammer": "Percent-health damage plus heal on attacks and Slam, melts tanks and sustains you against a beefy frontline.",
+  "Striding Giant": "Wrath adds health and an unstoppable button, break CC and survive the focus during your damage window."
+ },
+ "stitches": {
+  "Savor The Flavor": "Devour quest ramps regen and Vile Gas damage, the stacking sustain that makes Stitches a real frontline.",
+  "Playtime!": "Attacks and Slam refund Slam cooldown, near-constant Slam for waveclear and to keep enemies in your gas.",
+  "Serrated Edge": "Hook deals percent damage and refunds cooldown and mana, one hook chunks hard and you hook again sooner.",
+  "Putrid Bile": "Self-speed and a slowing damage aura, your engage and chase tool to stick a hooked target and gas the group.",
+  "Meat Hook": "Hook heals you big over 5 seconds, the sustain to hook into their team and survive the return focus.",
+  "Pulverize": "Slam adds a heavy slow and armor shred, peel for your team and set up your carry to delete the target.",
+  "Gift From The Embalmer": "Bile double damage plus a death-timer quest, turns your aura into real damage and fast respawns."
+ },
+ "stukov": {
+  "Fetid Touch": "Ranged slowing attacks plus a Weighted Pustule quest, safer poke and the setup to land your combos.",
+  "Biotic Armor": "Healing Pathogen grants armor, big on detonate, timed physical mitigation for an ally taking a dive.",
+  "The Long Pitch": "Longer Pustule range and a cooldown reset on 2+ detonations, spreads your poke and resets your kit constantly.",
+  "Flailing Swipe": "Multi-hit knockback ult, self-peel and disruption to push divers off you and your backline.",
+  "It Hungers": "Bigger Lurking Arm that resets on enough hits, your silence arm becomes near-permanent to ruin combo heroes.",
+  "Superstrain": "Instant heal when a Pathogen ally is stunned or rooted, counters hard-CC burst on the target they lock.",
+  "Controlled Chaos": "Flailing Swipe becomes a spammable max-range poke and peel tool, constant disruption over one big swing."
+ },
+ "sylvanas": {
+  "Might of the Banshee Queen": "Stacking attack speed and spell power on hero hits, ramps your DPS the longer you fire in a fight.",
+  "Unstable Poison": "Dying minions explode, monstrous waveclear and camp clear that fuels Sylvanas's push identity.",
+  "Barbed Shot": "The 5th Withering Fire on one target hits huge, real single-target burst to actually threaten kills.",
+  "Wailing Arrow": "Your AoE silence ult, take it to shut off their combo or engage, and it clears a lane instantly.",
+  "Cold Embrace": "Shadow Dagger shreds armor on spread, opens the whole clumped team for your and allies' follow-up.",
+  "Evasive Fire": "Move speed on hits, the kiting tool that keeps immobile Sylvanas alive while she pumps damage.",
+  "Deafening Blast": "Wailing Arrow center hits harder and silences longer, turns your utility ult into burst and lockdown."
+ },
+ "tassadar": {
+  "Psi-Infusion": "Longer Psionic Storm that refunds mana on hits, sustainable waveclear and poke that keeps your mana up.",
+  "Induction": "Move speed ramped by Shock Ray, the kiting and repositioning that keeps fragile Tassadar safe.",
+  "Beam Alignment": "Fully charged beam resets Shock Ray fast with a longer slow, chains slows to pin a target under your beam.",
+  "Archon": "Shield plus empowered Resonance Beam, your damage and survival ult that melts tanks and frontline.",
+  "Feedback": "Storm plus beam boosts the slow and shreds armor, your combo that pins a target and amps all your damage.",
+  "Thermal Lance": "Shock Ray adds percent-health damage, extra burst that helps you cut through beefy targets.",
+  "Twilight Archon": "Attacks extend Archon, a long-held Archon window that can carry a whole teamfight."
+ },
+ "thebutcher": {
+  "Invigoration": "Hamstring refunds mana and cooldown on a hero, keeps your slow up to stick to the target and chase kills.",
+  "Unrelenting Pursuit": "Ruthless Onslaught cooldown drops on impact, back-to-back charges to lock down a fleeing target.",
+  "Meat Shield": "Spell armor on Onslaught impact, eats a burst mage combo as you dive into their backline.",
+  "Lamb to the Slaughter": "Your pick ult, a post that roots a hero in place, one lamb equals one kill on a caught squishy.",
+  "Savage Charge": "Onslaught adds percent-health damage, makes your engage chunk tanks and bruisers hard.",
+  "Enraged": "Attack speed and armor when low, the comeback survivability to finish a fight you dove into hurt.",
+  "Nexus Blades": "Attacks slow and hit harder, a built-in stick that guarantees your target cannot escape your damage."
+ },
+ "thrall": {
+  "Crash Lightning": "Chain Lightning quest ramps its bounce damage, boosts your waveclear and poke throughout the game.",
+  "Feral Resilience": "Feral Spirit grants physical armor stacks, timed mitigation that lets Thrall brawl through auto-attackers.",
+  "Follow Through": "Next attack after an ability hits harder, the core of your burst rotation, weave abilities into attacks.",
+  "Sundering": "Your engage and pick ult, a long stun line that shoves and locks a target, sets up wombo or peels divers.",
+  "Grace Of Air": "Windfury grants double resilience stacks, heavy armor uptime that makes you tanky while you cleave.",
+  "Tempest Fury": "Windfury's final strike triple-hits, a big burst spike on your main damage ability.",
+  "Wind Rush": "Teleport plus Windfury on demand, the mobility and reset to engage, escape, or chase a kill."
+ }
+}
